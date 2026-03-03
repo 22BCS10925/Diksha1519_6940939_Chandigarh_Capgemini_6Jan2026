@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Day4_9thJan\Armstrong4\bin\Debug\net10.0\Armstrong4.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Day4_9thJan\Armstrong4\bin\Debug\net10.0\Armstrong4.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Day4_9thJan\Armstrong4\bin\Debug\net10.0\Armstrong4.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Day4_9thJan\Armstrong4\bin\Debug\net10.0\Armstrong4.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Day4_9thJan\Armstrong4\bin\Debug\net10.0\Armstrong4.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Day4_9thJan\Armstrong4\obj\Debug\net10.0\Armstrong4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Day4_9thJan\Armstrong4\obj\Debug\net10.0\Armstrong4.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Day4_9thJan\Armstrong4\obj\Debug\net10.0\Armstrong4.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Day4_9thJan\Armstrong4\obj\Debug\net10.0\Armstrong4.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Day4_9thJan\Armstrong4\obj\Debug\net10.0\Armstrong4.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Day4_9thJan\Armstrong4\obj\Debug\net10.0\refint\Armstrong4.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Day4_9thJan\Armstrong4\obj\Debug\net10.0\Armstrong4.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Day4_9thJan\Armstrong4\obj\Debug\net10.0\Armstrong4.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Day4_9thJan\Armstrong4\obj\Debug\net10.0\ref\Armstrong4.dll

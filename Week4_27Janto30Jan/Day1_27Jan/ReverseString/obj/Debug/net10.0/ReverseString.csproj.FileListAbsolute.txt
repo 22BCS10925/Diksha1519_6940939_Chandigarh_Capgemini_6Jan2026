@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\ReverseString\bin\Debug\net10.0\ReverseString.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\ReverseString\bin\Debug\net10.0\ReverseString.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\ReverseString\bin\Debug\net10.0\ReverseString.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\ReverseString\bin\Debug\net10.0\ReverseString.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\ReverseString\bin\Debug\net10.0\ReverseString.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\ReverseString\obj\Debug\net10.0\ReverseString.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\ReverseString\obj\Debug\net10.0\ReverseString.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\ReverseString\obj\Debug\net10.0\ReverseString.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\ReverseString\obj\Debug\net10.0\ReverseString.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\ReverseString\obj\Debug\net10.0\ReverseString.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\ReverseString\obj\Debug\net10.0\refint\ReverseString.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\ReverseString\obj\Debug\net10.0\ReverseString.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\ReverseString\obj\Debug\net10.0\ReverseString.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\ReverseString\obj\Debug\net10.0\ref\ReverseString.dll

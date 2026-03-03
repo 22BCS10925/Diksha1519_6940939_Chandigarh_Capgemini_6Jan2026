@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\DateExtraction\bin\Debug\net10.0\DateExtraction.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\DateExtraction\bin\Debug\net10.0\DateExtraction.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\DateExtraction\bin\Debug\net10.0\DateExtraction.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\DateExtraction\bin\Debug\net10.0\DateExtraction.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\DateExtraction\bin\Debug\net10.0\DateExtraction.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\DateExtraction\obj\Debug\net10.0\DateExtraction.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\DateExtraction\obj\Debug\net10.0\DateExtraction.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\DateExtraction\obj\Debug\net10.0\DateExtraction.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\DateExtraction\obj\Debug\net10.0\DateExtraction.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\DateExtraction\obj\Debug\net10.0\DateExtraction.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\DateExtraction\obj\Debug\net10.0\refint\DateExtraction.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\DateExtraction\obj\Debug\net10.0\DateExtraction.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\DateExtraction\obj\Debug\net10.0\DateExtraction.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\DateExtraction\obj\Debug\net10.0\ref\DateExtraction.dll

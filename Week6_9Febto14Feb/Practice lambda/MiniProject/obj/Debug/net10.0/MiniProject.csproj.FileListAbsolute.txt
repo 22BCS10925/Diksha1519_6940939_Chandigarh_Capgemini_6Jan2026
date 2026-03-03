@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\MiniProject\bin\Debug\net10.0\MiniProject.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\MiniProject\bin\Debug\net10.0\MiniProject.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\MiniProject\bin\Debug\net10.0\MiniProject.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\MiniProject\bin\Debug\net10.0\MiniProject.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\MiniProject\bin\Debug\net10.0\MiniProject.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\MiniProject\obj\Debug\net10.0\MiniProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\MiniProject\obj\Debug\net10.0\MiniProject.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\MiniProject\obj\Debug\net10.0\MiniProject.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\MiniProject\obj\Debug\net10.0\MiniProject.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\MiniProject\obj\Debug\net10.0\MiniProject.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\MiniProject\obj\Debug\net10.0\refint\MiniProject.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\MiniProject\obj\Debug\net10.0\MiniProject.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\MiniProject\obj\Debug\net10.0\MiniProject.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\MiniProject\obj\Debug\net10.0\ref\MiniProject.dll

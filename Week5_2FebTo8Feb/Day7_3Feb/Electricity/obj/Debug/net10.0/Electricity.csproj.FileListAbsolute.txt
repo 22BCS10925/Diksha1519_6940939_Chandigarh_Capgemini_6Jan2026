@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\Electricity\bin\Debug\net10.0\Electricity.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\Electricity\bin\Debug\net10.0\Electricity.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\Electricity\bin\Debug\net10.0\Electricity.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\Electricity\bin\Debug\net10.0\Electricity.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\Electricity\bin\Debug\net10.0\Electricity.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\Electricity\obj\Debug\net10.0\Electricity.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\Electricity\obj\Debug\net10.0\Electricity.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\Electricity\obj\Debug\net10.0\Electricity.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\Electricity\obj\Debug\net10.0\Electricity.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\Electricity\obj\Debug\net10.0\Electricity.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\Electricity\obj\Debug\net10.0\refint\Electricity.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\Electricity\obj\Debug\net10.0\Electricity.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\Electricity\obj\Debug\net10.0\Electricity.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\Electricity\obj\Debug\net10.0\ref\Electricity.dll

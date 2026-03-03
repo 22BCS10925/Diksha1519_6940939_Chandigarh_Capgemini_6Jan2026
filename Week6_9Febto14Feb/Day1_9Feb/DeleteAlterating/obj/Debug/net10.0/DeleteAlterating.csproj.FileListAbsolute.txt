@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\DeleteAlterating\bin\Debug\net10.0\DeleteAlterating.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\DeleteAlterating\bin\Debug\net10.0\DeleteAlterating.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\DeleteAlterating\bin\Debug\net10.0\DeleteAlterating.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\DeleteAlterating\bin\Debug\net10.0\DeleteAlterating.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\DeleteAlterating\bin\Debug\net10.0\DeleteAlterating.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\DeleteAlterating\obj\Debug\net10.0\DeleteAlterating.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\DeleteAlterating\obj\Debug\net10.0\DeleteAlterating.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\DeleteAlterating\obj\Debug\net10.0\DeleteAlterating.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\DeleteAlterating\obj\Debug\net10.0\DeleteAlterating.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\DeleteAlterating\obj\Debug\net10.0\DeleteAlterating.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\DeleteAlterating\obj\Debug\net10.0\refint\DeleteAlterating.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\DeleteAlterating\obj\Debug\net10.0\DeleteAlterating.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\DeleteAlterating\obj\Debug\net10.0\DeleteAlterating.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\DeleteAlterating\obj\Debug\net10.0\ref\DeleteAlterating.dll

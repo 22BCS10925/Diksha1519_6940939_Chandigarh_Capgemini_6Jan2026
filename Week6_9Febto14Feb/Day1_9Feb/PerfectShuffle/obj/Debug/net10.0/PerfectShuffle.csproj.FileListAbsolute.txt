@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\PerfectShuffle\bin\Debug\net10.0\PerfectShuffle.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\PerfectShuffle\bin\Debug\net10.0\PerfectShuffle.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\PerfectShuffle\bin\Debug\net10.0\PerfectShuffle.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\PerfectShuffle\bin\Debug\net10.0\PerfectShuffle.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\PerfectShuffle\bin\Debug\net10.0\PerfectShuffle.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\PerfectShuffle\obj\Debug\net10.0\PerfectShuffle.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\PerfectShuffle\obj\Debug\net10.0\PerfectShuffle.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\PerfectShuffle\obj\Debug\net10.0\PerfectShuffle.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\PerfectShuffle\obj\Debug\net10.0\PerfectShuffle.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\PerfectShuffle\obj\Debug\net10.0\PerfectShuffle.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\PerfectShuffle\obj\Debug\net10.0\refint\PerfectShuffle.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\PerfectShuffle\obj\Debug\net10.0\PerfectShuffle.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\PerfectShuffle\obj\Debug\net10.0\PerfectShuffle.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\PerfectShuffle\obj\Debug\net10.0\ref\PerfectShuffle.dll

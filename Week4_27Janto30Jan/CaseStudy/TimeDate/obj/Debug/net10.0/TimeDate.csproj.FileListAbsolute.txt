@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\TimeDate\bin\Debug\net10.0\TimeDate.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\TimeDate\bin\Debug\net10.0\TimeDate.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\TimeDate\bin\Debug\net10.0\TimeDate.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\TimeDate\bin\Debug\net10.0\TimeDate.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\TimeDate\bin\Debug\net10.0\TimeDate.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\TimeDate\obj\Debug\net10.0\TimeDate.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\TimeDate\obj\Debug\net10.0\TimeDate.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\TimeDate\obj\Debug\net10.0\TimeDate.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\TimeDate\obj\Debug\net10.0\TimeDate.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\TimeDate\obj\Debug\net10.0\TimeDate.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\TimeDate\obj\Debug\net10.0\refint\TimeDate.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\TimeDate\obj\Debug\net10.0\TimeDate.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\TimeDate\obj\Debug\net10.0\TimeDate.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\TimeDate\obj\Debug\net10.0\ref\TimeDate.dll

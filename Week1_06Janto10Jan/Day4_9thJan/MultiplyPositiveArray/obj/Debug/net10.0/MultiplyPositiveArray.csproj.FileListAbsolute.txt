@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\MultiplyPositiveArray\bin\Debug\net10.0\MultiplyPositiveArray.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\MultiplyPositiveArray\bin\Debug\net10.0\MultiplyPositiveArray.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\MultiplyPositiveArray\bin\Debug\net10.0\MultiplyPositiveArray.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\MultiplyPositiveArray\bin\Debug\net10.0\MultiplyPositiveArray.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\MultiplyPositiveArray\bin\Debug\net10.0\MultiplyPositiveArray.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\MultiplyPositiveArray\obj\Debug\net10.0\MultiplyPositiveArray.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\MultiplyPositiveArray\obj\Debug\net10.0\MultiplyPositiveArray.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\MultiplyPositiveArray\obj\Debug\net10.0\MultiplyPositiveArray.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\MultiplyPositiveArray\obj\Debug\net10.0\MultiplyPositiveArray.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\MultiplyPositiveArray\obj\Debug\net10.0\MultiplyPositiveArray.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\MultiplyPositiveArray\obj\Debug\net10.0\refint\MultiplyPositiveArray.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\MultiplyPositiveArray\obj\Debug\net10.0\MultiplyPositiveArray.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\MultiplyPositiveArray\obj\Debug\net10.0\MultiplyPositiveArray.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\MultiplyPositiveArray\obj\Debug\net10.0\ref\MultiplyPositiveArray.dll

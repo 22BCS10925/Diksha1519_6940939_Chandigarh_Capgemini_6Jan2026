@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\NumberOfDigits\bin\Debug\net10.0\NumberOfDigits.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\NumberOfDigits\bin\Debug\net10.0\NumberOfDigits.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\NumberOfDigits\bin\Debug\net10.0\NumberOfDigits.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\NumberOfDigits\bin\Debug\net10.0\NumberOfDigits.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\NumberOfDigits\bin\Debug\net10.0\NumberOfDigits.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\NumberOfDigits\obj\Debug\net10.0\NumberOfDigits.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\NumberOfDigits\obj\Debug\net10.0\NumberOfDigits.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\NumberOfDigits\obj\Debug\net10.0\NumberOfDigits.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\NumberOfDigits\obj\Debug\net10.0\NumberOfDigits.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\NumberOfDigits\obj\Debug\net10.0\NumberOfDigits.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\NumberOfDigits\obj\Debug\net10.0\refint\NumberOfDigits.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\NumberOfDigits\obj\Debug\net10.0\NumberOfDigits.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\NumberOfDigits\obj\Debug\net10.0\NumberOfDigits.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week1_06Janto10Jan\Day4_9thJan\NumberOfDigits\obj\Debug\net10.0\ref\NumberOfDigits.dll

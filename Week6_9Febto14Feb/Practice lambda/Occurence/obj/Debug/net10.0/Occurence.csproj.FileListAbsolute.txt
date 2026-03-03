@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\Occurence\bin\Debug\net10.0\Occurence.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\Occurence\bin\Debug\net10.0\Occurence.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\Occurence\bin\Debug\net10.0\Occurence.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\Occurence\bin\Debug\net10.0\Occurence.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\Occurence\bin\Debug\net10.0\Occurence.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\Occurence\obj\Debug\net10.0\Occurence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\Occurence\obj\Debug\net10.0\Occurence.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\Occurence\obj\Debug\net10.0\Occurence.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\Occurence\obj\Debug\net10.0\Occurence.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\Occurence\obj\Debug\net10.0\Occurence.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\Occurence\obj\Debug\net10.0\refint\Occurence.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\Occurence\obj\Debug\net10.0\Occurence.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\Occurence\obj\Debug\net10.0\Occurence.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Practice lambda\Occurence\obj\Debug\net10.0\ref\Occurence.dll

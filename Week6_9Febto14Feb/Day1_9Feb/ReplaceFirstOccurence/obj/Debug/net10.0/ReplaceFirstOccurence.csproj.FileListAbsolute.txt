@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\ReplaceFirstOccurence\bin\Debug\net10.0\ReplaceFirstOccurence.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\ReplaceFirstOccurence\bin\Debug\net10.0\ReplaceFirstOccurence.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\ReplaceFirstOccurence\bin\Debug\net10.0\ReplaceFirstOccurence.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\ReplaceFirstOccurence\bin\Debug\net10.0\ReplaceFirstOccurence.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\ReplaceFirstOccurence\bin\Debug\net10.0\ReplaceFirstOccurence.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\ReplaceFirstOccurence\obj\Debug\net10.0\ReplaceFirstOccurence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\ReplaceFirstOccurence\obj\Debug\net10.0\ReplaceFirstOccurence.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\ReplaceFirstOccurence\obj\Debug\net10.0\ReplaceFirstOccurence.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\ReplaceFirstOccurence\obj\Debug\net10.0\ReplaceFirstOccurence.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\ReplaceFirstOccurence\obj\Debug\net10.0\ReplaceFirstOccurence.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\ReplaceFirstOccurence\obj\Debug\net10.0\refint\ReplaceFirstOccurence.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\ReplaceFirstOccurence\obj\Debug\net10.0\ReplaceFirstOccurence.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\ReplaceFirstOccurence\obj\Debug\net10.0\ReplaceFirstOccurence.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\ReplaceFirstOccurence\obj\Debug\net10.0\ref\ReplaceFirstOccurence.dll

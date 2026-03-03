@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day2_10Feb\BankAccount\bin\Debug\net10.0\BankAccount.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day2_10Feb\BankAccount\bin\Debug\net10.0\BankAccount.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day2_10Feb\BankAccount\bin\Debug\net10.0\BankAccount.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day2_10Feb\BankAccount\bin\Debug\net10.0\BankAccount.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day2_10Feb\BankAccount\bin\Debug\net10.0\BankAccount.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day2_10Feb\BankAccount\obj\Debug\net10.0\BankAccount.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day2_10Feb\BankAccount\obj\Debug\net10.0\BankAccount.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day2_10Feb\BankAccount\obj\Debug\net10.0\BankAccount.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day2_10Feb\BankAccount\obj\Debug\net10.0\BankAccount.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day2_10Feb\BankAccount\obj\Debug\net10.0\BankAccount.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day2_10Feb\BankAccount\obj\Debug\net10.0\refint\BankAccount.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day2_10Feb\BankAccount\obj\Debug\net10.0\BankAccount.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day2_10Feb\BankAccount\obj\Debug\net10.0\BankAccount.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day2_10Feb\BankAccount\obj\Debug\net10.0\ref\BankAccount.dll

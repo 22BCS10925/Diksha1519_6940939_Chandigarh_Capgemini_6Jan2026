@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\EmailValid\bin\Debug\net10.0\EmailValid.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\EmailValid\bin\Debug\net10.0\EmailValid.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\EmailValid\bin\Debug\net10.0\EmailValid.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\EmailValid\bin\Debug\net10.0\EmailValid.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\EmailValid\bin\Debug\net10.0\EmailValid.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\EmailValid\obj\Debug\net10.0\EmailValid.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\EmailValid\obj\Debug\net10.0\EmailValid.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\EmailValid\obj\Debug\net10.0\EmailValid.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\EmailValid\obj\Debug\net10.0\EmailValid.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\EmailValid\obj\Debug\net10.0\EmailValid.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\EmailValid\obj\Debug\net10.0\refint\EmailValid.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\EmailValid\obj\Debug\net10.0\EmailValid.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\EmailValid\obj\Debug\net10.0\EmailValid.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day6_2Feb\EmailValid\obj\Debug\net10.0\ref\EmailValid.dll

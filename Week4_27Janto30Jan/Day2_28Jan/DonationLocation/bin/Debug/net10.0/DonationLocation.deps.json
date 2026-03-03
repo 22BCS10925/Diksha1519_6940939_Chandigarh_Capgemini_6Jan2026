@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "DonationLocation/1.0.0": {
+        "runtime": {
+          "DonationLocation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DonationLocation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

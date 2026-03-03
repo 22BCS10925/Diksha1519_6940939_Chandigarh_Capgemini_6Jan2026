@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day2_28Jan\ListTheElement\bin\Debug\net10.0\ListTheElement.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day2_28Jan\ListTheElement\bin\Debug\net10.0\ListTheElement.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day2_28Jan\ListTheElement\bin\Debug\net10.0\ListTheElement.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day2_28Jan\ListTheElement\bin\Debug\net10.0\ListTheElement.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day2_28Jan\ListTheElement\bin\Debug\net10.0\ListTheElement.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day2_28Jan\ListTheElement\obj\Debug\net10.0\ListTheElement.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day2_28Jan\ListTheElement\obj\Debug\net10.0\ListTheElement.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day2_28Jan\ListTheElement\obj\Debug\net10.0\ListTheElement.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day2_28Jan\ListTheElement\obj\Debug\net10.0\ListTheElement.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day2_28Jan\ListTheElement\obj\Debug\net10.0\ListTheElement.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day2_28Jan\ListTheElement\obj\Debug\net10.0\refint\ListTheElement.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day2_28Jan\ListTheElement\obj\Debug\net10.0\ListTheElement.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day2_28Jan\ListTheElement\obj\Debug\net10.0\ListTheElement.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\Day2_28Jan\ListTheElement\obj\Debug\net10.0\ref\ListTheElement.dll

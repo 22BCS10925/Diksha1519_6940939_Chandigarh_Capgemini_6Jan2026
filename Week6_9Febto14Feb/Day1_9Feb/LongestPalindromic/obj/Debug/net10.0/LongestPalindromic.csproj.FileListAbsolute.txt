@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\LongestPalindromic\bin\Debug\net10.0\LongestPalindromic.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\LongestPalindromic\bin\Debug\net10.0\LongestPalindromic.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\LongestPalindromic\bin\Debug\net10.0\LongestPalindromic.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\LongestPalindromic\bin\Debug\net10.0\LongestPalindromic.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\LongestPalindromic\bin\Debug\net10.0\LongestPalindromic.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\LongestPalindromic\obj\Debug\net10.0\LongestPalindromic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\LongestPalindromic\obj\Debug\net10.0\LongestPalindromic.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\LongestPalindromic\obj\Debug\net10.0\LongestPalindromic.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\LongestPalindromic\obj\Debug\net10.0\LongestPalindromic.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\LongestPalindromic\obj\Debug\net10.0\LongestPalindromic.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\LongestPalindromic\obj\Debug\net10.0\refint\LongestPalindromic.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\LongestPalindromic\obj\Debug\net10.0\LongestPalindromic.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\LongestPalindromic\obj\Debug\net10.0\LongestPalindromic.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week6_9Febto14Feb\Day1_9Feb\LongestPalindromic\obj\Debug\net10.0\ref\LongestPalindromic.dll
