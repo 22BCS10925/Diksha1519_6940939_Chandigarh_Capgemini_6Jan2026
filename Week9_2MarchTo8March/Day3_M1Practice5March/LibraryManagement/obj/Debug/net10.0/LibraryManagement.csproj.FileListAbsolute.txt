@@ -1,0 +1,15 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day3_M1Practice5March\LibraryManagement\obj\Debug\net10.0\LibraryManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day3_M1Practice5March\LibraryManagement\obj\Debug\net10.0\LibraryManagement.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day3_M1Practice5March\LibraryManagement\obj\Debug\net10.0\LibraryManagement.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day3_M1Practice5March\LibraryManagement\obj\Debug\net10.0\LibraryManagement.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day3_M1Practice5March\LibraryManagement\obj\Debug\net10.0\LibraryManagement.sourcelink.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day3_M1Practice5March\LibraryManagement\bin\Debug\net10.0\LibraryManagement.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day3_M1Practice5March\LibraryManagement\bin\Debug\net10.0\LibraryManagement.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day3_M1Practice5March\LibraryManagement\bin\Debug\net10.0\LibraryManagement.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day3_M1Practice5March\LibraryManagement\bin\Debug\net10.0\LibraryManagement.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day3_M1Practice5March\LibraryManagement\bin\Debug\net10.0\LibraryManagement.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day3_M1Practice5March\LibraryManagement\obj\Debug\net10.0\LibraryManagement.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day3_M1Practice5March\LibraryManagement\obj\Debug\net10.0\refint\LibraryManagement.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day3_M1Practice5March\LibraryManagement\obj\Debug\net10.0\LibraryManagement.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day3_M1Practice5March\LibraryManagement\obj\Debug\net10.0\LibraryManagement.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day3_M1Practice5March\LibraryManagement\obj\Debug\net10.0\ref\LibraryManagement.dll

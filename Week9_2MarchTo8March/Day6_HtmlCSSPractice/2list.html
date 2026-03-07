@@ -1,0 +1,250 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Interactive To-Do List</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:linear-gradient(135deg,#89f7fe,#66a6ff);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+margin:0;
+}
+
+.container{
+background:white;
+width:420px;
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+h2{
+text-align:center;
+}
+
+.input-area{
+display:flex;
+gap:10px;
+}
+
+input{
+flex:1;
+padding:10px;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+button{
+padding:10px 15px;
+border:none;
+background:#4CAF50;
+color:white;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+background:#45a049;
+}
+
+ul{
+list-style:none;
+padding:0;
+margin-top:20px;
+}
+
+li{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:10px;
+border-bottom:1px solid #eee;
+transition:0.3s;
+}
+
+li:hover{
+background:#f9f9f9;
+}
+
+.done{
+text-decoration:line-through;
+color:gray;
+}
+
+.task-buttons span{
+margin-left:10px;
+cursor:pointer;
+font-size:16px;
+}
+
+.counter{
+margin-top:10px;
+font-size:14px;
+color:gray;
+}
+
+.progress{
+height:8px;
+background:#ddd;
+border-radius:5px;
+margin-top:10px;
+overflow:hidden;
+}
+
+.progress-bar{
+height:100%;
+width:0%;
+background:#4CAF50;
+transition:0.5s;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>📝 My Task Manager</h2>
+
+<div class="input-area">
+<input id="taskInput" placeholder="Enter a task">
+<button onclick="addTask()">Add</button>
+</div>
+
+<ul id="taskList"></ul>
+
+<div class="progress">
+<div class="progress-bar" id="progressBar"></div>
+</div>
+
+<p class="counter" id="counter">0 Tasks</p>
+
+<button onclick="clearCompleted()">Clear Completed</button>
+
+</div>
+
+<script>
+
+let tasks=JSON.parse(localStorage.getItem("tasks")) || [];
+
+function saveTasks(){
+localStorage.setItem("tasks",JSON.stringify(tasks));
+}
+
+function renderTasks(){
+
+let list=document.getElementById("taskList");
+list.innerHTML="";
+
+tasks.forEach((task,index)=>{
+
+let li=document.createElement("li");
+
+let text=document.createElement("span");
+text.innerText=task.text;
+
+if(task.done) text.classList.add("done");
+
+text.onclick=function(){
+task.done=!task.done;
+saveTasks();
+renderTasks();
+}
+
+let buttons=document.createElement("div");
+buttons.className="task-buttons";
+
+let edit=document.createElement("span");
+edit.innerHTML="✏️😊";
+
+edit.onclick=function(){
+let newText=prompt("Edit task:",task.text);
+if(newText){
+task.text=newText;
+saveTasks();
+renderTasks();
+}
+}
+
+let del=document.createElement("span");
+del.innerHTML="🗑️";
+
+del.onclick=function(){
+tasks.splice(index,1);
+saveTasks();
+renderTasks();
+}
+
+buttons.appendChild(edit);
+buttons.appendChild(del);
+
+li.appendChild(text);
+li.appendChild(buttons);
+
+list.appendChild(li);
+
+});
+
+updateStats();
+
+}
+
+function addTask(){
+
+let input=document.getElementById("taskInput");
+
+if(input.value.trim()==="") return;
+
+tasks.push({
+text:input.value,
+done:false
+});
+
+input.value="";
+
+saveTasks();
+renderTasks();
+
+}
+
+document.getElementById("taskInput").addEventListener("keypress",function(e){
+if(e.key==="Enter") addTask();
+});
+
+function updateStats(){
+
+let total=tasks.length;
+let done=tasks.filter(t=>t.done).length;
+
+document.getElementById("counter").innerText=
+done+" / "+total+" tasks completed";
+
+let percent= total===0 ? 0 : (done/total)*100;
+
+document.getElementById("progressBar").style.width=percent+"%";
+
+}
+
+function clearCompleted(){
+
+tasks=tasks.filter(t=>!t.done);
+
+saveTasks();
+renderTasks();
+
+}
+
+renderTasks();
+
+</script>
+
+</body>
+</html>
+
