@@ -1,0 +1,55 @@
+﻿@model IEnumerable<MVCDemoBook.Models.BookModel>
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+@{
+    ViewData["Title"] = "Index";
+
+}
+<h1>Index</h1>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Description)
+
+             </th>
+             <th>
+                @Html.DisplayNameFor(model=>model.Price)
+
+             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BookModelId)
+
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem=>item.BName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem=>item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.BookModelId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.BookModelId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.BookModelId">Delete</a>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
