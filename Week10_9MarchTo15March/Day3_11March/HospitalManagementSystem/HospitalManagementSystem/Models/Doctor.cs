@@ -7,7 +7,7 @@ public partial class Doctor
 {
     public int DoctorId { get; set; }
 
-    public string? Name { get; set; }
+    public string Name { get; set; } = null!;
 
     public string? Specialization { get; set; }
 

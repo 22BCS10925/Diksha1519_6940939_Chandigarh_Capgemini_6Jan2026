@@ -7,7 +7,7 @@ public partial class Patient
 {
     public int PatientId { get; set; }
 
-    public string? FullName { get; set; }
+    public string FullName { get; set; } = null!;
 
     public DateOnly? DateOfBirth { get; set; }
 

@@ -22,30 +22,29 @@ public partial class HospitalDbContext : DbContext
     public virtual DbSet<Patient> Patients { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=Blackpearl\\SQLEXPRESS;Database=HospitalDB;Integrated Security=True;TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Name=ConnectionStrings:HospitalDB");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Appointment>(entity =>
         {
-            entity.HasKey(e => e.AppointmentId).HasName("PK__Appointm__8ECDFCC229B733A7");
+            entity.HasKey(e => e.AppointmentId).HasName("PK__Appointm__8ECDFCC2974BB2C2");
 
             entity.Property(e => e.AppointmentDate).HasColumnType("datetime");
-            entity.Property(e => e.Remarks).HasMaxLength(500);
+            entity.Property(e => e.Remarks).HasMaxLength(255);
 
             entity.HasOne(d => d.Doctor).WithMany(p => p.Appointments)
                 .HasForeignKey(d => d.DoctorId)
-                .HasConstraintName("FK__Appointme__Docto__4F7CD00D");
+                .HasConstraintName("FK_Appointments_Doctors");
 
             entity.HasOne(d => d.Patient).WithMany(p => p.Appointments)
                 .HasForeignKey(d => d.PatientId)
-                .HasConstraintName("FK__Appointme__Patie__4E88ABD4");
+                .HasConstraintName("FK_Appointments_Patients");
         });
 
         modelBuilder.Entity<Doctor>(entity =>
         {
-            entity.HasKey(e => e.DoctorId).HasName("PK__Doctors__2DC00EBF211A453F");
+            entity.HasKey(e => e.DoctorId).HasName("PK__Doctors__2DC00EBFF02D1B10");
 
             entity.Property(e => e.Name).HasMaxLength(100);
             entity.Property(e => e.Specialization).HasMaxLength(100);
@@ -53,9 +52,9 @@ public partial class HospitalDbContext : DbContext
 
         modelBuilder.Entity<Patient>(entity =>
         {
-            entity.HasKey(e => e.PatientId).HasName("PK__Patients__970EC366258E3BEB");
+            entity.HasKey(e => e.PatientId).HasName("PK__Patients__970EC366C4A6D1EE");
 
-            entity.Property(e => e.ContactNumber).HasMaxLength(20);
+            entity.Property(e => e.ContactNumber).HasMaxLength(15);
             entity.Property(e => e.FullName).HasMaxLength(100);
         });
 

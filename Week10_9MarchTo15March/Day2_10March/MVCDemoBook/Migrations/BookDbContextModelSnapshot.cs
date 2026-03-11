@@ -29,6 +29,10 @@ namespace MVCDemoBook.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BookModelId"));
 
+                    b.Property<string>("Author")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("BName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -39,6 +43,10 @@ namespace MVCDemoBook.Migrations
 
                     b.Property<int>("Price")
                         .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("BookModelId");
 
