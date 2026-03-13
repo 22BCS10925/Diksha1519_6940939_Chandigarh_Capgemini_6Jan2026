@@ -1,0 +1,15 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day2_3March\CollegeManagement\bin\Debug\net10.0\CollegeManagement.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day2_3March\CollegeManagement\bin\Debug\net10.0\CollegeManagement.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day2_3March\CollegeManagement\bin\Debug\net10.0\CollegeManagement.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day2_3March\CollegeManagement\bin\Debug\net10.0\CollegeManagement.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day2_3March\CollegeManagement\bin\Debug\net10.0\CollegeManagement.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day2_3March\CollegeManagement\obj\Debug\net10.0\CollegeManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day2_3March\CollegeManagement\obj\Debug\net10.0\CollegeManagement.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day2_3March\CollegeManagement\obj\Debug\net10.0\CollegeManagement.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day2_3March\CollegeManagement\obj\Debug\net10.0\CollegeManagement.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day2_3March\CollegeManagement\obj\Debug\net10.0\CollegeManagement.sourcelink.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day2_3March\CollegeManagement\obj\Debug\net10.0\CollegeManagement.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day2_3March\CollegeManagement\obj\Debug\net10.0\refint\CollegeManagement.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day2_3March\CollegeManagement\obj\Debug\net10.0\CollegeManagement.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day2_3March\CollegeManagement\obj\Debug\net10.0\CollegeManagement.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day2_3March\CollegeManagement\obj\Debug\net10.0\ref\CollegeManagement.dll

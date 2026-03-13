@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\DonationLocation\bin\Debug\net10.0\DonationLocation.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\DonationLocation\bin\Debug\net10.0\DonationLocation.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\DonationLocation\bin\Debug\net10.0\DonationLocation.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\DonationLocation\bin\Debug\net10.0\DonationLocation.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\DonationLocation\bin\Debug\net10.0\DonationLocation.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\DonationLocation\obj\Debug\net10.0\DonationLocation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\DonationLocation\obj\Debug\net10.0\DonationLocation.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\DonationLocation\obj\Debug\net10.0\DonationLocation.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\DonationLocation\obj\Debug\net10.0\DonationLocation.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\DonationLocation\obj\Debug\net10.0\DonationLocation.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\DonationLocation\obj\Debug\net10.0\refint\DonationLocation.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\DonationLocation\obj\Debug\net10.0\DonationLocation.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\DonationLocation\obj\Debug\net10.0\DonationLocation.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\CaseStudy\DonationLocation\obj\Debug\net10.0\ref\DonationLocation.dll

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week3_19Janto25Jan\\Day2_20Jan\\LuckyDraw\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2EBA112-74AF-02BE-7E67-EE2F08D549C8}|LuckyDraw.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week3_19janto25jan\\day2_20jan\\luckydraw\\marks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EBA112-74AF-02BE-7E67-EE2F08D549C8}|LuckyDraw.csproj|solutionrelative:marks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2EBA112-74AF-02BE-7E67-EE2F08D549C8}|LuckyDraw.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week3_19janto25jan\\day2_20jan\\luckydraw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EBA112-74AF-02BE-7E67-EE2F08D549C8}|LuckyDraw.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Marks.cs",
+              "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week3_19Janto25Jan\\Day2_20Jan\\LuckyDraw\\Marks.cs",
+              "RelativeDocumentMoniker": "Marks.cs",
+              "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week3_19Janto25Jan\\Day2_20Jan\\LuckyDraw\\Marks.cs",
+              "RelativeToolTip": "Marks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T05:23:38.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week3_19Janto25Jan\\Day2_20Jan\\LuckyDraw\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week3_19Janto25Jan\\Day2_20Jan\\LuckyDraw\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:15:46.817Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

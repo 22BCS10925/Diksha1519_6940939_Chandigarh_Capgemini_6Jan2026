@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\LuckyString\bin\Debug\net10.0\LuckyString.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\LuckyString\bin\Debug\net10.0\LuckyString.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\LuckyString\bin\Debug\net10.0\LuckyString.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\LuckyString\bin\Debug\net10.0\LuckyString.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\LuckyString\bin\Debug\net10.0\LuckyString.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\LuckyString\obj\Debug\net10.0\LuckyString.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\LuckyString\obj\Debug\net10.0\LuckyString.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\LuckyString\obj\Debug\net10.0\LuckyString.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\LuckyString\obj\Debug\net10.0\LuckyString.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\LuckyString\obj\Debug\net10.0\LuckyString.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\LuckyString\obj\Debug\net10.0\refint\LuckyString.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\LuckyString\obj\Debug\net10.0\LuckyString.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\LuckyString\obj\Debug\net10.0\LuckyString.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\LuckyString\obj\Debug\net10.0\ref\LuckyString.dll

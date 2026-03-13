@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Birthday Surprise</title>
+
+<style>
+
+body{
+margin:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+font-family:'Comic Sans MS';
+background:linear-gradient(45deg,#ff9a9e,#fad0c4,#fbc2eb);
+overflow:hidden;
+}
+
+h1{
+color:white;
+font-size:50px;
+text-shadow:2px 2px 10px #000;
+}
+
+button{
+padding:15px 30px;
+font-size:18px;
+border:none;
+border-radius:10px;
+background:#ff4081;
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+transform:scale(1.1);
+}
+
+#message{
+margin-top:20px;
+font-size:25px;
+color:white;
+min-height:40px;
+}
+
+.balloon{
+position:absolute;
+font-size:40px;
+animation:float 6s linear infinite;
+}
+
+@keyframes float{
+0%{transform:translateY(100vh);}
+100%{transform:translateY(-120px);}
+}
+
+.cake{
+font-size:60px;
+margin-top:20px;
+display:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>🎂 Happy Birthday! 🎂</h1>
+
+<button onclick="startSurprise()">Open Birthday Surprise 🎁</button>
+
+<div id="message"></div>
+
+<div class="cake" id="cake">🎂</div>
+
+<audio id="music">
+<source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+
+function startSurprise(){
+
+document.getElementById("music").play();
+
+launchBalloons();
+confettiExplosion();
+typeMessage();
+document.getElementById("cake").style.display="block";
+
+}
+
+function typeMessage(){
+
+let text="Wishing you lots of joy, success, and cake! 🎉";
+let i=0;
+
+let interval=setInterval(function(){
+
+document.getElementById("message").innerHTML+=text.charAt(i);
+
+i++;
+
+if(i>=text.length)
+clearInterval(interval);
+
+},80);
+
+}
+
+function launchBalloons(){
+
+for(let i=0;i<20;i++){
+
+let balloon=document.createElement("div");
+
+balloon.className="balloon";
+
+balloon.innerHTML="✨";
+
+balloon.style.left=Math.random()*100+"%";
+
+balloon.style.animationDuration=(4+Math.random()*4)+"s";
+
+document.body.appendChild(balloon);
+
+}
+
+}
+
+function confettiExplosion(){
+
+for(let i=0;i<30;i++){
+
+let confetti=document.createElement("div");
+
+confetti.innerHTML="🎊";
+
+confetti.style.position="absolute";
+
+confetti.style.left=Math.random()*100+"%";
+
+confetti.style.top=Math.random()*100+"%";
+
+confetti.style.fontSize="25px";
+
+document.body.appendChild(confetti);
+
+setTimeout(()=>confetti.remove(),2000);
+
+}
+
+}
+
+</script>
+
+</body>
+</html>

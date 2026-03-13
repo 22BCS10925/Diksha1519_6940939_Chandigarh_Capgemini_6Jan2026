@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day4_15Jan\Salary\bin\Debug\net10.0\Salary.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day4_15Jan\Salary\bin\Debug\net10.0\Salary.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day4_15Jan\Salary\bin\Debug\net10.0\Salary.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day4_15Jan\Salary\bin\Debug\net10.0\Salary.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day4_15Jan\Salary\bin\Debug\net10.0\Salary.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day4_15Jan\Salary\obj\Debug\net10.0\Salary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day4_15Jan\Salary\obj\Debug\net10.0\Salary.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day4_15Jan\Salary\obj\Debug\net10.0\Salary.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day4_15Jan\Salary\obj\Debug\net10.0\Salary.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day4_15Jan\Salary\obj\Debug\net10.0\Salary.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day4_15Jan\Salary\obj\Debug\net10.0\refint\Salary.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day4_15Jan\Salary\obj\Debug\net10.0\Salary.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day4_15Jan\Salary\obj\Debug\net10.0\Salary.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day4_15Jan\Salary\obj\Debug\net10.0\ref\Salary.dll

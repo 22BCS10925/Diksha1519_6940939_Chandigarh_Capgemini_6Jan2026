@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\RegexExpression\Input2Input3\bin\Debug\net10.0\Input2Input3.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\RegexExpression\Input2Input3\bin\Debug\net10.0\Input2Input3.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\RegexExpression\Input2Input3\bin\Debug\net10.0\Input2Input3.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\RegexExpression\Input2Input3\bin\Debug\net10.0\Input2Input3.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\RegexExpression\Input2Input3\bin\Debug\net10.0\Input2Input3.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\RegexExpression\Input2Input3\obj\Debug\net10.0\Input2Input3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\RegexExpression\Input2Input3\obj\Debug\net10.0\Input2Input3.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\RegexExpression\Input2Input3\obj\Debug\net10.0\Input2Input3.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\RegexExpression\Input2Input3\obj\Debug\net10.0\Input2Input3.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\RegexExpression\Input2Input3\obj\Debug\net10.0\Input2Input3.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\RegexExpression\Input2Input3\obj\Debug\net10.0\refint\Input2Input3.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\RegexExpression\Input2Input3\obj\Debug\net10.0\Input2Input3.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\RegexExpression\Input2Input3\obj\Debug\net10.0\Input2Input3.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week4_27Janto30Jan\RegexExpression\Input2Input3\obj\Debug\net10.0\ref\Input2Input3.dll

@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\InvoiceNumber\bin\Debug\net10.0\InvoiceNumber.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\InvoiceNumber\bin\Debug\net10.0\InvoiceNumber.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\InvoiceNumber\bin\Debug\net10.0\InvoiceNumber.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\InvoiceNumber\bin\Debug\net10.0\InvoiceNumber.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\InvoiceNumber\bin\Debug\net10.0\InvoiceNumber.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\InvoiceNumber\obj\Debug\net10.0\InvoiceNumber.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\InvoiceNumber\obj\Debug\net10.0\InvoiceNumber.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\InvoiceNumber\obj\Debug\net10.0\InvoiceNumber.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\InvoiceNumber\obj\Debug\net10.0\InvoiceNumber.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\InvoiceNumber\obj\Debug\net10.0\InvoiceNumber.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\InvoiceNumber\obj\Debug\net10.0\refint\InvoiceNumber.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\InvoiceNumber\obj\Debug\net10.0\InvoiceNumber.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\InvoiceNumber\obj\Debug\net10.0\InvoiceNumber.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day7_3Feb\InvoiceNumber\obj\Debug\net10.0\ref\InvoiceNumber.dll

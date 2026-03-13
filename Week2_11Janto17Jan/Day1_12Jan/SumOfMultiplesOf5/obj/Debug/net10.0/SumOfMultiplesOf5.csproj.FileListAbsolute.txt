@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day1_12Jan\SumOfMultiplesOf5\bin\Debug\net10.0\SumOfMultiplesOf5.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day1_12Jan\SumOfMultiplesOf5\bin\Debug\net10.0\SumOfMultiplesOf5.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day1_12Jan\SumOfMultiplesOf5\bin\Debug\net10.0\SumOfMultiplesOf5.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day1_12Jan\SumOfMultiplesOf5\bin\Debug\net10.0\SumOfMultiplesOf5.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day1_12Jan\SumOfMultiplesOf5\bin\Debug\net10.0\SumOfMultiplesOf5.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day1_12Jan\SumOfMultiplesOf5\obj\Debug\net10.0\SumOfMultiplesOf5.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day1_12Jan\SumOfMultiplesOf5\obj\Debug\net10.0\SumOfMultiplesOf5.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day1_12Jan\SumOfMultiplesOf5\obj\Debug\net10.0\SumOfMultiplesOf5.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day1_12Jan\SumOfMultiplesOf5\obj\Debug\net10.0\SumOfMultiplesOf5.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day1_12Jan\SumOfMultiplesOf5\obj\Debug\net10.0\SumOfMultiplesOf5.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day1_12Jan\SumOfMultiplesOf5\obj\Debug\net10.0\refint\SumOfMultiplesOf5.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day1_12Jan\SumOfMultiplesOf5\obj\Debug\net10.0\SumOfMultiplesOf5.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day1_12Jan\SumOfMultiplesOf5\obj\Debug\net10.0\SumOfMultiplesOf5.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week2_11Janto17Jan\Day1_12Jan\SumOfMultiplesOf5\obj\Debug\net10.0\ref\SumOfMultiplesOf5.dll

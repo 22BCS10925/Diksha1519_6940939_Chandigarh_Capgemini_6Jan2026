@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\MaxConsequetive\bin\Debug\net10.0\MaxConsequetive.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\MaxConsequetive\bin\Debug\net10.0\MaxConsequetive.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\MaxConsequetive\bin\Debug\net10.0\MaxConsequetive.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\MaxConsequetive\bin\Debug\net10.0\MaxConsequetive.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\MaxConsequetive\bin\Debug\net10.0\MaxConsequetive.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\MaxConsequetive\obj\Debug\net10.0\MaxConsequetive.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\MaxConsequetive\obj\Debug\net10.0\MaxConsequetive.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\MaxConsequetive\obj\Debug\net10.0\MaxConsequetive.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\MaxConsequetive\obj\Debug\net10.0\MaxConsequetive.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\MaxConsequetive\obj\Debug\net10.0\MaxConsequetive.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\MaxConsequetive\obj\Debug\net10.0\refint\MaxConsequetive.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\MaxConsequetive\obj\Debug\net10.0\MaxConsequetive.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\MaxConsequetive\obj\Debug\net10.0\MaxConsequetive.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\MaxConsequetive\obj\Debug\net10.0\ref\MaxConsequetive.dll

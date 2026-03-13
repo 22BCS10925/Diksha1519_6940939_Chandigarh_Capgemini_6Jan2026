@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C09C2FF-B3A0-40BA-9C79-3FFE37C33BB1}|LibraryManagement.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week10_9marchto15march\\day4_12march\\librarymanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1C09C2FF-B3A0-40BA-9C79-3FFE37C33BB1}|LibraryManagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C09C2FF-B3A0-40BA-9C79-3FFE37C33BB1}|LibraryManagement.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week10_9marchto15march\\day4_12march\\librarymanagement\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C09C2FF-B3A0-40BA-9C79-3FFE37C33BB1}|LibraryManagement.csproj|solutionrelative:views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C09C2FF-B3A0-40BA-9C79-3FFE37C33BB1}|LibraryManagement.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week10_9marchto15march\\day4_12march\\librarymanagement\\views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C09C2FF-B3A0-40BA-9C79-3FFE37C33BB1}|LibraryManagement.csproj|solutionrelative:views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C09C2FF-B3A0-40BA-9C79-3FFE37C33BB1}|LibraryManagement.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week10_9marchto15march\\day4_12march\\librarymanagement\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C09C2FF-B3A0-40BA-9C79-3FFE37C33BB1}|LibraryManagement.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C09C2FF-B3A0-40BA-9C79-3FFE37C33BB1}|LibraryManagement.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week10_9marchto15march\\day4_12march\\librarymanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C09C2FF-B3A0-40BA-9C79-3FFE37C33BB1}|LibraryManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C09C2FF-B3A0-40BA-9C79-3FFE37C33BB1}|LibraryManagement.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week10_9marchto15march\\day4_12march\\librarymanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C09C2FF-B3A0-40BA-9C79-3FFE37C33BB1}|LibraryManagement.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C09C2FF-B3A0-40BA-9C79-3FFE37C33BB1}|LibraryManagement.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week10_9marchto15march\\day4_12march\\librarymanagement\\services\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C09C2FF-B3A0-40BA-9C79-3FFE37C33BB1}|LibraryManagement.csproj|solutionrelative:services\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C09C2FF-B3A0-40BA-9C79-3FFE37C33BB1}|LibraryManagement.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week10_9marchto15march\\day4_12march\\librarymanagement\\services\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C09C2FF-B3A0-40BA-9C79-3FFE37C33BB1}|LibraryManagement.csproj|solutionrelative:services\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C09C2FF-B3A0-40BA-9C79-3FFE37C33BB1}|LibraryManagement.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week10_9marchto15march\\day4_12march\\librarymanagement\\models\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C09C2FF-B3A0-40BA-9C79-3FFE37C33BB1}|LibraryManagement.csproj|solutionrelative:models\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C09C2FF-B3A0-40BA-9C79-3FFE37C33BB1}|LibraryManagement.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week10_9marchto15march\\day4_12march\\librarymanagement\\migrations\\20260312090102_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C09C2FF-B3A0-40BA-9C79-3FFE37C33BB1}|LibraryManagement.csproj|solutionrelative:migrations\\20260312090102_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C09C2FF-B3A0-40BA-9C79-3FFE37C33BB1}|LibraryManagement.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week10_9marchto15march\\day4_12march\\librarymanagement\\models\\bookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C09C2FF-B3A0-40BA-9C79-3FFE37C33BB1}|LibraryManagement.csproj|solutionrelative:models\\bookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T09:11:05.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\Views\\Book\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Details.cshtml",
+              "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\Views\\Book\\Details.cshtml",
+              "RelativeToolTip": "Views\\Book\\Details.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T09:08:38.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\Views\\Book\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Index.cshtml",
+              "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\Views\\Book\\Index.cshtml",
+              "RelativeToolTip": "Views\\Book\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T09:08:25.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
+              "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Controllers\\BookController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:07:20.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\Services\\BookRepository.cs",
+              "RelativeDocumentMoniker": "Services\\BookRepository.cs",
+              "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\Services\\BookRepository.cs",
+              "RelativeToolTip": "Services\\BookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:04:37.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\Services\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "Services\\IBookRepository.cs",
+              "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\Services\\IBookRepository.cs",
+              "RelativeToolTip": "Services\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:02:10.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20260312090102_m1.cs",
+              "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\Migrations\\20260312090102_m1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260312090102_m1.cs",
+              "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\Migrations\\20260312090102_m1.cs",
+              "RelativeToolTip": "Migrations\\20260312090102_m1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:01:03.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwCsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:58:52.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-12T08:57:14.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookDBContext.cs",
+              "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\Models\\BookDBContext.cs",
+              "RelativeDocumentMoniker": "Models\\BookDBContext.cs",
+              "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\Models\\BookDBContext.cs",
+              "RelativeToolTip": "Models\\BookDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:55:12.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Library.cs",
+              "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\Models\\Library.cs",
+              "RelativeDocumentMoniker": "Models\\Library.cs",
+              "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week10_9MarchTo15March\\Day4_12March\\LibraryManagement\\Models\\Library.cs",
+              "RelativeToolTip": "Models\\Library.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:51:19.161Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

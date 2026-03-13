@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Admission System</title>
+    <style>
+        body { font-family: Arial; margin: 30px; }
+        h1 { color: darkblue; }
+        section { margin-bottom: 30px; padding: 15px; border: 1px solid #ccc; border-radius: 8px; }
+        input, select, button { margin: 5px 0; padding: 5px; }
+        table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+        .success { color: green; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+
+<h1>🎓 Student Admission & Eligibility System</h1>
+
+<!-- Add Student -->
+<section>
+    <h2>Add Student</h2>
+    <input type="number" id="id" placeholder="ID"><br>
+    <input type="text" id="name" placeholder="Name"><br>
+    <input type="number" id="m10" placeholder="10th Marks"><br>
+    <input type="number" id="m12" placeholder="12th Marks"><br>
+    <select id="cert">
+        <option value="">Certificate Submitted?</option>
+        <option value="true">Yes</option>
+        <option value="false">No</option>
+    </select><br>
+    <button onclick="addStudent()">Add Student</button>
+    <p id="admissionMsg"></p>
+</section>
+
+<!-- Update Fees -->
+<section>
+    <h2>Pay Fees</h2>
+    <input type="number" id="feeId" placeholder="Student ID"><br>
+    <select id="feesPaid">
+        <option value="">Fees Paid?</option>
+        <option value="true">Yes</option>
+        <option value="false">No</option>
+    </select><br>
+    <select id="hasDue">
+        <option value="">Has Due?</option>
+        <option value="true">Yes</option>
+        <option value="false">No</option>
+    </select><br>
+    <button onclick="payFees()">Update Fees</button>
+</section>
+
+<!-- Enter MST -->
+<section>
+    <h2>Enter MST</h2>
+    <input type="number" id="mstId" placeholder="Student ID"><br>
+    <input type="number" id="mstMarks" placeholder="MST Marks"><br>
+    <button onclick="enterMST()">Save MST</button>
+</section>
+
+<!-- Check Eligibility -->
+<section>
+    <h2>Check Final Eligibility</h2>
+    <input type="number" id="eligId" placeholder="Student ID"><br>
+    <button onclick="checkEligibility()">Check</button>
+    <p id="eligibilityMsg"></p>
+</section>
+
+<!-- View All -->
+<section>
+    <h2>All Students</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>10th</th>
+                <th>12th</th>
+                <th>Certificate</th>
+                <th>Fees Paid</th>
+                <th>Due</th>
+                <th>MST</th>
+                <th>Admission</th>
+            </tr>
+        </thead>
+        <tbody id="studentTable"></tbody>
+    </table>
+</section>
+
+<script>
+
+let students = [];
+
+function findStudent(id) {
+    return students.find(s => s.id === id);
+}
+
+function addStudent() {
+    let id = parseInt(document.getElementById("id").value);
+    let name = document.getElementById("name").value;
+    let m10 = parseFloat(document.getElementById("m10").value);
+    let m12 = parseFloat(document.getElementById("m12").value);
+    let cert = document.getElementById("cert").value === "true";
+
+    let admission = false;
+    let msg = document.getElementById("admissionMsg");
+
+    if (m10 >= 40 && m12 >= 40 && cert) {
+        admission = true;
+        msg.innerHTML = "✅ Admission Approved";
+        msg.className = "success";
+    } else {
+        msg.innerHTML = "❌ Admission Denied";
+        msg.className = "error";
+    }
+
+    students.push({
+        id, name, m10, m12,
+        cert,
+        feesPaid: false,
+        hasDue: false,
+        mst: 0,
+        admission
+    });
+
+    renderTable();
+}
+
+function payFees() {
+    let id = parseInt(document.getElementById("feeId").value);
+    let student = findStudent(id);
+    if (!student) return alert("Student Not Found");
+
+    student.feesPaid = document.getElementById("feesPaid").value === "true";
+    student.hasDue = document.getElementById("hasDue").value === "true";
+
+    renderTable();
+}
+
+function enterMST() {
+    let id = parseInt(document.getElementById("mstId").value);
+    let student = findStudent(id);
+    if (!student) return alert("Student Not Found");
+
+    student.mst = parseFloat(document.getElementById("mstMarks").value);
+    renderTable();
+}
+
+function checkEligibility() {
+    let id = parseInt(document.getElementById("eligId").value);
+    let student = findStudent(id);
+    let msg = document.getElementById("eligibilityMsg");
+
+    if (!student) return msg.innerHTML = "Student Not Found";
+
+    if (!student.admission)
+        msg.innerHTML = "❌ Student not admitted.";
+    else if (!student.feesPaid)
+        msg.innerHTML = "❌ Fees not paid.";
+    else if (student.hasDue)
+        msg.innerHTML = "❌ Previous dues pending.";
+    else if (student.mst < 40)
+        msg.innerHTML = "❌ Not eligible (MST Failed)";
+    else
+        msg.innerHTML = "🎉 Eligible for Final Examination!";
+}
+
+function renderTable() {
+    let table = document.getElementById("studentTable");
+    table.innerHTML = "";
+
+    students.forEach(s => {
+        table.innerHTML += `
+            <tr>
+                <td>${s.id}</td>
+                <td>${s.name}</td>
+                <td>${s.m10}</td>
+                <td>${s.m12}</td>
+                <td>${s.cert}</td>
+                <td>${s.feesPaid}</td>
+                <td>${s.hasDue}</td>
+                <td>${s.mst}</td>
+                <td>${s.admission}</td>
+            </tr>
+        `;
+    });
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day8_4Feb\DiffDates\bin\Debug\net10.0\DiffDates.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day8_4Feb\DiffDates\bin\Debug\net10.0\DiffDates.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day8_4Feb\DiffDates\bin\Debug\net10.0\DiffDates.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day8_4Feb\DiffDates\bin\Debug\net10.0\DiffDates.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day8_4Feb\DiffDates\bin\Debug\net10.0\DiffDates.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day8_4Feb\DiffDates\obj\Debug\net10.0\DiffDates.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day8_4Feb\DiffDates\obj\Debug\net10.0\DiffDates.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day8_4Feb\DiffDates\obj\Debug\net10.0\DiffDates.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day8_4Feb\DiffDates\obj\Debug\net10.0\DiffDates.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day8_4Feb\DiffDates\obj\Debug\net10.0\DiffDates.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day8_4Feb\DiffDates\obj\Debug\net10.0\refint\DiffDates.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day8_4Feb\DiffDates\obj\Debug\net10.0\DiffDates.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day8_4Feb\DiffDates\obj\Debug\net10.0\DiffDates.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day8_4Feb\DiffDates\obj\Debug\net10.0\ref\DiffDates.dll

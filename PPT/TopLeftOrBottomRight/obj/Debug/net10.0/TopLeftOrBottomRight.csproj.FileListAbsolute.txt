@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\PPT\TopLeftOrBottomRight\bin\Debug\net10.0\TopLeftOrBottomRight.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\PPT\TopLeftOrBottomRight\bin\Debug\net10.0\TopLeftOrBottomRight.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\PPT\TopLeftOrBottomRight\bin\Debug\net10.0\TopLeftOrBottomRight.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\PPT\TopLeftOrBottomRight\bin\Debug\net10.0\TopLeftOrBottomRight.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\PPT\TopLeftOrBottomRight\bin\Debug\net10.0\TopLeftOrBottomRight.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\PPT\TopLeftOrBottomRight\obj\Debug\net10.0\TopLeftOrBottomRight.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\PPT\TopLeftOrBottomRight\obj\Debug\net10.0\TopLeftOrBottomRight.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\PPT\TopLeftOrBottomRight\obj\Debug\net10.0\TopLeftOrBottomRight.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\PPT\TopLeftOrBottomRight\obj\Debug\net10.0\TopLeftOrBottomRight.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\PPT\TopLeftOrBottomRight\obj\Debug\net10.0\TopLeftOrBottomRight.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\PPT\TopLeftOrBottomRight\obj\Debug\net10.0\refint\TopLeftOrBottomRight.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\PPT\TopLeftOrBottomRight\obj\Debug\net10.0\TopLeftOrBottomRight.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\PPT\TopLeftOrBottomRight\obj\Debug\net10.0\TopLeftOrBottomRight.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\PPT\TopLeftOrBottomRight\obj\Debug\net10.0\ref\TopLeftOrBottomRight.dll

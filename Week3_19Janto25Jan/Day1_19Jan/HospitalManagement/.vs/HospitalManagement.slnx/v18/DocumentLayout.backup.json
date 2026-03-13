@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week3_19Janto25Jan\\HospitalManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F52103EE-9F83-429E-937B-603D8F953FF1}|HospitalManagement.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week3_19janto25jan\\hospitalmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52103EE-9F83-429E-937B-603D8F953FF1}|HospitalManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F52103EE-9F83-429E-937B-603D8F953FF1}|HospitalManagement.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week3_19janto25jan\\hospitalmanagement\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52103EE-9F83-429E-937B-603D8F953FF1}|HospitalManagement.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week3_19Janto25Jan\\HospitalManagement\\Person.cs",
+              "RelativeDocumentMoniker": "Person.cs",
+              "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week3_19Janto25Jan\\HospitalManagement\\Person.cs",
+              "RelativeToolTip": "Person.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAywGUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T03:50:49.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week3_19Janto25Jan\\HospitalManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week3_19Janto25Jan\\HospitalManagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T03:50:25.203Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

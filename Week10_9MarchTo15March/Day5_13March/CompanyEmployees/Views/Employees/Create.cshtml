@@ -1,0 +1,38 @@
+﻿@model CompanyEmployees.Models.EmployeeModel
+
+<h2>Add Employee</h2>
+
+<form asp-action="Create" method="post">
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div>
+        <label>Name</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Age</label>
+        <input asp-for="Age" class="form-control" />
+        <span asp-validation-for="Age" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Designation</label>
+        <input asp-for="Designation" class="form-control" />
+    </div>
+
+    <div>
+        <label>Company</label>
+        <select asp-for="CompanyId" asp-items="ViewBag.CompanyId" class="form-control">
+            <option value="">--Select Company--</option>
+        </select>
+        <span asp-validation-for="CompanyId" class="text-danger"></span>
+    </div>
+
+    <br />
+
+    <button type="submit">Save</button>
+
+</form>

@@ -1,0 +1,33 @@
+﻿@model List<CollegeManagement.Models.Student>
+
+<h2>Student List</h2>
+
+<a asp-action="Create">Add Student</a>
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>10th</th>
+        <th>12th</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var s in Model)
+    {
+        <tr>
+            <td>@s.ID</td>
+            <td>@s.Name</td>
+            <td>@s.Marks10</td>
+            <td>@s.Marks12</td>
+
+            <td>
+                <a asp-action="PayFees" asp-route-id="@s.ID">Pay Fees</a> |
+                <a asp-action="EnterMST" asp-route-id="@s.ID">Enter MST</a> |
+                <a asp-action="CheckEligibility" asp-route-id="@s.ID">Check Eligibility</a>
+            </td>
+
+        </tr>
+    }
+
+</table>

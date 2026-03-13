@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\E-Commerce\bin\Debug\net10.0\E-Commerce.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\E-Commerce\bin\Debug\net10.0\E-Commerce.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\E-Commerce\bin\Debug\net10.0\E-Commerce.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\E-Commerce\bin\Debug\net10.0\E-Commerce.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\E-Commerce\bin\Debug\net10.0\E-Commerce.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\E-Commerce\obj\Debug\net10.0\E-Commerce.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\E-Commerce\obj\Debug\net10.0\E-Commerce.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\E-Commerce\obj\Debug\net10.0\E-Commerce.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\E-Commerce\obj\Debug\net10.0\E-Commerce.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\E-Commerce\obj\Debug\net10.0\E-Commerce.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\E-Commerce\obj\Debug\net10.0\refint\E-Commerce.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\E-Commerce\obj\Debug\net10.0\E-Commerce.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\E-Commerce\obj\Debug\net10.0\E-Commerce.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\E-Commerce\obj\Debug\net10.0\ref\E-Commerce.dll

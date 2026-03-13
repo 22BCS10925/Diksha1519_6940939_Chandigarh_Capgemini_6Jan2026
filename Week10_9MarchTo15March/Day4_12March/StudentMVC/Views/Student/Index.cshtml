@@ -1,0 +1,51 @@
+﻿@model IEnumerable<StudentMVC.Models.Student>
+
+<h2>Students List</h2>
+
+<a asp-action="Create" class="btn btn-primary">Add Student</a>
+
+<table border="1" class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>deptName</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.Id</td>
+                <td>@student.Name</td>
+                <td>@student.deptName</td>
+                <td>@student.Age</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<hr />
+
+<h2>Request Logs</h2>
+
+<table border="1" class="table">
+    <thead>
+        <tr>
+            <th>URL</th>
+            <th>Execution Time (ms)</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var log in ViewBag.Logs)
+        {
+            <tr>
+                <td>@log.Url</td>
+                <td>@log.ExecutionTime</td>
+            </tr>
+        }
+    </tbody>
+</table>

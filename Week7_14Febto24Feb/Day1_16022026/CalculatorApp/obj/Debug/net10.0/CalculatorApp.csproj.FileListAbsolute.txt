@@ -1,0 +1,14 @@
+C:\Users\pc\source\Capgemini_CGC_Sec3_dotnetwithazure_Sweeni\Week7_16022026_21022026\Day1_16022026\CalculatorApp\bin\Debug\net10.0\CalculatorApp.exe
+C:\Users\pc\source\Capgemini_CGC_Sec3_dotnetwithazure_Sweeni\Week7_16022026_21022026\Day1_16022026\CalculatorApp\bin\Debug\net10.0\CalculatorApp.deps.json
+C:\Users\pc\source\Capgemini_CGC_Sec3_dotnetwithazure_Sweeni\Week7_16022026_21022026\Day1_16022026\CalculatorApp\bin\Debug\net10.0\CalculatorApp.runtimeconfig.json
+C:\Users\pc\source\Capgemini_CGC_Sec3_dotnetwithazure_Sweeni\Week7_16022026_21022026\Day1_16022026\CalculatorApp\bin\Debug\net10.0\CalculatorApp.dll
+C:\Users\pc\source\Capgemini_CGC_Sec3_dotnetwithazure_Sweeni\Week7_16022026_21022026\Day1_16022026\CalculatorApp\bin\Debug\net10.0\CalculatorApp.pdb
+C:\Users\pc\source\Capgemini_CGC_Sec3_dotnetwithazure_Sweeni\Week7_16022026_21022026\Day1_16022026\CalculatorApp\obj\Debug\net10.0\CalculatorApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\source\Capgemini_CGC_Sec3_dotnetwithazure_Sweeni\Week7_16022026_21022026\Day1_16022026\CalculatorApp\obj\Debug\net10.0\CalculatorApp.AssemblyInfoInputs.cache
+C:\Users\pc\source\Capgemini_CGC_Sec3_dotnetwithazure_Sweeni\Week7_16022026_21022026\Day1_16022026\CalculatorApp\obj\Debug\net10.0\CalculatorApp.AssemblyInfo.cs
+C:\Users\pc\source\Capgemini_CGC_Sec3_dotnetwithazure_Sweeni\Week7_16022026_21022026\Day1_16022026\CalculatorApp\obj\Debug\net10.0\CalculatorApp.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\Capgemini_CGC_Sec3_dotnetwithazure_Sweeni\Week7_16022026_21022026\Day1_16022026\CalculatorApp\obj\Debug\net10.0\CalculatorApp.dll
+C:\Users\pc\source\Capgemini_CGC_Sec3_dotnetwithazure_Sweeni\Week7_16022026_21022026\Day1_16022026\CalculatorApp\obj\Debug\net10.0\refint\CalculatorApp.dll
+C:\Users\pc\source\Capgemini_CGC_Sec3_dotnetwithazure_Sweeni\Week7_16022026_21022026\Day1_16022026\CalculatorApp\obj\Debug\net10.0\CalculatorApp.pdb
+C:\Users\pc\source\Capgemini_CGC_Sec3_dotnetwithazure_Sweeni\Week7_16022026_21022026\Day1_16022026\CalculatorApp\obj\Debug\net10.0\CalculatorApp.genruntimeconfig.cache
+C:\Users\pc\source\Capgemini_CGC_Sec3_dotnetwithazure_Sweeni\Week7_16022026_21022026\Day1_16022026\CalculatorApp\obj\Debug\net10.0\ref\CalculatorApp.dll

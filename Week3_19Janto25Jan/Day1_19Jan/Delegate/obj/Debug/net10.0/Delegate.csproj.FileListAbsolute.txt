@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Delegate\bin\Debug\net10.0\Delegate.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Delegate\bin\Debug\net10.0\Delegate.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Delegate\bin\Debug\net10.0\Delegate.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Delegate\bin\Debug\net10.0\Delegate.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Delegate\bin\Debug\net10.0\Delegate.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Delegate\obj\Debug\net10.0\Delegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Delegate\obj\Debug\net10.0\Delegate.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Delegate\obj\Debug\net10.0\Delegate.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Delegate\obj\Debug\net10.0\Delegate.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Delegate\obj\Debug\net10.0\Delegate.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Delegate\obj\Debug\net10.0\refint\Delegate.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Delegate\obj\Debug\net10.0\Delegate.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Delegate\obj\Debug\net10.0\Delegate.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Delegate\obj\Debug\net10.0\ref\Delegate.dll

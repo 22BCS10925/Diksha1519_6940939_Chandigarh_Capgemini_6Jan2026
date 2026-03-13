@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\ClosestInteger\bin\Debug\net10.0\ClosestInteger.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\ClosestInteger\bin\Debug\net10.0\ClosestInteger.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\ClosestInteger\bin\Debug\net10.0\ClosestInteger.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\ClosestInteger\bin\Debug\net10.0\ClosestInteger.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\ClosestInteger\bin\Debug\net10.0\ClosestInteger.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\ClosestInteger\obj\Debug\net10.0\ClosestInteger.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\ClosestInteger\obj\Debug\net10.0\ClosestInteger.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\ClosestInteger\obj\Debug\net10.0\ClosestInteger.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\ClosestInteger\obj\Debug\net10.0\ClosestInteger.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\ClosestInteger\obj\Debug\net10.0\ClosestInteger.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\ClosestInteger\obj\Debug\net10.0\refint\ClosestInteger.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\ClosestInteger\obj\Debug\net10.0\ClosestInteger.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\ClosestInteger\obj\Debug\net10.0\ClosestInteger.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week5_2FebTo8Feb\Day9_5Feb\ClosestInteger\obj\Debug\net10.0\ref\ClosestInteger.dll

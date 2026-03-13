@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week4_27Janto30Jan\\Day2_28Jan\\MaxDifference\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09357C84-2309-4545-B1B9-9FA105541B11}|MaxDifference.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week4_27janto30jan\\day2_28jan\\maxdifference\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09357C84-2309-4545-B1B9-9FA105541B11}|MaxDifference.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09357C84-2309-4545-B1B9-9FA105541B11}|MaxDifference.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week4_27janto30jan\\day2_28jan\\maxdifference\\difference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09357C84-2309-4545-B1B9-9FA105541B11}|MaxDifference.csproj|solutionrelative:difference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Difference.cs",
+              "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week4_27Janto30Jan\\Day2_28Jan\\MaxDifference\\Difference.cs",
+              "RelativeDocumentMoniker": "Difference.cs",
+              "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week4_27Janto30Jan\\Day2_28Jan\\MaxDifference\\Difference.cs",
+              "RelativeToolTip": "Difference.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvxcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T06:57:52.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week4_27Janto30Jan\\Day2_28Jan\\MaxDifference\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week4_27Janto30Jan\\Day2_28Jan\\MaxDifference\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T06:57:30.664Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

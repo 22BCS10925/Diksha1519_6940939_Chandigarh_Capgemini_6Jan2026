@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\CaseStudy\obj\Debug\net10.0\CaseStudy.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\CaseStudy\obj\Debug\net10.0\CaseStudy.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\CaseStudy\obj\Debug\net10.0\CaseStudy.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\CaseStudy\obj\Debug\net10.0\CaseStudy.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\CaseStudy\bin\Debug\net10.0\CaseStudy.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\CaseStudy\bin\Debug\net10.0\CaseStudy.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\CaseStudy\bin\Debug\net10.0\CaseStudy.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\CaseStudy\bin\Debug\net10.0\CaseStudy.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\CaseStudy\bin\Debug\net10.0\CaseStudy.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\CaseStudy\obj\Debug\net10.0\CaseStudy.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\CaseStudy\obj\Debug\net10.0\refint\CaseStudy.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\CaseStudy\obj\Debug\net10.0\CaseStudy.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\CaseStudy\obj\Debug\net10.0\CaseStudy.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week3_19Janto25Jan\Day2_20Jan\CaseStudy\obj\Debug\net10.0\ref\CaseStudy.dll
