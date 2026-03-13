@@ -1,5 +1,0 @@
-D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day3_M1Practice5March\ProductInventory\obj\Debug\net10.0\ProductInventory.GeneratedMSBuildEditorConfig.editorconfig
-D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day3_M1Practice5March\ProductInventory\obj\Debug\net10.0\ProductInventory.AssemblyInfoInputs.cache
-D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day3_M1Practice5March\ProductInventory\obj\Debug\net10.0\ProductInventory.AssemblyInfo.cs
-D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day3_M1Practice5March\ProductInventory\obj\Debug\net10.0\ProductInventory.csproj.CoreCompileInputs.cache
-D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week9_2MarchTo8March\Day3_M1Practice5March\ProductInventory\obj\Debug\net10.0\ProductInventory.sourcelink.json
