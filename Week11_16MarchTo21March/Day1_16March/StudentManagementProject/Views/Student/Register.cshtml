@@ -1,0 +1,27 @@
+﻿@model StudentManagementProject.Models.Student
+
+<h2>Register Student</h2>
+
+<form asp-action="Register" method="post">
+
+    <label>Name</label>
+    <input asp-for="Name" />
+    <span asp-validation-for="Name"></span>
+
+    <br>
+
+    <label>Age</label>
+    <input asp-for="Age" />
+    <span asp-validation-for="Age"></span>
+
+    <br>
+
+    <label>Email</label>
+    <input asp-for="Email" />
+    <span asp-validation-for="Email"></span>
+
+    <br>
+
+    <button type="submit">Register</button>
+
+</form>

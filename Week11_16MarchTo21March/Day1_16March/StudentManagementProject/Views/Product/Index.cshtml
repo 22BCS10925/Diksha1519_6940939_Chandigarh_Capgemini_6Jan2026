@@ -1,0 +1,26 @@
+﻿@model List<StudentManagementProject.Models.Product>
+
+<h2>Products</h2>
+
+<a href="/Product/Create">Add Product</a>
+
+<table border="1">
+
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Details</th>
+    </tr>
+
+    @foreach (var p in Model)
+    {
+        <tr>
+            <td>@p.Id</td>
+            <td>@p.Name</td>
+            <td>@p.Price</td>
+            <td><a href="/Product/Details/@p.Id">View</a></td>
+        </tr>
+    }
+
+</table>

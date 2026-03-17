@@ -1,0 +1,41 @@
+﻿@model WeeklyTestEmployee.Models.Employee
+
+<h2>Create Employee</h2>
+
+<form method="post">
+
+Name
+<input type="text" name="Name" />
+
+<br><br>
+
+Department
+
+<select name="DepartmentId">
+
+@foreach(var dept in ViewBag.Departments)
+{
+<option value="@dept.DepartmentId">
+@dept.DepartmentName
+</option>
+}
+
+</select>
+
+<br><br>
+
+Assign Projects
+
+<br>
+
+@foreach(var p in ViewBag.Projects)
+{
+<input type="checkbox" name="projectIds" value="@p.ProjectId" />
+@p.Title <br>
+}
+
+<br>
+
+<button type="submit">Save</button>
+
+</form>

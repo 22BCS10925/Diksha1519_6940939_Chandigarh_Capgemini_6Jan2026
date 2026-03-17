@@ -1,0 +1,14 @@
+D:\Users\HP\source\repos\ConsoleAppCU\bin\Debug\net10.0\ConsoleAppCU.exe
+D:\Users\HP\source\repos\ConsoleAppCU\bin\Debug\net10.0\ConsoleAppCU.deps.json
+D:\Users\HP\source\repos\ConsoleAppCU\bin\Debug\net10.0\ConsoleAppCU.runtimeconfig.json
+D:\Users\HP\source\repos\ConsoleAppCU\bin\Debug\net10.0\ConsoleAppCU.dll
+D:\Users\HP\source\repos\ConsoleAppCU\bin\Debug\net10.0\ConsoleAppCU.pdb
+D:\Users\HP\source\repos\ConsoleAppCU\obj\Debug\net10.0\ConsoleAppCU.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\ConsoleAppCU\obj\Debug\net10.0\ConsoleAppCU.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\ConsoleAppCU\obj\Debug\net10.0\ConsoleAppCU.AssemblyInfo.cs
+D:\Users\HP\source\repos\ConsoleAppCU\obj\Debug\net10.0\ConsoleAppCU.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\ConsoleAppCU\obj\Debug\net10.0\ConsoleAppCU.dll
+D:\Users\HP\source\repos\ConsoleAppCU\obj\Debug\net10.0\refint\ConsoleAppCU.dll
+D:\Users\HP\source\repos\ConsoleAppCU\obj\Debug\net10.0\ConsoleAppCU.pdb
+D:\Users\HP\source\repos\ConsoleAppCU\obj\Debug\net10.0\ConsoleAppCU.genruntimeconfig.cache
+D:\Users\HP\source\repos\ConsoleAppCU\obj\Debug\net10.0\ref\ConsoleAppCU.dll

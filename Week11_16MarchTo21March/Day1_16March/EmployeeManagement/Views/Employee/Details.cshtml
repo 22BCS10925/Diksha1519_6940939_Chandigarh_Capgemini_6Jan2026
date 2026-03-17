@@ -1,0 +1,19 @@
+﻿@model Employee
+
+@{
+    ViewData["Title"] = "Employee Details";
+}
+
+<h2>Employee Details</h2>
+
+@if (TempData["Success"] != null)
+{
+    <p style="color:green">@TempData["Success"]</p>
+}
+
+<p><strong>Name:</strong> @Model.Name</p>
+<p><strong>Age:</strong> @Model.Age</p>
+<p><strong>Email:</strong> @Model.Email</p>
+<p><strong>Department:</strong> @Model.Department</p>
+
+<a href="/Employee/Register">Add New Employee</a>

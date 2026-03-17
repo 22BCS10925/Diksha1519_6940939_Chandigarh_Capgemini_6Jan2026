@@ -1,0 +1,25 @@
+﻿@model List<WeeklyTestEmployee.Models.Employee>
+
+<h2>Employees Working On Project</h2>
+
+<table border="1">
+
+    <tr>
+        <th>Name</th>
+        <th>Department</th>
+    </tr>
+
+    @foreach (var emp in Model)
+    {
+
+        <tr>
+
+            <td>@emp.Name</td>
+
+            <td>@emp.Department.DepartmentName</td>
+
+        </tr>
+
+    }
+
+</table>

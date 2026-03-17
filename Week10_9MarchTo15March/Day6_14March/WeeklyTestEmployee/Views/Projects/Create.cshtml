@@ -1,0 +1,26 @@
+﻿@model WeeklyTestEmployee.Models.Project
+
+<h2>Create Project</h2>
+
+<form method="post">
+
+Title
+<input type="text" name="Title" />
+
+<br><br>
+
+Assign Employees
+
+<br>
+
+@foreach(var emp in ViewBag.Employees)
+{
+<input type="checkbox" name="employeeIds" value="@emp.EmployeeId" />
+@emp.Name <br>
+}
+
+<br>
+
+<button type="submit">Save</button>
+
+</form>
