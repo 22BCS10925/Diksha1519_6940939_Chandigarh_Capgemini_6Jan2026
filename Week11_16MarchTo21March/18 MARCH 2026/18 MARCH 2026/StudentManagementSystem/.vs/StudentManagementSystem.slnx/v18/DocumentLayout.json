@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Capgemini_cu_section3_.netwithazure_Kashish\\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\\18 MARCH 2026\\StudentManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1397B3-A00A-4B3F-BFE4-9C84F0B85E95}|StudentManagementSystem.csproj|d:\\capgemini_cu_section3_.netwithazure_kashish\\week 11 [16 march 2026 - 21 march 2026]\\18 march 2026\\studentmanagementsystem\\views\\students\\_studentform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC1397B3-A00A-4B3F-BFE4-9C84F0B85E95}|StudentManagementSystem.csproj|solutionrelative:views\\students\\_studentform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1397B3-A00A-4B3F-BFE4-9C84F0B85E95}|StudentManagementSystem.csproj|d:\\capgemini_cu_section3_.netwithazure_kashish\\week 11 [16 march 2026 - 21 march 2026]\\18 march 2026\\studentmanagementsystem\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC1397B3-A00A-4B3F-BFE4-9C84F0B85E95}|StudentManagementSystem.csproj|solutionrelative:views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1397B3-A00A-4B3F-BFE4-9C84F0B85E95}|StudentManagementSystem.csproj|d:\\capgemini_cu_section3_.netwithazure_kashish\\week 11 [16 march 2026 - 21 march 2026]\\18 march 2026\\studentmanagementsystem\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1397B3-A00A-4B3F-BFE4-9C84F0B85E95}|StudentManagementSystem.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1397B3-A00A-4B3F-BFE4-9C84F0B85E95}|StudentManagementSystem.csproj|d:\\capgemini_cu_section3_.netwithazure_kashish\\week 11 [16 march 2026 - 21 march 2026]\\18 march 2026\\studentmanagementsystem\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1397B3-A00A-4B3F-BFE4-9C84F0B85E95}|StudentManagementSystem.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_StudentForm.cshtml",
+              "DocumentMoniker": "D:\\Capgemini_cu_section3_.netwithazure_Kashish\\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\\18 MARCH 2026\\StudentManagementSystem\\Views\\Students\\_StudentForm.cshtml",
+              "RelativeDocumentMoniker": "Views\\Students\\_StudentForm.cshtml",
+              "ToolTip": "D:\\Capgemini_cu_section3_.netwithazure_Kashish\\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\\18 MARCH 2026\\StudentManagementSystem\\Views\\Students\\_StudentForm.cshtml",
+              "RelativeToolTip": "Views\\Students\\_StudentForm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-19T05:07:36.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Capgemini_cu_section3_.netwithazure_Kashish\\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\\18 MARCH 2026\\StudentManagementSystem\\Views\\Students\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Students\\Index.cshtml",
+              "ToolTip": "D:\\Capgemini_cu_section3_.netwithazure_Kashish\\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\\18 MARCH 2026\\StudentManagementSystem\\Views\\Students\\Index.cshtml",
+              "RelativeToolTip": "Views\\Students\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-19T05:06:59.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "D:\\Capgemini_cu_section3_.netwithazure_Kashish\\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\\18 MARCH 2026\\StudentManagementSystem\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
+              "ToolTip": "D:\\Capgemini_cu_section3_.netwithazure_Kashish\\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\\18 MARCH 2026\\StudentManagementSystem\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Controllers\\StudentsController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA+wEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T05:05:48.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Capgemini_cu_section3_.netwithazure_Kashish\\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\\18 MARCH 2026\\StudentManagementSystem\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "D:\\Capgemini_cu_section3_.netwithazure_Kashish\\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\\18 MARCH 2026\\StudentManagementSystem\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T05:04:26.762Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

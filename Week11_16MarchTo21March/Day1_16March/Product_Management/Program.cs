@@ -1,4 +1,4 @@
-using ProductManagementApp.Filters;
+using Product_Management.Filters;
 
 namespace Product_Management
 {

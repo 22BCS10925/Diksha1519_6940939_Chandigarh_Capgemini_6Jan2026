@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Capgemini_cu_section3_.netwithazure_Kashish\\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\\18 MARCH 2026\\ProductCatalogApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2637FAFB-6787-4432-ADE9-02217E15C551}|ProductCatalogApp.csproj|d:\\capgemini_cu_section3_.netwithazure_kashish\\week 11 [16 march 2026 - 21 march 2026]\\18 march 2026\\productcatalogapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2637FAFB-6787-4432-ADE9-02217E15C551}|ProductCatalogApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2637FAFB-6787-4432-ADE9-02217E15C551}|ProductCatalogApp.csproj|d:\\capgemini_cu_section3_.netwithazure_kashish\\week 11 [16 march 2026 - 21 march 2026]\\18 march 2026\\productcatalogapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2637FAFB-6787-4432-ADE9-02217E15C551}|ProductCatalogApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2637FAFB-6787-4432-ADE9-02217E15C551}|ProductCatalogApp.csproj|d:\\capgemini_cu_section3_.netwithazure_kashish\\week 11 [16 march 2026 - 21 march 2026]\\18 march 2026\\productcatalogapp\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2637FAFB-6787-4432-ADE9-02217E15C551}|ProductCatalogApp.csproj|solutionrelative:views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2637FAFB-6787-4432-ADE9-02217E15C551}|ProductCatalogApp.csproj|d:\\capgemini_cu_section3_.netwithazure_kashish\\week 11 [16 march 2026 - 21 march 2026]\\18 march 2026\\productcatalogapp\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2637FAFB-6787-4432-ADE9-02217E15C551}|ProductCatalogApp.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2637FAFB-6787-4432-ADE9-02217E15C551}|ProductCatalogApp.csproj|d:\\capgemini_cu_section3_.netwithazure_kashish\\week 11 [16 march 2026 - 21 march 2026]\\18 march 2026\\productcatalogapp\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2637FAFB-6787-4432-ADE9-02217E15C551}|ProductCatalogApp.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2637FAFB-6787-4432-ADE9-02217E15C551}|ProductCatalogApp.csproj|d:\\capgemini_cu_section3_.netwithazure_kashish\\week 11 [16 march 2026 - 21 march 2026]\\18 march 2026\\productcatalogapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2637FAFB-6787-4432-ADE9-02217E15C551}|ProductCatalogApp.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Capgemini_cu_section3_.netwithazure_Kashish\\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\\18 MARCH 2026\\ProductCatalogApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Capgemini_cu_section3_.netwithazure_Kashish\\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\\18 MARCH 2026\\ProductCatalogApp\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwB0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T05:42:19.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Capgemini_cu_section3_.netwithazure_Kashish\\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\\18 MARCH 2026\\ProductCatalogApp\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Details.cshtml",
+              "ToolTip": "D:\\Capgemini_cu_section3_.netwithazure_Kashish\\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\\18 MARCH 2026\\ProductCatalogApp\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-19T05:40:55.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Capgemini_cu_section3_.netwithazure_Kashish\\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\\18 MARCH 2026\\ProductCatalogApp\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
+              "ToolTip": "D:\\Capgemini_cu_section3_.netwithazure_Kashish\\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\\18 MARCH 2026\\ProductCatalogApp\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-19T05:40:24.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Capgemini_cu_section3_.netwithazure_Kashish\\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\\18 MARCH 2026\\ProductCatalogApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Capgemini_cu_section3_.netwithazure_Kashish\\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\\18 MARCH 2026\\ProductCatalogApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-19T05:38:19.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\Capgemini_cu_section3_.netwithazure_Kashish\\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\\18 MARCH 2026\\ProductCatalogApp\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\Capgemini_cu_section3_.netwithazure_Kashish\\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\\18 MARCH 2026\\ProductCatalogApp\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T05:14:16.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Capgemini_cu_section3_.netwithazure_Kashish\\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\\18 MARCH 2026\\ProductCatalogApp\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "D:\\Capgemini_cu_section3_.netwithazure_Kashish\\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\\18 MARCH 2026\\ProductCatalogApp\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T05:13:18.743Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

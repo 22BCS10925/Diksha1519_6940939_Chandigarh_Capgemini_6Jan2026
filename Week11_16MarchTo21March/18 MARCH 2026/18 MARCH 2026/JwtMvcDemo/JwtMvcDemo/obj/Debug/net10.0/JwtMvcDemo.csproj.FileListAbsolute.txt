@@ -1,0 +1,10 @@
+D:\Capgemini_cu_section3_.netwithazure_Kashish\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\18 MARCH 2026\JwtMvcDemo\JwtMvcDemo\obj\Debug\net10.0\JwtMvcDemo.csproj.AssemblyReference.cache
+D:\Capgemini_cu_section3_.netwithazure_Kashish\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\18 MARCH 2026\JwtMvcDemo\JwtMvcDemo\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\Capgemini_cu_section3_.netwithazure_Kashish\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\18 MARCH 2026\JwtMvcDemo\JwtMvcDemo\obj\Debug\net10.0\JwtMvcDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capgemini_cu_section3_.netwithazure_Kashish\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\18 MARCH 2026\JwtMvcDemo\JwtMvcDemo\obj\Debug\net10.0\JwtMvcDemo.AssemblyInfoInputs.cache
+D:\Capgemini_cu_section3_.netwithazure_Kashish\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\18 MARCH 2026\JwtMvcDemo\JwtMvcDemo\obj\Debug\net10.0\JwtMvcDemo.AssemblyInfo.cs
+D:\Capgemini_cu_section3_.netwithazure_Kashish\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\18 MARCH 2026\JwtMvcDemo\JwtMvcDemo\obj\Debug\net10.0\JwtMvcDemo.csproj.CoreCompileInputs.cache
+D:\Capgemini_cu_section3_.netwithazure_Kashish\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\18 MARCH 2026\JwtMvcDemo\JwtMvcDemo\obj\Debug\net10.0\JwtMvcDemo.MvcApplicationPartsAssemblyInfo.cache
+D:\Capgemini_cu_section3_.netwithazure_Kashish\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\18 MARCH 2026\JwtMvcDemo\JwtMvcDemo\obj\Debug\net10.0\JwtMvcDemo.RazorAssemblyInfo.cache
+D:\Capgemini_cu_section3_.netwithazure_Kashish\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\18 MARCH 2026\JwtMvcDemo\JwtMvcDemo\obj\Debug\net10.0\JwtMvcDemo.RazorAssemblyInfo.cs
+D:\Capgemini_cu_section3_.netwithazure_Kashish\WEEK 11 [16 MARCH 2026 - 21 MARCH 2026]\18 MARCH 2026\JwtMvcDemo\JwtMvcDemo\obj\Debug\net10.0\JwtMvcDemo.sourcelink.json

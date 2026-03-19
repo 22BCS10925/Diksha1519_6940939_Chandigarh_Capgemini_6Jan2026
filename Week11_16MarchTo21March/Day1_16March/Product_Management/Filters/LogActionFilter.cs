@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.Filters;
 using System;
 
-namespace ProductManagementApp.Filters
+namespace Product_Management.Filters
 {
     public class LogActionFilter : IActionFilter
     {

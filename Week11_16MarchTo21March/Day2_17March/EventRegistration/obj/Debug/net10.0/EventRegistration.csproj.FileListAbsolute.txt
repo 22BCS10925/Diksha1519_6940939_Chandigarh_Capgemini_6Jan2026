@@ -7,3 +7,192 @@ D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo2
 D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\EventRegistration.RazorAssemblyInfo.cache
 D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\EventRegistration.RazorAssemblyInfo.cs
 D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\EventRegistration.sourcelink.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\rpswa.dswa.cache.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\EventRegistration.GeneratedMSBuildEditorConfig.editorconfig
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\EventRegistration.AssemblyInfoInputs.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\EventRegistration.AssemblyInfo.cs
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\EventRegistration.csproj.CoreCompileInputs.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\EventRegistration.MvcApplicationPartsAssemblyInfo.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\EventRegistration.RazorAssemblyInfo.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\EventRegistration.RazorAssemblyInfo.cs
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\EventRegistration.sourcelink.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\bin\Debug\net10.0\appsettings.Development.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\bin\Debug\net10.0\appsettings.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\bin\Debug\net10.0\EventRegistration.staticwebassets.runtime.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\bin\Debug\net10.0\EventRegistration.staticwebassets.endpoints.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\bin\Debug\net10.0\EventRegistration.exe
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\bin\Debug\net10.0\EventRegistration.deps.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\bin\Debug\net10.0\EventRegistration.runtimeconfig.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\bin\Debug\net10.0\EventRegistration.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\bin\Debug\net10.0\EventRegistration.pdb
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\rjimswa.dswa.cache.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\scopedcss\bundle\EventRegistration.styles.css
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\scopedcss\projectbundle\EventRegistration.bundle.scp.css
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\v1spoxj6zg-{0}-b9sayid5wm-b9sayid5wm.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\0iamke3lwp-{0}-61n19gt1b8-61n19gt1b8.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\40jr7iw648-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\t9axi3r5ot-{0}-bqjiyaj88i-bqjiyaj88i.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\cjmkbi6idj-{0}-c2jlpeoesf-c2jlpeoesf.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\t90m658bc2-{0}-erw9l3u2r3-erw9l3u2r3.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\3z1tampc2i-{0}-aexeepp0ev-aexeepp0ev.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\f9rfuop8r9-{0}-d7shbmvgxk-d7shbmvgxk.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\fbxnt2ya1i-{0}-ausgxo2sd3-ausgxo2sd3.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\8m6wnmvsl6-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\0a9171nats-{0}-cosvhxvwiu-cosvhxvwiu.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\lorgpzffy2-{0}-ub07r2b239-ub07r2b239.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\uvxuz5avax-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\leayw70lu2-{0}-b7pk76d08c-b7pk76d08c.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\hzxb25orhw-{0}-fsbi9cje9m-fsbi9cje9m.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\3gris1nf7v-{0}-rzd6atqjts-rzd6atqjts.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\ijkl9p5bte-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\vqqa8kf5ec-{0}-dxx9fxp4il-dxx9fxp4il.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\81c29vdlzv-{0}-jd9uben2k1-jd9uben2k1.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\5ydb40df2r-{0}-khv3u5hwcm-khv3u5hwcm.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\cu6akgnyra-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\tge5i7d1xm-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\j6vxj9pzuo-{0}-c2oey78nd0-c2oey78nd0.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\f5l0werfrn-{0}-tdbxkamptv-tdbxkamptv.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\hyjuwfkfk8-{0}-j5mq2jizvt-j5mq2jizvt.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\wif64j0jnh-{0}-06098lyss8-06098lyss8.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\y0qtzb15r2-{0}-nvvlpmu67g-nvvlpmu67g.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\bbj4cox1je-{0}-s35ty4nyc5-s35ty4nyc5.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\u7hswkzeng-{0}-pj5nd1wqec-pj5nd1wqec.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\7e0dst7yal-{0}-46ein0sx1k-46ein0sx1k.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\7xvf8b77oi-{0}-v0zj4ognzu-v0zj4ognzu.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\kf4dh2o84z-{0}-37tfw0ft22-37tfw0ft22.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\jr4iene8ts-{0}-hrwsygsryq-hrwsygsryq.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\sq8ryvcjjy-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\lhax4hsu3u-{0}-ft3s53vfgj-ft3s53vfgj.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\clghxwhsae-{0}-6cfz1n2cew-6cfz1n2cew.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\9dp7m1xj33-{0}-6pdc2jztkx-6pdc2jztkx.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\a5n6ugwyi1-{0}-493y06b0oq-493y06b0oq.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\78aanpaqmw-{0}-iovd86k7lj-iovd86k7lj.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\81cu6yb78c-{0}-vr1egmr9el-vr1egmr9el.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\xmer666gjy-{0}-kbrnm935zg-kbrnm935zg.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\7t7kesb07g-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\2mzyy4kq8r-{0}-y7v9cxd14o-y7v9cxd14o.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\n44kkh266b-{0}-notf2xhcfb-notf2xhcfb.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\g3kssh4c4g-{0}-h1s4sie4z3-h1s4sie4z3.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\4jb011y3cc-{0}-63fj8s7r0e-63fj8s7r0e.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\ihv8byp2b1-{0}-0j3bgjxly4-0j3bgjxly4.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\u5y1upm3fb-{0}-47otxtyo56-47otxtyo56.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\5khix6ih5i-{0}-4v8eqarkd7-4v8eqarkd7.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\o5ms4bj5rl-{0}-356vix0kms-356vix0kms.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\dxlhbhgz2e-{0}-83jwlth58m-83jwlth58m.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\jsw77wjytu-{0}-mrlpezrjn3-mrlpezrjn3.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\d6phme93g1-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\9403zn55fv-{0}-ag7o75518u-ag7o75518u.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\mmb930nelb-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\3alof6vg1b-{0}-0i3buxo5is-0i3buxo5is.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\dxzql4wh9x-{0}-o1o13a6vjx-o1o13a6vjx.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\edzr8fy5ej-{0}-ttgo8qnofa-ttgo8qnofa.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\1i9zn1bgx1-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\lwbu92e4k6-{0}-muycvpuwrr-muycvpuwrr.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\qw2lh6bmt4-{0}-87fc7y1x7t-87fc7y1x7t.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\lz22e8heo8-{0}-mlv21k5csn-mlv21k5csn.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\3ja7a1pqsy-{0}-hl85bu1zn0-hl85bu1zn0.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\compressed\t81gh8b7us-{0}-hl85bu1zn0-hl85bu1zn0.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\staticwebassets.build.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\staticwebassets.build.json.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\staticwebassets.development.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\swae.build.ex.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\EventRegistration.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\refint\EventRegistration.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\EventRegistration.pdb
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\EventRegistration.genruntimeconfig.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 10_9 march to 13 march_2026\17 march 2026\EventRegistration\obj\Debug\net10.0\ref\EventRegistration.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\bin\Debug\net10.0\appsettings.Development.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\bin\Debug\net10.0\appsettings.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\bin\Debug\net10.0\EventRegistration.staticwebassets.runtime.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\bin\Debug\net10.0\EventRegistration.staticwebassets.endpoints.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\bin\Debug\net10.0\EventRegistration.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\bin\Debug\net10.0\EventRegistration.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\bin\Debug\net10.0\EventRegistration.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\bin\Debug\net10.0\EventRegistration.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\bin\Debug\net10.0\EventRegistration.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\rjimswa.dswa.cache.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\scopedcss\bundle\EventRegistration.styles.css
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\scopedcss\projectbundle\EventRegistration.bundle.scp.css
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\v1spoxj6zg-{0}-b9sayid5wm-b9sayid5wm.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\0iamke3lwp-{0}-61n19gt1b8-61n19gt1b8.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\40jr7iw648-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\t9axi3r5ot-{0}-bqjiyaj88i-bqjiyaj88i.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\cjmkbi6idj-{0}-c2jlpeoesf-c2jlpeoesf.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\t90m658bc2-{0}-erw9l3u2r3-erw9l3u2r3.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\3z1tampc2i-{0}-aexeepp0ev-aexeepp0ev.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\f9rfuop8r9-{0}-d7shbmvgxk-d7shbmvgxk.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\fbxnt2ya1i-{0}-ausgxo2sd3-ausgxo2sd3.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\8m6wnmvsl6-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\0a9171nats-{0}-cosvhxvwiu-cosvhxvwiu.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\lorgpzffy2-{0}-ub07r2b239-ub07r2b239.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\uvxuz5avax-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\leayw70lu2-{0}-b7pk76d08c-b7pk76d08c.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\hzxb25orhw-{0}-fsbi9cje9m-fsbi9cje9m.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\3gris1nf7v-{0}-rzd6atqjts-rzd6atqjts.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\ijkl9p5bte-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\vqqa8kf5ec-{0}-dxx9fxp4il-dxx9fxp4il.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\81c29vdlzv-{0}-jd9uben2k1-jd9uben2k1.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\5ydb40df2r-{0}-khv3u5hwcm-khv3u5hwcm.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\cu6akgnyra-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\tge5i7d1xm-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\j6vxj9pzuo-{0}-c2oey78nd0-c2oey78nd0.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\f5l0werfrn-{0}-tdbxkamptv-tdbxkamptv.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\hyjuwfkfk8-{0}-j5mq2jizvt-j5mq2jizvt.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\wif64j0jnh-{0}-06098lyss8-06098lyss8.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\y0qtzb15r2-{0}-nvvlpmu67g-nvvlpmu67g.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\bbj4cox1je-{0}-s35ty4nyc5-s35ty4nyc5.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\u7hswkzeng-{0}-pj5nd1wqec-pj5nd1wqec.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\7e0dst7yal-{0}-46ein0sx1k-46ein0sx1k.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\7xvf8b77oi-{0}-v0zj4ognzu-v0zj4ognzu.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\kf4dh2o84z-{0}-37tfw0ft22-37tfw0ft22.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\jr4iene8ts-{0}-hrwsygsryq-hrwsygsryq.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\sq8ryvcjjy-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\lhax4hsu3u-{0}-ft3s53vfgj-ft3s53vfgj.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\clghxwhsae-{0}-6cfz1n2cew-6cfz1n2cew.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\9dp7m1xj33-{0}-6pdc2jztkx-6pdc2jztkx.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\a5n6ugwyi1-{0}-493y06b0oq-493y06b0oq.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\78aanpaqmw-{0}-iovd86k7lj-iovd86k7lj.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\81cu6yb78c-{0}-vr1egmr9el-vr1egmr9el.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\xmer666gjy-{0}-kbrnm935zg-kbrnm935zg.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\7t7kesb07g-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\2mzyy4kq8r-{0}-y7v9cxd14o-y7v9cxd14o.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\n44kkh266b-{0}-notf2xhcfb-notf2xhcfb.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\g3kssh4c4g-{0}-h1s4sie4z3-h1s4sie4z3.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\4jb011y3cc-{0}-63fj8s7r0e-63fj8s7r0e.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\ihv8byp2b1-{0}-0j3bgjxly4-0j3bgjxly4.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\u5y1upm3fb-{0}-47otxtyo56-47otxtyo56.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\5khix6ih5i-{0}-4v8eqarkd7-4v8eqarkd7.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\o5ms4bj5rl-{0}-356vix0kms-356vix0kms.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\dxlhbhgz2e-{0}-83jwlth58m-83jwlth58m.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\jsw77wjytu-{0}-mrlpezrjn3-mrlpezrjn3.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\d6phme93g1-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\9403zn55fv-{0}-ag7o75518u-ag7o75518u.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\mmb930nelb-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\3alof6vg1b-{0}-0i3buxo5is-0i3buxo5is.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\dxzql4wh9x-{0}-o1o13a6vjx-o1o13a6vjx.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\edzr8fy5ej-{0}-ttgo8qnofa-ttgo8qnofa.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\1i9zn1bgx1-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\lwbu92e4k6-{0}-muycvpuwrr-muycvpuwrr.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\qw2lh6bmt4-{0}-87fc7y1x7t-87fc7y1x7t.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\lz22e8heo8-{0}-mlv21k5csn-mlv21k5csn.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\3ja7a1pqsy-{0}-hl85bu1zn0-hl85bu1zn0.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\compressed\t81gh8b7us-{0}-hl85bu1zn0-hl85bu1zn0.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\staticwebassets.build.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\staticwebassets.build.json.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\staticwebassets.development.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\swae.build.ex.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\EventRegistration.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\refint\EventRegistration.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\EventRegistration.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\EventRegistration.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week11_16MarchTo21March\Day2_17March\EventRegistration\obj\Debug\net10.0\ref\EventRegistration.dll

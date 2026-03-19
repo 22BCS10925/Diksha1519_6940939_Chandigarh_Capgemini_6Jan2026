@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc.Filters;
 using System;
 
-namespace ProductManagementApp.Filters
+namespace Product_Management.Filters
 {
     public class CustomExceptionFilter : IExceptionFilter
     {

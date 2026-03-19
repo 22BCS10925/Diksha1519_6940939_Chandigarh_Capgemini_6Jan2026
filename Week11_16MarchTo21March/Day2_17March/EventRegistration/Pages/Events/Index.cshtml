@@ -1,5 +1,5 @@
 ﻿@page
-@model IndexModel
+@model EventRegistration.Pages.Events.IndexModel
 
 <h2>Registered Participants</h2>
 
@@ -20,7 +20,7 @@
                 <td>@item.Email</td>
                 <td>@item.EventName</td>
                 <td>
-                    @if (true)  <!-- temporary -->
+                    @if (true)
                     {
                         <form method="post" asp-page-handler="Delete">
                             <input type="hidden" name="id" value="@item.Id" />
