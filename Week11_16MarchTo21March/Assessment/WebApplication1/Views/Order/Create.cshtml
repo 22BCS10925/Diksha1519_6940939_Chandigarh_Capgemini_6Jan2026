@@ -1,0 +1,11 @@
+﻿@model WebApplication1.Models.Product
+
+<h2>Order Product</h2>
+
+<p><b>Name:</b> @Model.Name</p>
+<p><b>Price:</b> @Model.Price</p>
+
+<form method="post">
+    <input type="hidden" name="productId" value="@Model.Id" />
+    <button type="submit">Confirm Order</button>
+</form>

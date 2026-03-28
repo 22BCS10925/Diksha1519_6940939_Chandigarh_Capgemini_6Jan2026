@@ -1,0 +1,11 @@
+﻿@model SecureEmployee.Models.Employee
+
+<h2>Add Employee</h2>
+
+<form asp-action="Create">
+    <input asp-for="Name" placeholder="Name" class="form-control" />
+    <input asp-for="Department" placeholder="Department" class="form-control" />
+    <input asp-for="Salary" placeholder="Salary" class="form-control" />
+
+    <button type="submit" class="btn btn-success">Save</button>
+</form>

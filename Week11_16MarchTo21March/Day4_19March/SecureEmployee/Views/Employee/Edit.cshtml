@@ -1,0 +1,13 @@
+﻿@model SecureEmployee.Models.Employee
+
+<h2>Edit Employee</h2>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+
+    <input asp-for="Name" class="form-control" />
+    <input asp-for="Department" class="form-control" />
+    <input asp-for="Salary" class="form-control" />
+
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>

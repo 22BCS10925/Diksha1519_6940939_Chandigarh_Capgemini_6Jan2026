@@ -1,0 +1,17 @@
+﻿namespace WebApplication1.Models
+{
+    public class User
+    {
+        public int Id { get; set; }
+
+        public string Username { get; set; }
+
+        public string Password { get; set; }
+
+        public string Role { get; set; } = "User"; // default
+        public int CustomerId { get; set; }
+
+        // ✅ Navigation property (optional but recommended)
+        public Customer? Customer { get; set; }
+    }
+}

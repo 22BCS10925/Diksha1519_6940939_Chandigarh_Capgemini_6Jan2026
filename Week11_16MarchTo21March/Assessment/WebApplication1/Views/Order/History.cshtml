@@ -1,0 +1,57 @@
+﻿@model IEnumerable<WebApplication1.Models.Order>
+
+<div class="container mt-4">
+    <h2>My Orders</h2>
+
+    @if (Model == null || !Model.Any())
+    {
+        <div class="alert alert-info">
+            No orders found.
+        </div>
+    }
+    else
+    {
+        <table class="table table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Order Date</th>
+                    <th>Products</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var order in Model)
+                {
+                    <tr>
+                        <!-- ✅ Safe Date -->
+                        <td>@order.OrderDate.ToString("yyyy-MM-dd")</td>
+
+                        <!-- ✅ Safe Product List -->
+                        <td>
+                            @if (order.OrderItems != null && order.OrderItems.Any())
+                            {
+                                <ul>
+                                    @foreach (var item in order.OrderItems)
+                                    {
+                                        <li>
+                                            @(item.Product?.Name ?? "Product not available")
+                                            (Qty: @item.Quantity)
+                                        </li>
+                                    }
+                                </ul>
+                            }
+                            else
+                            {
+                                <span>No items</span>
+                            }
+                        </td>
+
+                        <!-- ✅ Safe Status -->
+                        <td>@(order.Status ?? "Pending")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
