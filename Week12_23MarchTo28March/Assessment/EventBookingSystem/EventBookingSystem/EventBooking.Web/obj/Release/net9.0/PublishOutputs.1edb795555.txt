@@ -1,0 +1,6 @@
+C:\Publish\MyWebApp\EventBooking.Web.exe
+C:\Publish\MyWebApp\appsettings.json
+C:\Publish\MyWebApp\EventBooking.Web.dll
+C:\Publish\MyWebApp\EventBooking.Web.deps.json
+C:\Publish\MyWebApp\EventBooking.Web.runtimeconfig.json
+C:\Publish\MyWebApp\EventBooking.Web.pdb

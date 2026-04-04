@@ -1,0 +1,42 @@
+@model IEnumerable<SmartHealthcare.Models.Entities.Bill>
+
+@{
+    ViewData["Title"] = "Bills";
+}
+
+<h2>Bills</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Bill ID</th>
+            <th>Appointment ID</th>
+            <th>Consultation Fee</th>
+            <th>Medicine Charges</th>
+            <th>Total Amount</th>
+            <th>Payment Status</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var bill in Model)
+    {
+        <tr>
+            <td>@bill.BillId</td>
+            <td>@bill.AppointmentId</td>
+            <td>@bill.ConsultationFee</td>
+            <td>@bill.MedicineCharges</td>
+            <td>@bill.TotalAmount</td>
+            <td>
+                @if (bill.PaymentStatus == "Paid")
+                {
+                    <span class="badge bg-success">Paid</span>
+                }
+                else
+                {
+                    <span class="badge bg-danger">Unpaid</span>
+                }
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

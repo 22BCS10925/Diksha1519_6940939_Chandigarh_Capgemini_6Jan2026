@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "SmAa3qrcD2g=",
+  "success": true,
+  "projectFilePath": "D:\\ProductClient\\ProductClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.healthchecks\\2.2.0\\microsoft.aspnetcore.diagnostics.healthchecks.2.2.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.AspNetCore.Diagnostics.HealthChecks will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "D:\\ProductClient\\ProductClient.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\ProductClient\\ProductClient.csproj",
+      "libraryId": "Microsoft.AspNetCore.Diagnostics.HealthChecks",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

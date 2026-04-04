@@ -1,0 +1,7 @@
+C:\Publish\MyApp\WebApplication2.exe
+C:\Publish\MyApp\appsettings.Development.json
+C:\Publish\MyApp\appsettings.json
+C:\Publish\MyApp\WebApplication2.dll
+C:\Publish\MyApp\WebApplication2.deps.json
+C:\Publish\MyApp\WebApplication2.runtimeconfig.json
+C:\Publish\MyApp\WebApplication2.pdb

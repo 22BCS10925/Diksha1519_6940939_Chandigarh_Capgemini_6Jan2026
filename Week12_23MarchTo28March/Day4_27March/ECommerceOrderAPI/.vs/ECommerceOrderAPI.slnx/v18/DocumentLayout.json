@@ -3,60 +3,60 @@
   "WorkspaceRootPath": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day4_27March\\ECommerceOrderAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\migrations\\20260327085912_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|solutionrelative:migrations\\20260327085912_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|solutionrelative:services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\log4net.config||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|solutionrelative:log4net.config||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|solutionrelative:repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|solutionrelative:repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|solutionrelative:repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|solutionrelative:mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|solutionrelative:mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|solutionrelative:dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|solutionrelative:middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|solutionrelative:middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|solutionrelative:services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\migrations\\20260327085912_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|solutionrelative:migrations\\20260327085912_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|solutionrelative:repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|solutionrelative:dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\log4net.config||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{5DFBCB05-0B9E-4AF9-8339-000982490A1D}|ECommerceOrderAPI.csproj|solutionrelative:log4net.config||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day4_27march\\ecommerceorderapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A11A068-17A0-146F-D7BE-CC5B649201A2}|ECommerceOrderAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,15 +66,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "20260327085912_m1.cs",
               "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day4_27March\\ECommerceOrderAPI\\Migrations\\20260327085912_m1.cs",
               "RelativeDocumentMoniker": "Migrations\\20260327085912_m1.cs",
@@ -82,12 +78,11 @@
               "RelativeToolTip": "Migrations\\20260327085912_m1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T08:59:13.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T08:59:13.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
               "Title": "log4net.config",
               "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day4_27March\\ECommerceOrderAPI\\log4net.config",
               "RelativeDocumentMoniker": "log4net.config",
@@ -95,12 +90,11 @@
               "RelativeToolTip": "log4net.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-03-27T07:07:40.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T07:07:40.81Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "OrderService.cs",
               "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day4_27March\\ECommerceOrderAPI\\Services\\OrderService.cs",
               "RelativeDocumentMoniker": "Services\\OrderService.cs",
@@ -108,8 +102,7 @@
               "RelativeToolTip": "Services\\OrderService.cs",
               "ViewState": "AgIAAFQAAAAAAAAAAAAAwFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T06:54:50.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T06:54:50.43Z"
             },
             {
               "$type": "Document",
@@ -121,8 +114,7 @@
               "RelativeToolTip": "Repositories\\IOrderRepository.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAswBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T06:50:27.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T06:50:27.354Z"
             },
             {
               "$type": "Document",
@@ -134,12 +126,11 @@
               "RelativeToolTip": "Mapping\\MappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T06:36:32.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T06:36:32.784Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "OrderDto.cs",
               "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day4_27March\\ECommerceOrderAPI\\DTOs\\OrderDto.cs",
               "RelativeDocumentMoniker": "DTOs\\OrderDto.cs",
@@ -147,12 +138,11 @@
               "RelativeToolTip": "DTOs\\OrderDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T06:35:38.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T06:35:38.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "ExceptionMiddleware.cs",
               "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day4_27March\\ECommerceOrderAPI\\Middleware\\ExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "Middleware\\ExceptionMiddleware.cs",
@@ -160,12 +150,11 @@
               "RelativeToolTip": "Middleware\\ExceptionMiddleware.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T06:05:11.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T06:05:11.332Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day4_27March\\ECommerceOrderAPI\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
@@ -173,12 +162,11 @@
               "RelativeToolTip": "Controllers\\OrderController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwD8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T06:04:25.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T06:04:25.625Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day4_27March\\ECommerceOrderAPI\\Services\\IOrderService.cs",
               "RelativeDocumentMoniker": "Services\\IOrderService.cs",
@@ -186,12 +174,11 @@
               "RelativeToolTip": "Services\\IOrderService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T06:02:36.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T06:02:36.887Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day4_27March\\ECommerceOrderAPI\\Repositories\\OrderRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\OrderRepository.cs",
@@ -199,12 +186,11 @@
               "RelativeToolTip": "Repositories\\OrderRepository.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAqwCYAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T06:00:54.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T06:00:54.813Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day4_27March\\ECommerceOrderAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -212,8 +198,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-27T05:56:20.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T05:56:20.45Z"
             },
             {
               "$type": "Document",
@@ -223,14 +208,14 @@
               "RelativeDocumentMoniker": "Models\\Order.cs",
               "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day4_27March\\ECommerceOrderAPI\\Models\\Order.cs",
               "RelativeToolTip": "Models\\Order.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwAcAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T05:55:18.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day4_27March\\ECommerceOrderAPI\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -238,12 +223,11 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T05:53:55.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T05:53:55.81Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day4_27March\\ECommerceOrderAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -251,8 +235,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAkwD4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T05:47:47.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T05:47:47.376Z"
             }
           ]
         }

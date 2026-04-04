@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "QP6iiYgHSjI=",
+  "success": false,
+  "projectFilePath": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Day3_1April\\EcommerceAPI\\EcommerceAPI\\EcommerceAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.14\\microsoft.netcore.app.ref.9.0.14.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.14\\microsoft.windowsdesktop.app.ref.9.0.14.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.14\\microsoft.aspnetcore.app.ref.9.0.14.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.14\\microsoft.netcore.app.host.win-x64.9.0.14.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.InMemory' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.inmemory/index.json'.\r\n  The SSL connection could not be established, see inner exception.\r\n  The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors",
+      "projectPath": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Day3_1April\\EcommerceAPI\\EcommerceAPI\\EcommerceAPI.csproj",
+      "filePath": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Day3_1April\\EcommerceAPI\\EcommerceAPI\\EcommerceAPI.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore' from remote source 'https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore/index.json'.\r\n  The SSL connection could not be established, see inner exception.\r\n  The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors",
+      "projectPath": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Day3_1April\\EcommerceAPI\\EcommerceAPI\\EcommerceAPI.csproj",
+      "filePath": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Day3_1April\\EcommerceAPI\\EcommerceAPI\\EcommerceAPI.csproj",
+      "targetGraphs": []
+    }
+  ]
+}

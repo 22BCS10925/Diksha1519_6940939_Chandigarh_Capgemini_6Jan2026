@@ -13,7 +13,7 @@ builder.Services.AddHttpClient("API", client =>
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout     = TimeSpan.FromHours(2);
+    options.IdleTimeout = TimeSpan.FromHours(2);
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
@@ -29,7 +29,10 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
+
+// Session MUST come before Authorization
 app.UseSession();
+
 app.UseAuthorization();
 app.MapRazorPages();
 

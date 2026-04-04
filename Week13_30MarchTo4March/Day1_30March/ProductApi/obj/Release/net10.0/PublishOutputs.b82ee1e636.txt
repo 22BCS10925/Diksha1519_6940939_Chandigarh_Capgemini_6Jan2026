@@ -1,0 +1,12 @@
+C:\Publish\MyApp2\ProductApi.exe
+C:\Publish\MyApp2\appsettings.Development.json
+C:\Publish\MyApp2\appsettings.json
+C:\Publish\MyApp2\ProductApi.dll
+C:\Publish\MyApp2\ProductApi.deps.json
+C:\Publish\MyApp2\ProductApi.runtimeconfig.json
+C:\Publish\MyApp2\ProductApi.pdb
+C:\Publish\MyApp2\Microsoft.AspNetCore.OpenApi.dll
+C:\Publish\MyApp2\Microsoft.OpenApi.dll
+C:\Publish\MyApp2\Swashbuckle.AspNetCore.Swagger.dll
+C:\Publish\MyApp2\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Publish\MyApp2\Swashbuckle.AspNetCore.SwaggerUI.dll

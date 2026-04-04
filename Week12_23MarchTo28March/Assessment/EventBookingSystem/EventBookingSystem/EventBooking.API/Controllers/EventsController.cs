@@ -24,12 +24,24 @@ public class EventsController : ControllerBase
     // GET api/events
     [HttpGet]
     [AllowAnonymous]
-    public async Task<ActionResult<IEnumerable<EventDto>>> GetAll()
+    public async Task<IActionResult> GetAll()
     {
-        var events = await _db.Events.ToListAsync();
-        return Ok(_mapper.Map<IEnumerable<EventDto>>(events));
-    }
+        try
+        {
+            var events = await _db.Events.ToListAsync();
 
+            // 🔥 BYPASS MAPPER (test)
+            return Ok(events);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, new
+            {
+                Message = ex.Message,
+                Inner = ex.InnerException?.Message
+            });
+        }
+    }
     // GET api/events/{id}
     [HttpGet("{id:int}")]
     [AllowAnonymous]

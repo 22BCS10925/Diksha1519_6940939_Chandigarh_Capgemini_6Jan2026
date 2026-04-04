@@ -1,0 +1,196 @@
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\bin\Debug\net10.0\appsettings.Development.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\bin\Debug\net10.0\appsettings.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\bin\Debug\net10.0\ECommerceWeb.staticwebassets.runtime.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\bin\Debug\net10.0\ECommerceWeb.staticwebassets.endpoints.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\bin\Debug\net10.0\ECommerceWeb.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\bin\Debug\net10.0\ECommerceWeb.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\bin\Debug\net10.0\ECommerceWeb.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\bin\Debug\net10.0\ECommerceWeb.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\bin\Debug\net10.0\ECommerceWeb.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\ECommerceWeb.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\ECommerceWeb.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\ECommerceWeb.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\ECommerceWeb.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\ECommerceWeb.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\ECommerceWeb.RazorAssemblyInfo.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\ECommerceWeb.RazorAssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\ECommerceWeb.sourcelink.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\rjimswa.dswa.cache.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\scopedcss\bundle\ECommerceWeb.styles.css
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\scopedcss\projectbundle\ECommerceWeb.bundle.scp.css
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\xkwq34q3up-{0}-b9sayid5wm-b9sayid5wm.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\jvat70eyjt-{0}-61n19gt1b8-61n19gt1b8.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\qjguvn3cwa-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\148tqgdaa7-{0}-bqjiyaj88i-bqjiyaj88i.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\llgl8l744y-{0}-c2jlpeoesf-c2jlpeoesf.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\guxl43mjlg-{0}-erw9l3u2r3-erw9l3u2r3.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\duihpjgs0j-{0}-aexeepp0ev-aexeepp0ev.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\0bgnrjs9a0-{0}-d7shbmvgxk-d7shbmvgxk.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\98lpv39jqk-{0}-ausgxo2sd3-ausgxo2sd3.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\i376kuk57x-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\g2ayza5io2-{0}-cosvhxvwiu-cosvhxvwiu.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\27oupv7f7m-{0}-ub07r2b239-ub07r2b239.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\xv0gtuii0x-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\xa9jucbd8x-{0}-b7pk76d08c-b7pk76d08c.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\rsjxi6qs2x-{0}-fsbi9cje9m-fsbi9cje9m.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\acg26kamnn-{0}-rzd6atqjts-rzd6atqjts.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\pem3w0w5dc-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\uec6ty4zo1-{0}-dxx9fxp4il-dxx9fxp4il.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\2g6w93glea-{0}-jd9uben2k1-jd9uben2k1.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\vvi6v9yv3k-{0}-khv3u5hwcm-khv3u5hwcm.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\476rk4nzjd-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\zjw9hizu71-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\yodco48zpj-{0}-c2oey78nd0-c2oey78nd0.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\d38emgk78b-{0}-tdbxkamptv-tdbxkamptv.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\bip2is9iks-{0}-j5mq2jizvt-j5mq2jizvt.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\8dim0sjhza-{0}-06098lyss8-06098lyss8.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\2d0cdz63va-{0}-nvvlpmu67g-nvvlpmu67g.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\3kv28va6t0-{0}-s35ty4nyc5-s35ty4nyc5.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\xgas9nvsib-{0}-pj5nd1wqec-pj5nd1wqec.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\6ahn1r2uvi-{0}-46ein0sx1k-46ein0sx1k.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\7xby1yh0c5-{0}-v0zj4ognzu-v0zj4ognzu.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\1q5bd9on7s-{0}-37tfw0ft22-37tfw0ft22.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\bcybl14rc5-{0}-hrwsygsryq-hrwsygsryq.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\34psu16v5n-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\w2o2tuxv3x-{0}-ft3s53vfgj-ft3s53vfgj.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\xft68x4s5c-{0}-6cfz1n2cew-6cfz1n2cew.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\27d8lqdevm-{0}-6pdc2jztkx-6pdc2jztkx.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\8uq3iexk5m-{0}-493y06b0oq-493y06b0oq.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\1szlo9uj0k-{0}-iovd86k7lj-iovd86k7lj.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\xatc8ua1p5-{0}-vr1egmr9el-vr1egmr9el.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\whu250v92g-{0}-kbrnm935zg-kbrnm935zg.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\r9k8yr7m0j-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\rpxfd880pc-{0}-y7v9cxd14o-y7v9cxd14o.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\jp2ses5zcg-{0}-notf2xhcfb-notf2xhcfb.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\cxws54jajv-{0}-h1s4sie4z3-h1s4sie4z3.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\nk4hfkg2zv-{0}-63fj8s7r0e-63fj8s7r0e.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\lagyp3oswt-{0}-0j3bgjxly4-0j3bgjxly4.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\xpgrp3bg5w-{0}-47otxtyo56-47otxtyo56.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\eo8xjfcwg0-{0}-4v8eqarkd7-4v8eqarkd7.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\ozbioba250-{0}-356vix0kms-356vix0kms.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\xckv2n8v45-{0}-83jwlth58m-83jwlth58m.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\efb8l20dyb-{0}-mrlpezrjn3-mrlpezrjn3.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\k1pva52zyg-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\v6we05xbtw-{0}-ag7o75518u-ag7o75518u.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\d8a6aqz289-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\cimeo88isc-{0}-0i3buxo5is-0i3buxo5is.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\85k4nnwxod-{0}-o1o13a6vjx-o1o13a6vjx.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\20p2qt02go-{0}-ttgo8qnofa-ttgo8qnofa.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\srinrk9b5h-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\580v34r38b-{0}-muycvpuwrr-muycvpuwrr.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\bsyjvi6slz-{0}-87fc7y1x7t-87fc7y1x7t.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\d957gzzcfs-{0}-mlv21k5csn-mlv21k5csn.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\6d7bd616t3-{0}-hblypc1pej-hblypc1pej.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\compressed\vl9i0x8na7-{0}-hblypc1pej-hblypc1pej.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\staticwebassets.build.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\staticwebassets.build.json.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\staticwebassets.development.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\swae.build.ex.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\ECommerceWeb.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\refint\ECommerceWeb.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\ECommerceWeb.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\ECommerceWeb.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day4_2April\ECommerceWeb\obj\Debug\net10.0\ref\ECommerceWeb.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\bin\Debug\net10.0\appsettings.Development.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\bin\Debug\net10.0\appsettings.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\bin\Debug\net10.0\ECommerceWeb.staticwebassets.runtime.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\bin\Debug\net10.0\ECommerceWeb.staticwebassets.endpoints.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\bin\Debug\net10.0\ECommerceWeb.exe
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\bin\Debug\net10.0\ECommerceWeb.deps.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\bin\Debug\net10.0\ECommerceWeb.runtimeconfig.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\bin\Debug\net10.0\ECommerceWeb.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\bin\Debug\net10.0\ECommerceWeb.pdb
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\rpswa.dswa.cache.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\ECommerceWeb.GeneratedMSBuildEditorConfig.editorconfig
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\ECommerceWeb.AssemblyInfoInputs.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\ECommerceWeb.AssemblyInfo.cs
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\ECommerceWeb.csproj.CoreCompileInputs.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\ECommerceWeb.MvcApplicationPartsAssemblyInfo.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\ECommerceWeb.RazorAssemblyInfo.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\ECommerceWeb.RazorAssemblyInfo.cs
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\ECommerceWeb.sourcelink.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\rjimswa.dswa.cache.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\scopedcss\bundle\ECommerceWeb.styles.css
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\scopedcss\projectbundle\ECommerceWeb.bundle.scp.css
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\xkwq34q3up-{0}-b9sayid5wm-b9sayid5wm.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\jvat70eyjt-{0}-61n19gt1b8-61n19gt1b8.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\qjguvn3cwa-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\148tqgdaa7-{0}-bqjiyaj88i-bqjiyaj88i.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\llgl8l744y-{0}-c2jlpeoesf-c2jlpeoesf.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\guxl43mjlg-{0}-erw9l3u2r3-erw9l3u2r3.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\duihpjgs0j-{0}-aexeepp0ev-aexeepp0ev.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\0bgnrjs9a0-{0}-d7shbmvgxk-d7shbmvgxk.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\98lpv39jqk-{0}-ausgxo2sd3-ausgxo2sd3.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\i376kuk57x-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\g2ayza5io2-{0}-cosvhxvwiu-cosvhxvwiu.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\27oupv7f7m-{0}-ub07r2b239-ub07r2b239.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\xv0gtuii0x-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\xa9jucbd8x-{0}-b7pk76d08c-b7pk76d08c.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\rsjxi6qs2x-{0}-fsbi9cje9m-fsbi9cje9m.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\acg26kamnn-{0}-rzd6atqjts-rzd6atqjts.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\pem3w0w5dc-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\uec6ty4zo1-{0}-dxx9fxp4il-dxx9fxp4il.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\2g6w93glea-{0}-jd9uben2k1-jd9uben2k1.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\vvi6v9yv3k-{0}-khv3u5hwcm-khv3u5hwcm.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\476rk4nzjd-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\zjw9hizu71-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\yodco48zpj-{0}-c2oey78nd0-c2oey78nd0.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\d38emgk78b-{0}-tdbxkamptv-tdbxkamptv.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\bip2is9iks-{0}-j5mq2jizvt-j5mq2jizvt.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\8dim0sjhza-{0}-06098lyss8-06098lyss8.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\2d0cdz63va-{0}-nvvlpmu67g-nvvlpmu67g.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\3kv28va6t0-{0}-s35ty4nyc5-s35ty4nyc5.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\xgas9nvsib-{0}-pj5nd1wqec-pj5nd1wqec.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\6ahn1r2uvi-{0}-46ein0sx1k-46ein0sx1k.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\7xby1yh0c5-{0}-v0zj4ognzu-v0zj4ognzu.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\1q5bd9on7s-{0}-37tfw0ft22-37tfw0ft22.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\bcybl14rc5-{0}-hrwsygsryq-hrwsygsryq.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\34psu16v5n-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\w2o2tuxv3x-{0}-ft3s53vfgj-ft3s53vfgj.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\xft68x4s5c-{0}-6cfz1n2cew-6cfz1n2cew.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\27d8lqdevm-{0}-6pdc2jztkx-6pdc2jztkx.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\8uq3iexk5m-{0}-493y06b0oq-493y06b0oq.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\1szlo9uj0k-{0}-iovd86k7lj-iovd86k7lj.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\xatc8ua1p5-{0}-vr1egmr9el-vr1egmr9el.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\whu250v92g-{0}-kbrnm935zg-kbrnm935zg.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\r9k8yr7m0j-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\rpxfd880pc-{0}-y7v9cxd14o-y7v9cxd14o.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\jp2ses5zcg-{0}-notf2xhcfb-notf2xhcfb.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\cxws54jajv-{0}-h1s4sie4z3-h1s4sie4z3.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\nk4hfkg2zv-{0}-63fj8s7r0e-63fj8s7r0e.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\lagyp3oswt-{0}-0j3bgjxly4-0j3bgjxly4.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\xpgrp3bg5w-{0}-47otxtyo56-47otxtyo56.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\eo8xjfcwg0-{0}-4v8eqarkd7-4v8eqarkd7.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\ozbioba250-{0}-356vix0kms-356vix0kms.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\xckv2n8v45-{0}-83jwlth58m-83jwlth58m.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\efb8l20dyb-{0}-mrlpezrjn3-mrlpezrjn3.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\k1pva52zyg-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\v6we05xbtw-{0}-ag7o75518u-ag7o75518u.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\d8a6aqz289-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\cimeo88isc-{0}-0i3buxo5is-0i3buxo5is.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\85k4nnwxod-{0}-o1o13a6vjx-o1o13a6vjx.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\20p2qt02go-{0}-ttgo8qnofa-ttgo8qnofa.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\srinrk9b5h-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\580v34r38b-{0}-muycvpuwrr-muycvpuwrr.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\bsyjvi6slz-{0}-87fc7y1x7t-87fc7y1x7t.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\d957gzzcfs-{0}-mlv21k5csn-mlv21k5csn.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\6d7bd616t3-{0}-hblypc1pej-hblypc1pej.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\compressed\vl9i0x8na7-{0}-hblypc1pej-hblypc1pej.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\staticwebassets.build.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\staticwebassets.build.json.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\staticwebassets.development.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\swae.build.ex.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\ECommerceWeb.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\refint\ECommerceWeb.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\ECommerceWeb.pdb
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\ECommerceWeb.genruntimeconfig.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\EcommerceAPI\ECommerceWeb\obj\Debug\net10.0\ref\ECommerceWeb.dll

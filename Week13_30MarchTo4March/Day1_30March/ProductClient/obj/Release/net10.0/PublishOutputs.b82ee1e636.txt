@@ -1,0 +1,7 @@
+C:\Publish\MyApp2\ProductClient.exe
+C:\Publish\MyApp2\appsettings.Development.json
+C:\Publish\MyApp2\appsettings.json
+C:\Publish\MyApp2\ProductClient.dll
+C:\Publish\MyApp2\ProductClient.deps.json
+C:\Publish\MyApp2\ProductClient.runtimeconfig.json
+C:\Publish\MyApp2\ProductClient.pdb
