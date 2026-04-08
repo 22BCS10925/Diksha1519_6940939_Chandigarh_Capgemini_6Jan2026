@@ -10,7 +10,7 @@
 <div class="row">
     <div class="col-md-8">
         <div class="card" style="border: none; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 10px;">
-            <div class="card-header" style="background: linear-gradient(135deg, #c89cd4 0%, #8b5fa3 100%); color: white; border-radius: 10px 10px 0 0; padding: 20px;">
+            <div class="card-header" style="background: linear-gradient(135deg,#78AAC3 0%, #B2DAE5 100%); color: white; border-radius: 10px 10px 0 0; padding: 20px;">
                 <h3 style="margin: 0; color: white;">Account Details</h3>
             </div>
 
@@ -24,13 +24,13 @@
 
                 <div class="row mb-4">
                     <div class="col-md-6">
-                        <h5 style="color: #8b5fa3; margin-bottom: 10px;">✉️ Email Address</h5>
+                        <h5 style="color: #78AAC3; margin-bottom: 10px;">✉️ Email Address</h5>
                         <p style="font-size: 1rem; margin: 0; word-break: break-all;">
                             <strong>@email</strong>
                         </p>
                     </div>
                     <div class="col-md-6">
-                        <h5 style="color: #8b5fa3; margin-bottom: 10px;">👤 Full Name</h5>
+                        <h5 style="color: #78AAC3; margin-bottom: 10px;">👤 Full Name</h5>
                         <p style="font-size: 1rem; margin: 0;">
                             <strong>@fullName</strong>
                         </p>
@@ -39,7 +39,7 @@
 
                 <div class="row mb-4">
                     <div class="col-md-6">
-                        <h5 style="color: #8b5fa3; margin-bottom: 10px;">🔐 Account Role</h5>
+                        <h5 style="color: #78AAC3; margin-bottom: 10px;">🔐 Account Role</h5>
                         <p style="font-size: 1rem; margin: 0;">
                             <span class="badge" style="background-color: #8b5fa3; color: white; padding: 6px 12px; font-size: 0.95rem;">
                                 @role
@@ -47,7 +47,7 @@
                         </p>
                     </div>
                     <div class="col-md-6">
-                        <h5 style="color: #8b5fa3; margin-bottom: 10px;">🆔 User ID</h5>
+                        <h5 style="color: #78AAC3; margin-bottom: 10px;">🆔 User ID</h5>
                         <p style="font-size: 1rem; margin: 0; font-family: monospace; color: #666;">
                             @userId
                         </p>
@@ -58,8 +58,8 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <h5 style="color: #8b5fa3; margin-bottom: 15px;">📋 Account Summary</h5>
-                        <div style="background-color: #f8f9fa; padding: 15px; border-radius: 5px; border-left: 4px solid #8b5fa3;">
+                        <h5 style="color: #78AAC3; margin-bottom: 15px;">📋 Account Summary</h5>
+                        <div style="background-color: #f8f9fa; padding: 15px; border-radius: 5px; border-left: 4px solid #78AAC3;">
                             <ul style="margin: 0; padding-left: 20px;">
                                 <li>
                                     <strong>Account Type:</strong> 
@@ -120,17 +120,17 @@
             <div class="card-body" style="padding: 20px;">
                 <ul style="list-style: none; padding: 0; margin: 0;">
                     <li style="margin-bottom: 12px;">
-                        <a href="/Auth/ChangePassword" style="color: #8b5fa3; text-decoration: none; font-weight: 500;">
+                        <a href="/Auth/ChangePassword" style="color: #78AAC3; text-decoration: none; font-weight: 500;">
                             → Change Password
                         </a>
                     </li>
                     <li style="margin-bottom: 12px;">
-                        <a href="/Auth/Profile" style="color: #8b5fa3; text-decoration: none; font-weight: 500;">
+                        <a href="/Auth/Profile" style="color: #78AAC3; text-decoration: none; font-weight: 500;">
                             → Update Profile
                         </a>
                     </li>
                     <li style="margin-bottom: 12px;">
-                        <a href="/" style="color: #8b5fa3; text-decoration: none; font-weight: 500;">
+                        <a href="/" style="color: #78AAC3; text-decoration: none; font-weight: 500;">
                             → Dashboard
                         </a>
                     </li>
@@ -154,33 +154,109 @@
 
 <style>
     .card {
-        transition: transform 0.2s, box-shadow 0.2s;
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+        border-radius: 14px !important;
     }
 
     .card:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+        transform: translateY(-4px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.12) !important;
+    }
+
+    .dashboard-header h1 {
+        color: #5a4fcf;
+        font-weight: 700;
+    }
+
+    .dashboard-header p {
+        color: #6c757d;
+        font-size: 1.05rem;
+    }
+
+    .card-header {
+        font-weight: 600;
+        letter-spacing: 0.5px;
+    }
+
+    /* Updated gradient themes */
+    .card-header:nth-of-type(1) {
+        background: linear-gradient(135deg, #5f9cff 0%, #7bdff2 100%) !important;
+    }
+
+    .col-md-4 .card:nth-child(1) .card-header {
+        background: linear-gradient(135deg, #43cea2 0%, #185a9d 100%) !important;
+    }
+
+    .col-md-4 .card:nth-child(2) .card-header {
+        background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%) !important;
+    }
+
+    h5 {
+        color: #5f9cff !important;
+        font-weight: 600;
+    }
+
+    .badge {
+        background: linear-gradient(135deg, #7f53ac, #647dee) !important;
+        border-radius: 20px;
+        padding: 6px 14px;
+        font-size: 0.9rem;
     }
 
     .btn-primary-custom {
-        background-color: #8b5fa3;
+        background: linear-gradient(135deg, #5f9cff, #7bdff2);
         color: white;
         border: none;
-        transition: all 0.3s;
+        border-radius: 25px;
+        transition: all 0.3s ease;
     }
 
     .btn-primary-custom:hover {
-        background-color: #6d4685;
+        background: linear-gradient(135deg, #4a8ae6, #5fd3e6);
+        transform: scale(1.03);
         color: white;
     }
 
     .btn-outline-secondary {
-        transition: all 0.3s;
+        border-color: #7f53ac;
+        color: #7f53ac;
+        border-radius: 25px;
+        transition: all 0.3s ease;
     }
 
     .btn-outline-secondary:hover {
-        background-color: #8b5fa3;
+        background-color: #7f53ac;
         color: white !important;
-        border-color: #8b5fa3;
+        border-color: #7f53ac;
+    }
+
+    .btn-danger {
+        border-radius: 25px;
+        transition: all 0.3s ease;
+    }
+
+    .btn-danger:hover {
+        transform: scale(1.05);
+    }
+
+    ul li strong {
+        color: #444;
+    }
+
+    .card-body ul li {
+        font-size: 0.95rem;
+    }
+
+    hr {
+        border-top: 1px dashed #d6d6f5 !important;
+    }
+
+    a {
+        transition: all 0.2s ease;
+    }
+
+    a:hover {
+        color: #5f9cff !important;
+        padding-left: 4px;
     }
 </style>

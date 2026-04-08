@@ -33,4 +33,74 @@
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+}/* Container styling */
+.container-custom {
+    max-width: 400px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #f9fdfc; /* very light mint for a clean hospital feel */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+.container-custom h1 {
+    color: #006d77; /* teal blue, healthcare tone */
+    font-weight: 600;
+}
+
+/* Labels */
+.form-label {
+    color: #004d40; /* deep green for clarity */
+    font-weight: 500;
+}
+
+/* Inputs */
+.form-control {
+    border: 1px solid #b2dfdb; /* soft teal border */
+    border-radius: 6px;
+    padding: 0.75rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #006d77;
+    box-shadow: 0 0 6px rgba(0,109,119,0.3);
+}
+
+/* Error messages */
+.error-message {
+    color: #d32f2f; /* hospital red for errors */
+    font-size: 0.9rem;
+}
+
+/* Buttons */
+.btn-primary-custom {
+    background-color: #009688; /* medical teal */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.75rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary-custom:hover {
+    background-color: #00796b; /* darker teal on hover */
+}
+
+/* Block button */
+.btn-block-custom {
+    width: 100%;
+}
+
+/* Links */
+.container-custom a {
+    color: #006d77;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.container-custom a:hover {
+    text-decoration: underline;
 }

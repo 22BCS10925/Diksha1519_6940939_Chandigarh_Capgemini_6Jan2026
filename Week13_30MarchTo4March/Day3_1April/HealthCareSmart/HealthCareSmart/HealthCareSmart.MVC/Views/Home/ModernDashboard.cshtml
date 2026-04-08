@@ -1,0 +1,417 @@
+@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "_ModernLayout";
+}
+
+<div class="dashboard-header">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h1 class="h3 mb-1">Dashboard Overview</h1>
+            <p class="text-muted mb-0">Welcome back! Here's what's happening at your hospital today.</p>
+        </div>
+        <div class="d-flex gap-2">
+            <button class="btn btn-primary">
+                <i class="fas fa-plus me-2"></i>New Appointment
+            </button>
+            <button class="btn btn-outline-secondary">
+                <i class="fas fa-download me-2"></i>Export Report
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Statistics Cards -->
+<div class="row g-4 mb-4">
+    <div class="col-xl-3 col-md-6">
+        <div class="stat-card">
+            <div class="stat-icon primary">
+                <i class="fas fa-users"></i>
+            </div>
+            <div class="stat-value">1,234</div>
+            <div class="stat-label">Total Patients</div>
+            <div class="stat-change positive">
+                <i class="fas fa-arrow-up"></i>
+                12% from last month
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-xl-3 col-md-6">
+        <div class="stat-card">
+            <div class="stat-icon success">
+                <i class="fas fa-calendar-check"></i>
+            </div>
+            <div class="stat-value">89</div>
+            <div class="stat-label">Today's Appointments</div>
+            <div class="stat-change positive">
+                <i class="fas fa-arrow-up"></i>
+                8% from yesterday
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-xl-3 col-md-6">
+        <div class="stat-card">
+            <div class="stat-icon warning">
+                <i class="fas fa-user-md"></i>
+            </div>
+            <div class="stat-value">24</div>
+            <div class="stat-label">Active Doctors</div>
+            <div class="stat-change positive">
+                <i class="fas fa-arrow-up"></i>
+                2 new this week
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-xl-3 col-md-6">
+        <div class="stat-card">
+            <div class="stat-icon info">
+                <i class="fas fa-dollar-sign"></i>
+            </div>
+            <div class="stat-value">$45,678</div>
+            <div class="stat-label">Today's Revenue</div>
+            <div class="stat-change negative">
+                <i class="fas fa-arrow-down"></i>
+                3% from yesterday
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Charts Row -->
+<div class="row g-4 mb-4">
+    <div class="col-xl-8">
+        <div class="card border-0 shadow-sm">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h5 class="card-title mb-0">Appointment Trends</h5>
+                    <div class="btn-group btn-group-sm" role="group">
+                        <button type="button" class="btn btn-outline-primary active">Week</button>
+                        <button type="button" class="btn btn-outline-primary">Month</button>
+                        <button type="button" class="btn btn-outline-primary">Year</button>
+                    </div>
+                </div>
+                <canvas id="appointmentsChart" height="100"></canvas>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-xl-4">
+        <div class="card border-0 shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title mb-4">Appointment Status</h5>
+                <canvas id="statusChart" height="200"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Recent Appointments & Quick Actions -->
+<div class="row g-4">
+    <div class="col-xl-8">
+        <div class="card border-0 shadow-sm">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h5 class="card-title mb-0">Recent Appointments</h5>
+                    <a href="#" class="btn btn-sm btn-outline-primary">View All</a>
+                </div>
+                
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Patient</th>
+                                <th>Doctor</th>
+                                <th>Time</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div class="avatar-sm bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-2">
+                                            JD
+                                        </div>
+                                        <div>
+                                            <div class="fw-semibold">John Doe</div>
+                                            <small class="text-muted">ID: #1234</small>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>Dr. Sarah Johnson</td>
+                                <td>10:30 AM</td>
+                                <td><span class="badge bg-success">Confirmed</span></td>
+                                <td>
+                                    <div class="btn-group btn-group-sm">
+                                        <button class="btn btn-outline-primary">
+                                            <i class="fas fa-eye"></i>
+                                        </button>
+                                        <button class="btn btn-outline-secondary">
+                                            <i class="fas fa-edit"></i>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div class="avatar-sm bg-info text-white rounded-circle d-flex align-items-center justify-content-center me-2">
+                                            AS
+                                        </div>
+                                        <div>
+                                            <div class="fw-semibold">Alice Smith</div>
+                                            <small class="text-muted">ID: #1235</small>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>Dr. Michael Chen</td>
+                                <td>11:00 AM</td>
+                                <td><span class="badge bg-warning">Pending</span></td>
+                                <td>
+                                    <div class="btn-group btn-group-sm">
+                                        <button class="btn btn-outline-primary">
+                                            <i class="fas fa-eye"></i>
+                                        </button>
+                                        <button class="btn btn-outline-secondary">
+                                            <i class="fas fa-edit"></i>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div class="avatar-sm bg-success text-white rounded-circle d-flex align-items-center justify-content-center me-2">
+                                            RJ
+                                        </div>
+                                        <div>
+                                            <div class="fw-semibold">Robert Johnson</div>
+                                            <small class="text-muted">ID: #1236</small>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>Dr. Emily Davis</td>
+                                <td>2:30 PM</td>
+                                <td><span class="badge bg-info">In Progress</span></td>
+                                <td>
+                                    <div class="btn-group btn-group-sm">
+                                        <button class="btn btn-outline-primary">
+                                            <i class="fas fa-eye"></i>
+                                        </button>
+                                        <button class="btn btn-outline-secondary">
+                                            <i class="fas fa-edit"></i>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-xl-4">
+        <div class="card border-0 shadow-sm mb-4">
+            <div class="card-body">
+                <h5 class="card-title mb-4">Quick Actions</h5>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary text-start">
+                        <i class="fas fa-calendar-plus me-2"></i>
+                        Schedule Appointment
+                    </button>
+                    <button class="btn btn-outline-primary text-start">
+                        <i class="fas fa-user-plus me-2"></i>
+                        Register New Patient
+                    </button>
+                    <button class="fas fa-file-medical me-2"></i>
+                        Create Prescription
+                    </button>
+                    <button class="btn btn-outline-primary text-start">
+                        <i class="fas fa-receipt me-2"></i>
+                        Generate Bill
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card border-0 shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title mb-4">Doctor Availability</h5>
+                <div class="list-group list-group-flush">
+                    <div class="list-group-item px-0 d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <div class="avatar-sm bg-success text-white rounded-circle d-flex align-items-center justify-content-center me-3">
+                                <i class="fas fa-circle" style="font-size: 0.5rem;"></i>
+                            </div>
+                            <div>
+                                <div class="fw-semibold">Dr. Sarah Johnson</div>
+                                <small class="text-muted">Cardiology</small>
+                            </div>
+                        </div>
+                        <span class="badge bg-success">Available</span>
+                    </div>
+                    <div class="list-group-item px-0 d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <div class="avatar-sm bg-warning text-white rounded-circle d-flex align-items-center justify-content-center me-3">
+                                <i class="fas fa-circle" style="font-size: 0.5rem;"></i>
+                            </div>
+                            <div>
+                                <div class="fw-semibold">Dr. Michael Chen</div>
+                                <small class="text-muted">Neurology</small>
+                            </div>
+                        </div>
+                        <span class="badge bg-warning">Busy</span>
+                    </div>
+                    <div class="list-group-item px-0 d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <div class="avatar-sm bg-danger text-white rounded-circle d-flex align-items-center justify-content-center me-3">
+                                <i class="fas fa-circle" style="font-size: 0.5rem;"></i>
+                            </div>
+                            <div>
+                                <div class="fw-semibold">Dr. Emily Davis</div>
+                                <small class="text-muted">Pediatrics</small>
+                            </div>
+                        </div>
+                        <span class="badge bg-danger">Unavailable</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Initialize Charts
+        document.addEventListener('DOMContentLoaded', function() {
+            // Appointments Trend Chart
+            const appointmentsCtx = document.getElementById('appointmentsChart').getContext('2d');
+            new Chart(appointmentsCtx, {
+                type: 'line',
+                data: {
+                    labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+                    datasets: [{
+                        label: 'Completed',
+                        data: [65, 78, 90, 81, 96, 85, 92],
+                        borderColor: '#00a86b',
+                        backgroundColor: 'rgba(0, 168, 107, 0.1)',
+                        tension: 0.4,
+                        fill: true
+                    }, {
+                        label: 'Pending',
+                        data: [28, 32, 25, 35, 30, 28, 33],
+                        borderColor: '#ff6b6b',
+                        backgroundColor: 'rgba(255, 107, 107, 0.1)',
+                        tension: 0.4,
+                        fill: true
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            grid: {
+                                borderDash: [2, 2]
+                            }
+                        },
+                        x: {
+                            grid: {
+                                display: false
+                            }
+                        }
+                    }
+                }
+            });
+
+            // Status Chart
+            const statusCtx = document.getElementById('statusChart').getContext('2d');
+            new Chart(statusCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Completed', 'Pending', 'In Progress', 'Cancelled'],
+                    datasets: [{
+                        data: [65, 20, 10, 5],
+                        backgroundColor: [
+                            '#00a86b',
+                            '#ffc107',
+                            '#0066cc',
+                            '#ff6b6b'
+                        ],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                        }
+                    }
+                }
+            });
+
+            // Simulate real-time updates
+            setInterval(() => {
+                // Update a random stat
+                const stats = document.querySelectorAll('.stat-value');
+                const randomStat = stats[Math.floor(Math.random() * stats.length)];
+                const currentValue = parseInt(randomStat.textContent.replace(/[^0-9]/g, ''));
+                const change = Math.floor(Math.random() * 10) - 5;
+                randomStat.textContent = (currentValue + change).toLocaleString();
+            }, 5000);
+        });
+
+        // Toast notification examples
+        setTimeout(() => {
+            showToast('Welcome to HealthCareSmart Dashboard!', 'success');
+        }, 1000);
+    </script>
+    
+    <style>
+        .avatar-sm {
+            width: 32px;
+            height: 32px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        .table th {
+            border-bottom: 2px solid var(--border-color);
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+        }
+        
+        .badge {
+            font-size: 0.75rem;
+            padding: 0.375rem 0.75rem;
+            font-weight: 500;
+        }
+        
+        .btn-group .btn {
+            border-radius: 0.375rem;
+        }
+        
+        .list-group-item {
+            border: none;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .list-group-item:last-child {
+            border-bottom: none;
+        }
+    </style>
+}

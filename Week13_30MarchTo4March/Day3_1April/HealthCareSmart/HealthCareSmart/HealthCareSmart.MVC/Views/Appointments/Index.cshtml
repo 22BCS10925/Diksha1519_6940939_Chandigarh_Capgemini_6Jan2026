@@ -1,0 +1,132 @@
+@using System.Text.Json
+
+@{
+    ViewData["Title"] = "Appointments";
+}
+
+<div class="card">
+    <div class="card-body">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5 class="mb-0">All Appointments</h5>
+            <a asp-action="Create" class="btn btn-primary btn-sm">
+                <i class="bi bi-plus-lg"></i> New Appointment
+            </a>
+        </div>
+
+        @if (ViewBag.Appointments != null && ViewBag.Appointments.Count > 0)
+        {
+            <div class="table-responsive">
+                <table class="table table-hover align-middle">
+                    <thead class="table-light">
+                        <tr>
+                            <th>ID</th>
+                            <th>Date</th>
+                            <th>Doctor</th>
+                            <th>Patient</th>
+                            <th>Status</th>
+                            <th>Payment</th> <!-- ✅ FIXED ORDER -->
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var appt in ViewBag.Appointments)
+                        {
+                            var status = appt["status"]?.ToString();
+                            var badge = status == "Confirmed" ? "success"
+                                       : status == "Cancelled" ? "danger"
+                                       : status == "Completed" ? "info"
+                                       : "warning";
+
+                            // ✅ SAFE JSON HANDLING
+                            bool isPaid = false;
+                            if (appt.ContainsKey("isPaid"))
+                            {
+                                var elem = (JsonElement)appt["isPaid"];
+                                isPaid = elem.ValueKind == JsonValueKind.True;
+                            }
+
+                            <tr>
+                                <td>#@appt["id"]</td>
+                                <td>@DateTime.Parse(appt["appointmentDate"].ToString()).ToString("dd MMM yyyy HH:mm")</td>
+                                <td>@appt["doctorName"]</td>
+                                <td>@appt["patientName"]</td>
+
+                                <td>
+                                    <span class="badge bg-@badge">@status</span>
+                                </td>
+
+                                <!-- ✅ PAYMENT STATUS -->
+                                <td>
+                                    @if (isPaid)
+                                    {
+                                        <span class="badge bg-success">Paid</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-danger">Unpaid</span>
+                                    }
+                                </td>
+
+                                <!-- ✅ ACTIONS -->
+                                <td>
+                                    <div class="btn-group btn-group-sm">
+
+                                        <a asp-action="Prescription"
+                                           asp-route-id="@appt["id"]"
+                                           class="btn btn-info text-white">
+                                            <i class="bi bi-file-earmark-medical"></i>
+                                        </a>
+
+                                        @if (!isPaid)
+                                        {
+                                            <button class="btn btn-success pay-btn"
+                                                    data-id="@appt["id"]">
+                                                <i class="bi bi-credit-card"></i>
+                                            </button>
+                                        }
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+        else
+        {
+            <div class="text-center py-5 text-muted">
+                <i class="bi bi-calendar-x" style="font-size:3rem"></i>
+                <p class="mt-2">No appointments found.</p>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+<script>
+    document.querySelectorAll('.pay-btn').forEach(btn => {
+        btn.addEventListener('click', async function () {
+
+            const id = this.dataset.id;
+
+            if (!confirm("Confirm payment?")) return;
+
+            try {
+                const response = await fetch(`/Appointments/Pay/${id}`, {
+                    method: 'PUT'
+                });
+
+                if (response.ok) {
+                    alert("Payment successful!");
+                    location.reload();
+                } else {
+                    alert("Payment failed");
+                }
+
+            } catch (err) {
+                alert("Error: " + err.message);
+            }
+        });
+    });
+</script>
+}

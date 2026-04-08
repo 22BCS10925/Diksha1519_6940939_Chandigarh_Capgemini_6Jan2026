@@ -1,0 +1,459 @@
+<!-- Appointment Modal -->
+<div class="modal fade" id="appointmentModal" tabindex="-1" aria-labelledby="appointmentModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <h5 class="modal-title" id="appointmentModalLabel">
+                    <i class="fas fa-calendar-plus text-primary me-2"></i>
+                    <span id="appointmentModalTitle">Schedule New Appointment</span>
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="appointmentForm">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="patientSelect" class="form-label">Patient *</label>
+                            <select class="form-select" id="patientSelect" required>
+                                <option value="">Select Patient</option>
+                                <option value="1">John Doe (ID: #1234)</option>
+                                <option value="2">Alice Smith (ID: #1235)</option>
+                                <option value="3">Robert Johnson (ID: #1236)</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="doctorSelect" class="form-label">Doctor *</label>
+                            <select class="form-select" id="doctorSelect" required>
+                                <option value="">Select Doctor</option>
+                                <option value="1">Dr. Sarah Johnson - Cardiology</option>
+                                <option value="2">Dr. Michael Chen - Neurology</option>
+                                <option value="3">Dr. Emily Davis - Pediatrics</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="appointmentDate" class="form-label">Date *</label>
+                            <input type="date" class="form-control" id="appointmentDate" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="appointmentTime" class="form-label">Time *</label>
+                            <input type="time" class="form-control" id="appointmentTime" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="appointmentType" class="form-label">Appointment Type *</label>
+                            <select class="form-select" id="appointmentType" required>
+                                <option value="">Select Type</option>
+                                <option value="consultation">Consultation</option>
+                                <option value="followup">Follow-up</option>
+                                <option value="emergency">Emergency</option>
+                                <option value="surgery">Surgery</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="appointmentStatus" class="form-label">Status</label>
+                            <select class="form-select" id="appointmentStatus">
+                                <option value="scheduled">Scheduled</option>
+                                <option value="confirmed">Confirmed</option>
+                                <option value="pending">Pending</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <label for="appointmentNotes" class="form-label">Notes</label>
+                            <textarea class="form-control" id="appointmentNotes" rows="3" placeholder="Add any additional notes or symptoms..."></textarea>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer border-0">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" id="saveAppointmentBtn">
+                    <i class="fas fa-save me-2"></i>Save Appointment
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Patient Registration Modal -->
+<div class="modal fade" id="patientModal" tabindex="-1" aria-labelledby="patientModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <h5 class="modal-title" id="patientModalLabel">
+                    <i class="fas fa-user-plus text-primary me-2"></i>
+                    Register New Patient
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="patientForm">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="firstName" class="form-label">First Name *</label>
+                            <input type="text" class="form-control" id="firstName" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lastName" class="form-label">Last Name *</label>
+                            <input type="text" class="form-control" id="lastName" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="email" class="form-label">Email *</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="phone" class="form-label">Phone *</label>
+                            <input type="tel" class="form-control" id="phone" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="dateOfBirth" class="form-label">Date of Birth *</label>
+                            <input type="date" class="form-control" id="dateOfBirth" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="gender" class="form-label">Gender *</label>
+                            <select class="form-select" id="gender" required>
+                                <option value="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <label for="address" class="form-label">Address</label>
+                            <textarea class="form-control" id="address" rows="2" placeholder="Enter full address"></textarea>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="bloodGroup" class="form-label">Blood Group</label>
+                            <select class="form-select" id="bloodGroup">
+                                <option value="">Select Blood Group</option>
+                                <option value="A+">A+</option>
+                                <option value="A-">A-</option>
+                                <option value="B+">B+</option>
+                                <option value="B-">B-</option>
+                                <option value="O+">O+</option>
+                                <option value="O-">O-</option>
+                                <option value="AB+">AB+</option>
+                                <option value="AB-">AB-</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="emergencyContact" class="form-label">Emergency Contact</label>
+                            <input type="tel" class="form-control" id="emergencyContact" placeholder="Emergency phone number">
+                        </div>
+                        <div class="col-12">
+                            <label for="medicalHistory" class="form-label">Medical History</label>
+                            <textarea class="form-control" id="medicalHistory" rows="3" placeholder="Any known allergies, chronic conditions, or previous surgeries..."></textarea>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer border-0">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" id="savePatientBtn">
+                    <i class="fas fa-save me-2"></i>Register Patient
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Prescription Modal -->
+<div class="modal fade" id="prescriptionModal" tabindex="-1" aria-labelledby="prescriptionModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <h5 class="modal-title" id="prescriptionModalLabel">
+                    <i class="fas fa-file-medical text-primary me-2"></i>
+                    Create Prescription
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="prescriptionForm">
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-4">
+                            <label for="prescriptionPatient" class="form-label">Patient *</label>
+                            <select class="form-select" id="prescriptionPatient" required>
+                                <option value="">Select Patient</option>
+                                <option value="1">John Doe (ID: #1234)</option>
+                                <option value="2">Alice Smith (ID: #1235)</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="prescriptionDoctor" class="form-label">Doctor *</label>
+                            <select class="form-select" id="prescriptionDoctor" required>
+                                <option value="">Select Doctor</option>
+                                <option value="1">Dr. Sarah Johnson</option>
+                                <option value="2">Dr. Michael Chen</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="prescriptionDate" class="form-label">Date *</label>
+                            <input type="date" class="form-control" id="prescriptionDate" required>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="diagnosis" class="form-label">Diagnosis *</label>
+                        <textarea class="form-control" id="diagnosis" rows="2" placeholder="Enter diagnosis..." required></textarea>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="instructions" class="form-label">General Instructions</label>
+                        <textarea class="form-control" id="instructions" rows="2" placeholder="General instructions for the patient..."></textarea>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h6 class="mb-0">Medicines</h6>
+                            <button type="button" class="btn btn-sm btn-primary" id="addMedicineBtn">
+                                <i class="fas fa-plus me-1"></i>Add Medicine
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <div id="medicinesList">
+                                <div class="medicine-item row g-3 mb-3">
+                                    <div class="col-md-4">
+                                        <input type="text" class="form-control" placeholder="Medicine name" required>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <input type="text" class="form-control" placeholder="Dosage" required>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input type="text" class="form-control" placeholder="Frequency" required>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <input type="number" class="form-control" placeholder="Duration (days)" required>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <button type="button" class="btn btn-outline-danger btn-sm remove-medicine">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer border-0">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" id="savePrescriptionBtn">
+                    <i class="fas fa-save me-2"></i>Create Prescription
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .modal-content {
+        border-radius: 1rem;
+        border: none;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+    }
+
+    .modal-header {
+        border-radius: 1rem 1rem 0 0;
+        padding: 1.5rem;
+    }
+
+    .modal-body {
+        padding: 1.5rem;
+    }
+
+    .modal-footer {
+        border-radius: 0 0 1rem 1rem;
+        padding: 1.5rem;
+    }
+
+    .form-label {
+        font-weight: 500;
+        color: #495057;
+        margin-bottom: 0.5rem;
+    }
+
+    .form-control, .form-select {
+        border-radius: 0.5rem;
+        border: 1px solid #dee2e6;
+        padding: 0.75rem;
+        transition: all 0.3s ease;
+    }
+
+    .form-control:focus, .form-select:focus {
+        border-color: #0066cc;
+        box-shadow: 0 0 0 3px rgba(0,102,204,0.1);
+    }
+
+    .btn {
+        border-radius: 0.5rem;
+        padding: 0.75rem 1.5rem;
+        font-weight: 500;
+        transition: all 0.3s ease;
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #0066cc, #0056b3);
+        border: none;
+    }
+
+    .btn-primary:hover {
+        background: linear-gradient(135deg, #0056b3, #004085);
+        transform: translateY(-1px);
+        box-shadow: 0 4px 12px rgba(0,102,204,0.3);
+    }
+
+    .medicine-item {
+        animation: fadeIn 0.3s ease;
+    }
+
+    @@keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
+
+<script>
+    // Appointment Modal Functions
+    function openAppointmentModal(appointmentId = null) {
+        const modal = new bootstrap.Modal(document.getElementById('appointmentModal'));
+        const title = document.getElementById('appointmentModalTitle');
+        
+        if (appointmentId) {
+            title.textContent = 'Edit Appointment';
+            // Load appointment data
+            loadAppointmentData(appointmentId);
+        } else {
+            title.textContent = 'Schedule New Appointment';
+            document.getElementById('appointmentForm').reset();
+            // Set default date to today
+            document.getElementById('appointmentDate').valueAsDate = new Date();
+        }
+        
+        modal.show();
+    }
+
+    function loadAppointmentData(appointmentId) {
+        // Simulate loading appointment data
+        // In real app, this would be an API call
+        document.getElementById('patientSelect').value = '1';
+        document.getElementById('doctorSelect').value = '1';
+        document.getElementById('appointmentDate').value = '2024-04-08';
+        document.getElementById('appointmentTime').value = '10:30';
+        document.getElementById('appointmentType').value = 'consultation';
+        document.getElementById('appointmentStatus').value = 'confirmed';
+        document.getElementById('appointmentNotes').value = 'Patient reports chest pain and shortness of breath.';
+    }
+
+    // Patient Modal Functions
+    function openPatientModal() {
+        const modal = new bootstrap.Modal(document.getElementById('patientModal'));
+        document.getElementById('patientForm').reset();
+        modal.show();
+    }
+
+    // Prescription Modal Functions
+    function openPrescriptionModal() {
+        const modal = new bootstrap.Modal(document.getElementById('prescriptionModal'));
+        document.getElementById('prescriptionForm').reset();
+        document.getElementById('prescriptionDate').valueAsDate = new Date();
+        modal.show();
+    }
+
+    // Medicine Management
+    document.getElementById('addMedicineBtn')?.addEventListener('click', function() {
+        const medicinesList = document.getElementById('medicinesList');
+        const medicineItem = document.createElement('div');
+        medicineItem.className = 'medicine-item row g-3 mb-3';
+        medicineItem.innerHTML = `
+            <div class="col-md-4">
+                <input type="text" class="form-control" placeholder="Medicine name" required>
+            </div>
+            <div class="col-md-2">
+                <input type="text" class="form-control" placeholder="Dosage" required>
+            </div>
+            <div class="col-md-3">
+                <input type="text" class="form-control" placeholder="Frequency" required>
+            </div>
+            <div class="col-md-2">
+                <input type="number" class="form-control" placeholder="Duration (days)" required>
+            </div>
+            <div class="col-md-1">
+                <button type="button" class="btn btn-outline-danger btn-sm remove-medicine">
+                    <i class="fas fa-trash"></i>
+                </button>
+            </div>
+        `;
+        medicinesList.appendChild(medicineItem);
+    });
+
+    // Remove medicine functionality
+    document.addEventListener('click', function(e) {
+        if (e.target.closest('.remove-medicine')) {
+            const medicineItem = e.target.closest('.medicine-item');
+            if (document.querySelectorAll('.medicine-item').length > 1) {
+                medicineItem.remove();
+            } else {
+                showToast('At least one medicine is required', 'error');
+            }
+        }
+    });
+
+    // Save functions
+    document.getElementById('saveAppointmentBtn')?.addEventListener('click', function() {
+        const form = document.getElementById('appointmentForm');
+        if (form.checkValidity()) {
+            // Show loading
+            this.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Saving...';
+            this.disabled = true;
+            
+            // Simulate API call
+            setTimeout(() => {
+                this.innerHTML = '<i class="fas fa-save me-2"></i>Save Appointment';
+                this.disabled = false;
+                bootstrap.Modal.getInstance(document.getElementById('appointmentModal')).hide();
+                showToast('Appointment saved successfully!', 'success');
+            }, 1500);
+        } else {
+            form.reportValidity();
+        }
+    });
+
+    document.getElementById('savePatientBtn')?.addEventListener('click', function() {
+        const form = document.getElementById('patientForm');
+        if (form.checkValidity()) {
+            this.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Registering...';
+            this.disabled = true;
+            
+            setTimeout(() => {
+                this.innerHTML = '<i class="fas fa-save me-2"></i>Register Patient';
+                this.disabled = false;
+                bootstrap.Modal.getInstance(document.getElementById('patientModal')).hide();
+                showToast('Patient registered successfully!', 'success');
+            }, 1500);
+        } else {
+            form.reportValidity();
+        }
+    });
+
+    document.getElementById('savePrescriptionBtn')?.addEventListener('click', function() {
+        const form = document.getElementById('prescriptionForm');
+        if (form.checkValidity()) {
+            this.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Creating...';
+            this.disabled = true;
+            
+            setTimeout(() => {
+                this.innerHTML = '<i class="fas fa-save me-2"></i>Create Prescription';
+                this.disabled = false;
+                bootstrap.Modal.getInstance(document.getElementById('prescriptionModal')).hide();
+                showToast('Prescription created successfully!', 'success');
+            }, 1500);
+        } else {
+            form.reportValidity();
+        }
+    });
+</script>

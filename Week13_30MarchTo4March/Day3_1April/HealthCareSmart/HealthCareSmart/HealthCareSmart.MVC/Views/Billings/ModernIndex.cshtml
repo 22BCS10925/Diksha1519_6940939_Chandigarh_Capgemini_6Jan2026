@@ -1,0 +1,425 @@
+@{
+    ViewData["Title"] = "Billing";
+    Layout = "_ModernLayout";
+}
+
+<div class="billing-header">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h1 class="h3 mb-1">Billing Management</h1>
+            <p class="text-muted mb-0">Manage invoices, payments, and financial records</p>
+        </div>
+        <div class="d-flex gap-2">
+            <button class="btn btn-outline-secondary">
+                <i class="fas fa-download me-2"></i>Export Report
+            </button>
+            <button class="btn btn-primary" onclick="generateInvoice()">
+                <i class="fas fa-file-invoice me-2"></i>Generate Invoice
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Statistics Cards -->
+<div class="row g-4 mb-4">
+    <div class="col-md-3">
+        <div class="stat-card">
+            <div class="stat-icon primary">
+                <i class="fas fa-dollar-sign"></i>
+            </div>
+            <div class="stat-value">$45,678</div>
+            <div class="stat-label">Today's Revenue</div>
+            <div class="stat-change positive">
+                <i class="fas fa-arrow-up"></i>
+                12% from yesterday
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="stat-card">
+            <div class="stat-icon success">
+                <i class="fas fa-receipt"></i>
+            </div>
+            <div class="stat-value">156</div>
+            <div class="stat-label">Total Invoices</div>
+            <div class="stat-change positive">
+                <i class="fas fa-arrow-up"></i>
+                8 new today
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="stat-card">
+            <div class="stat-icon warning">
+                <i class="fas fa-clock"></i>
+            </div>
+            <div class="stat-value">23</div>
+            <div class="stat-label">Pending Payments</div>
+            <div class="stat-change negative">
+                <i class="fas fa-arrow-down"></i>
+                5% from last week
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="stat-card">
+            <div class="stat-icon info">
+                <i class="fas fa-credit-card"></i>
+            </div>
+            <div class="stat-value">$12,450</div>
+            <div class="stat-label">Outstanding Amount</div>
+            <div class="stat-change positive">
+                <i class="fas fa-arrow-up"></i>
+                3% from last month
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Search and Filters -->
+<div class="card border-0 shadow-sm mb-4">
+    <div class="card-body">
+        <div class="row g-3">
+            <div class="col-md-4">
+                <div class="position-relative">
+                    <i class="fas fa-search position-absolute start-0 top-50 translate-middle-y ms-3 text-muted"></i>
+                    <input type="text" class="form-control ps-5" id="billingSearch" placeholder="Search by patient, invoice ID...">
+                </div>
+            </div>
+            <div class="col-md-2">
+                <select class="form-select" id="statusFilter">
+                    <option value="">All Status</option>
+                    <option value="paid">Paid</option>
+                    <option value="pending">Pending</option>
+                    <option value="overdue">Overdue</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <input type="date" class="form-control" id="dateFilter" placeholder="Filter by date">
+            </div>
+            <div class="col-md-2">
+                <select class="form-select" id="amountFilter">
+                    <option value="">All Amounts</option>
+                    <option value="0-100">$0 - $100</option>
+                    <option value="100-500">$100 - $500</option>
+                    <option value="500+">$500+</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-outline-secondary w-100" onclick="resetFilters()">
+                    <i class="fas fa-redo me-2"></i>Reset
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Billing Table -->
+<div class="card border-0 shadow-sm">
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead class="table-light">
+                    <tr>
+                        <th>Invoice</th>
+                        <th>Patient</th>
+                        <th>Doctor</th>
+                        <th>Date</th>
+                        <th>Consultation</th>
+                        <th>Medicine</th>
+                        <th>Total</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="billingTableBody">
+                    <!-- Table rows will be populated by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Pagination -->
+        <div class="d-flex justify-content-between align-items-center mt-4">
+            <div class="text-muted">
+                Showing <span id="showingStart">1</span> to <span id="showingEnd">10</span> of <span id="totalRecords">0</span> entries
+            </div>
+            <nav>
+                <ul class="pagination mb-0" id="pagination">
+                    <!-- Pagination will be populated by JavaScript -->
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<!-- Include the modal components -->
+@await Html.PartialAsync("_AppointmentModal")
+
+@section Scripts {
+    <script>
+        // Sample billing data
+        const billings = [
+            { id: 1, patient: 'John Doe', doctor: 'Dr. Sarah Johnson', date: '2024-04-08', consultationFee: 1200, medicineCost: 450, totalAmount: 1650, isPaid: true, paidAt: '2024-04-08T10:30:00' },
+            { id: 2, patient: 'Alice Smith', doctor: 'Dr. Michael Chen', date: '2024-04-08', consultationFee: 950, medicineCost: 320, totalAmount: 1270, isPaid: false, paidAt: null },
+            { id: 3, patient: 'Robert Johnson', doctor: 'Dr. Emily Davis', date: '2024-04-08', consultationFee: 700, medicineCost: 180, totalAmount: 880, isPaid: true, paidAt: '2024-04-08T14:30:00' },
+            { id: 4, patient: 'Mary Williams', doctor: 'Dr. Sarah Johnson', date: '2024-04-07', consultationFee: 1200, medicineCost: 680, totalAmount: 1880, isPaid: false, paidAt: null },
+            { id: 5, patient: 'James Brown', doctor: 'Dr. Michael Chen', date: '2024-04-07', consultationFee: 1500, medicineCost: 450, totalAmount: 1950, isPaid: true, paidAt: '2024-04-07T16:00:00' },
+            { id: 6, patient: 'Patricia Davis', doctor: 'Dr. Emily Davis', date: '2024-04-06', consultationFee: 700, medicineCost: 220, totalAmount: 920, isPaid: true, paidAt: '2024-04-06T11:15:00' }
+        ];
+
+        let currentPage = 1;
+        const itemsPerPage = 10;
+        let filteredBillings = [...billings];
+
+        // Initialize the table
+        document.addEventListener('DOMContentLoaded', function() {
+            renderBillingTable();
+            updatePagination();
+        });
+
+        // Render billing table
+        function renderBillingTable() {
+            const tbody = document.getElementById('billingTableBody');
+            const start = (currentPage - 1) * itemsPerPage;
+            const end = start + itemsPerPage;
+            const pageData = filteredBillings.slice(start, end);
+
+            tbody.innerHTML = pageData.map(billing => `
+                <tr>
+                    <td><strong>#${billing.id}</strong></td>
+                    <td>
+                        <div class="d-flex align-items-center">
+                            <div class="avatar-sm bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-2">
+                                ${billing.patient.split(' ').map(n => n[0]).join('')}
+                            </div>
+                            <div>
+                                <div class="fw-semibold">${billing.patient}</div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>${billing.doctor}</td>
+                    <td>${formatDate(billing.date)}</td>
+                    <td><span class="badge bg-info">$${billing.consultationFee.toFixed(2)}</span></td>
+                    <td><span class="badge bg-success">$${billing.medicineCost.toFixed(2)}</span></td>
+                    <td><strong class="text-danger">$${billing.totalAmount.toFixed(2)}</strong></td>
+                    <td>
+                        ${billing.isPaid ? 
+                            `<span class="badge bg-success">Paid</span>
+                            ${billing.paidAt ? `<br><small class="text-muted">${formatDateTime(billing.paidAt)}</small>` : ''}` 
+                            : '<span class="badge bg-warning">Pending</span>'
+                        }
+                    </td>
+                    <td>
+                        <div class="btn-group btn-group-sm">
+                            <button class="btn btn-outline-primary" onclick="viewBillingDetails(${billing.id})" title="View">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                            ${!billing.isPaid ? `
+                                <button class="btn btn-outline-success" onclick="processPayment(${billing.id}, ${billing.totalAmount})" title="Pay">
+                                    <i class="fas fa-credit-card"></i>
+                                </button>
+                            ` : ''}
+                            <button class="btn btn-outline-secondary" onclick="downloadInvoice(${billing.id})" title="Download">
+                                <i class="fas fa-download"></i>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            `).join('');
+
+            updateShowingInfo();
+        }
+
+        // Format date
+        function formatDate(dateStr) {
+            const date = new Date(dateStr);
+            return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+        }
+
+        // Format date time
+        function formatDateTime(dateStr) {
+            const date = new Date(dateStr);
+            return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+        }
+
+        // Filter billings
+        function filterBillings() {
+            const searchTerm = document.getElementById('billingSearch').value.toLowerCase();
+            const statusFilter = document.getElementById('statusFilter').value;
+            const dateFilter = document.getElementById('dateFilter').value;
+            const amountFilter = document.getElementById('amountFilter').value;
+
+            filteredBillings = billings.filter(billing => {
+                const matchesSearch = 
+                    billing.patient.toLowerCase().includes(searchTerm) || 
+                    billing.doctor.toLowerCase().includes(searchTerm) ||
+                    billing.id.toString().includes(searchTerm);
+                
+                const matchesStatus = !statusFilter || 
+                    (statusFilter === 'paid' && billing.isPaid) ||
+                    (statusFilter === 'pending' && !billing.isPaid) ||
+                    (statusFilter === 'overdue' && !billing.isPaid && new Date(billing.date) < new Date(Date.now() - 7 * 24 * 60 * 60 * 1000));
+                
+                const matchesDate = !dateFilter || billing.date === dateFilter;
+                
+                let matchesAmount = true;
+                if (amountFilter) {
+                    if (amountFilter === '0-100') matchesAmount = billing.totalAmount <= 100;
+                    else if (amountFilter === '100-500') matchesAmount = billing.totalAmount > 100 && billing.totalAmount <= 500;
+                    else if (amountFilter === '500+') matchesAmount = billing.totalAmount > 500;
+                }
+
+                return matchesSearch && matchesStatus && matchesDate && matchesAmount;
+            });
+
+            currentPage = 1;
+            renderBillingTable();
+            updatePagination();
+        }
+
+        // Reset filters
+        function resetFilters() {
+            document.getElementById('billingSearch').value = '';
+            document.getElementById('statusFilter').value = '';
+            document.getElementById('dateFilter').value = '';
+            document.getElementById('amountFilter').value = '';
+            
+            filteredBillings = [...billings];
+            currentPage = 1;
+            renderBillingTable();
+            updatePagination();
+        }
+
+        // Update pagination
+        function updatePagination() {
+            const totalPages = Math.ceil(filteredBillings.length / itemsPerPage);
+            const pagination = document.getElementById('pagination');
+            
+            let paginationHTML = '';
+            
+            // Previous button
+            paginationHTML += `
+                <li class="page-item ${currentPage === 1 ? 'disabled' : ''}">
+                    <a class="page-link" href="#" onclick="changePage(${currentPage - 1})">Previous</a>
+                </li>
+            `;
+            
+            // Page numbers
+            for (let i = 1; i <= totalPages; i++) {
+                if (i === 1 || i === totalPages || (i >= currentPage - 1 && i <= currentPage + 1)) {
+                    paginationHTML += `
+                        <li class="page-item ${i === currentPage ? 'active' : ''}">
+                            <a class="page-link" href="#" onclick="changePage(${i})">${i}</a>
+                        </li>
+                    `;
+                } else if (i === currentPage - 2 || i === currentPage + 2) {
+                    paginationHTML += `
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#">...</a>
+                        </li>
+                    `;
+                }
+            }
+            
+            // Next button
+            paginationHTML += `
+                <li class="page-item ${currentPage === totalPages ? 'disabled' : ''}">
+                    <a class="page-link" href="#" onclick="changePage(${currentPage + 1})">Next</a>
+                </li>
+            `;
+            
+            pagination.innerHTML = paginationHTML;
+        }
+
+        // Change page
+        function changePage(page) {
+            const totalPages = Math.ceil(filteredBillings.length / itemsPerPage);
+            if (page >= 1 && page <= totalPages) {
+                currentPage = page;
+                renderBillingTable();
+                updatePagination();
+            }
+            return false;
+        }
+
+        // Update showing info
+        function updateShowingInfo() {
+            const start = (currentPage - 1) * itemsPerPage + 1;
+            const end = Math.min(currentPage * itemsPerPage, filteredBillings.length);
+            
+            document.getElementById('showingStart').textContent = filteredBillings.length > 0 ? start : 0;
+            document.getElementById('showingEnd').textContent = end;
+            document.getElementById('totalRecords').textContent = filteredBillings.length;
+        }
+
+        // Billing actions
+        function viewBillingDetails(billingId) {
+            const billing = billings.find(b => b.id === billingId);
+            showToast(`Viewing details for invoice #${billingId}`, 'info');
+        }
+
+        function processPayment(billingId, amount) {
+            const billing = billings.find(b => b.id === billingId);
+            if (confirm(`Process payment of $${amount.toFixed(2)} for ${billing.patient}?`)) {
+                // Simulate payment processing
+                billing.isPaid = true;
+                billing.paidAt = new Date().toISOString();
+                filterBillings();
+                showToast(`Payment processed successfully for invoice #${billingId}`, 'success');
+            }
+        }
+
+        function downloadInvoice(billingId) {
+            showToast(`Downloading invoice #${billingId}`, 'info');
+        }
+
+        function generateInvoice() {
+            showToast('Opening invoice generation form...', 'info');
+        }
+
+        // Event listeners
+        document.getElementById('billingSearch').addEventListener('input', filterBillings);
+        document.getElementById('statusFilter').addEventListener('change', filterBillings);
+        document.getElementById('dateFilter').addEventListener('change', filterBillings);
+        document.getElementById('amountFilter').addEventListener('change', filterBillings);
+    </script>
+    
+    <style>
+        .avatar-sm {
+            width: 32px;
+            height: 32px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        .table th {
+            border-bottom: 2px solid #dee2e6;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+        }
+        
+        .badge {
+            font-size: 0.75rem;
+            padding: 0.375rem 0.75rem;
+            font-weight: 500;
+        }
+        
+        .btn-group .btn {
+            border-radius: 0.375rem;
+        }
+        
+        .pagination .page-link {
+            border-radius: 0.375rem;
+            margin: 0 0.125rem;
+            border: 1px solid #dee2e6;
+            color: #0066cc;
+        }
+        
+        .pagination .page-item.active .page-link {
+            background: #0066cc;
+            border-color: #0066cc;
+        }
+    </style>
+}

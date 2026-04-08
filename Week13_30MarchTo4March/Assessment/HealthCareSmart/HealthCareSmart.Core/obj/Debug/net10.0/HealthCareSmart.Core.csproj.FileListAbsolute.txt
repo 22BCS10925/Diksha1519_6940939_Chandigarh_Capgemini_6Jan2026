@@ -1,0 +1,38 @@
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.Core\bin\Debug\net10.0\HealthCareSmart.Core.deps.json
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.Core\bin\Debug\net10.0\HealthCareSmart.Core.dll
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.Core\bin\Debug\net10.0\HealthCareSmart.Core.pdb
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.csproj.AssemblyReference.cache
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.AssemblyInfoInputs.cache
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.AssemblyInfo.cs
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.csproj.CoreCompileInputs.cache
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.dll
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\refint\HealthCareSmart.Core.dll
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.pdb
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\ref\HealthCareSmart.Core.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.Core\bin\Debug\net10.0\HealthCareSmart.Core.deps.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.Core\bin\Debug\net10.0\HealthCareSmart.Core.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.Core\bin\Debug\net10.0\HealthCareSmart.Core.pdb
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.csproj.AssemblyReference.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.AssemblyInfoInputs.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.AssemblyInfo.cs
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.csproj.CoreCompileInputs.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.sourcelink.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\refint\HealthCareSmart.Core.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.pdb
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\ref\HealthCareSmart.Core.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.Core\bin\Debug\net10.0\HealthCareSmart.Core.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.Core\bin\Debug\net10.0\HealthCareSmart.Core.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.Core\bin\Debug\net10.0\HealthCareSmart.Core.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.csproj.AssemblyReference.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.sourcelink.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\refint\HealthCareSmart.Core.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\HealthCareSmart.Core.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.Core\obj\Debug\net10.0\ref\HealthCareSmart.Core.dll

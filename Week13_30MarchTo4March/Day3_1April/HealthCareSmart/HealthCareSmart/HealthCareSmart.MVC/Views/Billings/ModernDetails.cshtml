@@ -1,0 +1,382 @@
+@{
+    ViewData["Title"] = "Billing Details";
+    Layout = "_ModernLayout";
+    var bill = ViewBag.Billing as Dictionary<string, object> ?? new Dictionary<string, object>();
+    
+    // Helper methods to safely handle JsonElement conversions
+}
+
+<div class="billing-details-header">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#" onclick="history.back()">Billing</a></li>
+                    <li class="breadcrumb-item active">Invoice Details</li>
+                </ol>
+            </nav>
+            <h1 class="h3 mb-1">Invoice Details</h1>
+            <p class="text-muted mb-0">Complete billing information and payment status</p>
+        </div>
+        <div class="d-flex gap-2">
+            <button class="btn btn-outline-secondary" onclick="window.print()">
+                <i class="fas fa-print me-2"></i>Print
+            </button>
+            <button class="btn btn-outline-primary" onclick="downloadInvoice()">
+                <i class="fas fa-download me-2"></i>Download PDF
+            </button>
+            <button class="btn btn-primary" onclick="sendInvoice()">
+                <i class="fas fa-envelope me-2"></i>Send Invoice
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="row g-4">
+    <!-- Invoice Card -->
+    <div class="col-lg-8">
+        <div class="card border-0 shadow-sm">
+            <div class="card-header bg-gradient text-white" style="background: linear-gradient(135deg, #0066cc, #0056b3);">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h5 class="mb-1">Invoice #@bill["id"]</h5>
+                        <p class="mb-0 opacity-75">HealthCareSmart Hospital Management</p>
+                    </div>
+                    <div class="text-end">
+                        <div class="badge bg-white text-primary fs-6 mb-2">
+                            ${GetBoolValue(bill, "isPaid") ? "PAID" : "PENDING"}
+                        </div>
+                        <div class="small opacity-75">
+                            Issued: ${bill.ContainsKey("createdAt") ? bill["createdAt"] : DateTime.Now.ToString("MMM dd, yyyy")}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <!-- Patient and Doctor Information -->
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <h6 class="text-muted mb-3">Patient Information</h6>
+                        <div class="patient-info">
+                            <div class="d-flex align-items-center mb-2">
+                                <div class="avatar bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div>
+                                    <div class="fw-semibold">${bill.ContainsKey("patientName") ? bill["patientName"] : "N/A"}</div>
+                                    <small class="text-muted">Patient ID: #${bill.ContainsKey("patientId") ? bill["patientId"] : "N/A"}</small>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <label>Phone:</label>
+                                <span>${bill.ContainsKey("patientPhone") ? bill["patientPhone"] : "N/A"}</span>
+                            </div>
+                            <div class="info-item">
+                                <label>Email:</label>
+                                <span>${bill.ContainsKey("patientEmail") ? bill["patientEmail"] : "N/A"}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="text-muted mb-3">Doctor Information</h6>
+                        <div class="doctor-info">
+                            <div class="d-flex align-items-center mb-2">
+                                <div class="avatar bg-success text-white rounded-circle d-flex align-items-center justify-content-center me-3">
+                                    <i class="fas fa-user-md"></i>
+                                </div>
+                                <div>
+                                    <div class="fw-semibold">${bill.ContainsKey("doctorName") ? bill["doctorName"] : "N/A"}</div>
+                                    <small class="text-muted">${bill.ContainsKey("specialization") ? bill["specialization"] : "General Practice"}</small>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <label>Consultation Date:</label>
+                                <span>${bill.ContainsKey("appointmentDate") ? bill["appointmentDate"] : "N/A"}</span>
+                            </div>
+                            <div class="info-item">
+                                <label>Appointment ID:</label>
+                                <span>#${bill.ContainsKey("appointmentId") ? bill["appointmentId"] : "N/A"}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Billing Items -->
+                <div class="billing-items">
+                    <h6 class="text-muted mb-3">Billing Details</h6>
+                    <div class="table-responsive">
+                        <table class="table table-borderless">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Description</th>
+                                    <th class="text-center">Quantity</th>
+                                    <th class="text-end">Unit Price</th>
+                                    <th class="text-end">Amount</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="fw-semibold">Consultation Fee</div>
+                                        <small class="text-muted">Medical consultation with specialist</small>
+                                    </td>
+                                    <td class="text-center">1</td>
+                                    <td class="text-end">$${GetDecimalValue(bill, "consultationFee").ToString("F2")}</td>
+                                    <td class="text-end fw-semibold">$${GetDecimalValue(bill, "consultationFee").ToString("F2")}</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="fw-semibold">Medicine Charges</div>
+                                        <small class="text-muted">Prescribed medications and treatments</small>
+                                    </td>
+                                    <td class="text-center">1</td>
+                                    <td class="text-end">$${GetDecimalValue(bill, "medicineCost").ToString("F2")}</td>
+                                    <td class="text-end fw-semibold">$${GetDecimalValue(bill, "medicineCost").ToString("F2")}</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr class="table-light">
+                                    <td colspan="3" class="fw-semibold">Total Amount:</td>
+                                    <td class="text-end">
+                                        <h5 class="text-primary mb-0">$${GetDecimalValue(bill, "totalAmount").ToString("F2")}</h5>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Payment Information -->
+                <div class="payment-info mt-4">
+                    <h6 class="text-muted mb-3">Payment Information</h6>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card bg-light">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <div class="fw-semibold">Payment Status</div>
+                                            <small class="text-muted">Current payment status</small>
+                                        </div>
+                                        <div>
+                                            ${GetBoolValue(bill, "isPaid") ? 
+                                                `<span class="badge bg-success fs-6">Paid</span>` : 
+                                                `<span class="badge bg-warning fs-6">Pending</span>`
+                                            }
+                                        </div>
+                                    </div>
+                                    ${GetBoolValue(bill, "isPaid") && GetDateTimeValue(bill, "paidAt").HasValue ? `
+                                        <div class="mt-2 pt-2 border-top">
+                                            <small class="text-muted">Paid on: ${GetDateTimeValue(bill, "paidAt").Value.ToString("MMM dd, yyyy HH:mm")}</small>
+                                        </div>
+                                    ` : ''}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            ${!GetBoolValue(bill, "isPaid") ? `
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <div class="fw-semibold mb-2">Quick Payment</div>
+                                        <button class="btn btn-primary w-100" onclick="processPayment()">
+                                            <i class="fas fa-credit-card me-2"></i>Process Payment
+                                        </button>
+                                    </div>
+                                </div>
+                            ` : `
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <div class="fw-semibold mb-2">Payment Receipt</div>
+                                        <button class="btn btn-outline-primary w-100" onclick="downloadReceipt()">
+                                            <i class="fas fa-receipt me-2"></i>Download Receipt
+                                        </button>
+                                    </div>
+                                </div>
+                            `}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="col-lg-4">
+        <!-- Summary Card -->
+        <div class="card border-0 shadow-sm mb-4">
+            <div class="card-body">
+                <h6 class="card-title mb-4">Invoice Summary</h6>
+                <div class="summary-item">
+                    <span>Subtotal:</span>
+                    <strong>$${GetDecimalValue(bill, "totalAmount").ToString("F2")}</strong>
+                </div>
+                <div class="summary-item">
+                    <span>Tax (0%):</span>
+                    <strong>$0.00</strong>
+                </div>
+                <div class="summary-item">
+                    <span>Discount:</span>
+                    <strong>$0.00</strong>
+                </div>
+                <hr>
+                <div class="summary-item total">
+                    <span>Total Amount:</span>
+                    <strong class="text-primary">$${GetDecimalValue(bill, "totalAmount").ToString("F2")}</strong>
+                </div>
+            </div>
+        </div>
+
+        <!-- Payment Methods -->
+        <div class="card border-0 shadow-sm mb-4">
+            <div class="card-body">
+                <h6 class="card-title mb-4">Accepted Payment Methods</h6>
+                <div class="payment-methods">
+                    <div class="payment-method">
+                        <i class="fas fa-credit-card text-primary"></i>
+                        <span>Credit/Debit Card</span>
+                    </div>
+                    <div class="payment-method">
+                        <i class="fas fa-money-bill-wave text-success"></i>
+                        <span>Cash</span>
+                    </div>
+                    <div class="payment-method">
+                        <i class="fas fa-mobile-alt text-info"></i>
+                        <span>Mobile Payment</span>
+                    </div>
+                    <div class="payment-method">
+                        <i class="fas fa-university text-warning"></i>
+                        <span>Bank Transfer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Actions -->
+        <div class="card border-0 shadow-sm">
+            <div class="card-body">
+                <h6 class="card-title mb-4">Quick Actions</h6>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-outline-primary" onclick="editInvoice()">
+                        <i class="fas fa-edit me-2"></i>Edit Invoice
+                    </button>
+                    <button class="btn btn-outline-secondary" onclick="duplicateInvoice()">
+                        <i class="fas fa-copy me-2"></i>Duplicate Invoice
+                    </button>
+                    <button class="btn btn-outline-info" onclick="sendReminder()">
+                        <i class="fas fa-bell me-2"></i>Send Payment Reminder
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function processPayment() {
+            const amount = ${GetDecimalValue(bill, "totalAmount")};
+            if (confirm(`Process payment of $${amount.ToString("F2")}?`)) {
+                showToast('Processing payment...', 'info');
+                setTimeout(() => {
+                    showToast('Payment processed successfully!', 'success');
+                    location.reload();
+                }, 2000);
+            }
+        }
+
+        function downloadInvoice() {
+            showToast('Downloading invoice...', 'info');
+        }
+
+        function downloadReceipt() {
+            showToast('Downloading receipt...', 'info');
+        }
+
+        function sendInvoice() {
+            showToast('Sending invoice to patient...', 'info');
+        }
+
+        function editInvoice() {
+            showToast('Opening invoice editor...', 'info');
+        }
+
+        function duplicateInvoice() {
+            showToast('Creating duplicate invoice...', 'info');
+        }
+
+        function sendReminder() {
+            showToast('Sending payment reminder...', 'info');
+        }
+    </script>
+    
+    <style>
+        .avatar {
+            width: 40px;
+            height: 40px;
+            font-size: 1rem;
+        }
+        
+        .info-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #f1f3f4;
+        }
+        
+        .info-item:last-child {
+            border-bottom: none;
+        }
+        
+        .info-item label {
+            font-weight: 500;
+            color: #6c757d;
+        }
+        
+        .summary-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+        }
+        
+        .summary-item.total {
+            font-weight: 600;
+            font-size: 1.1rem;
+            padding-top: 0.75rem;
+            border-top: 2px solid #dee2e6;
+        }
+        
+        .payment-method {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #f1f3f4;
+        }
+        
+        .payment-method:last-child {
+            border-bottom: none;
+        }
+        
+        .payment-method i {
+            width: 20px;
+            text-align: center;
+        }
+        
+        .breadcrumb {
+            background: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .breadcrumb-item + .breadcrumb-item::before {
+            content: ">";
+            color: #6c757d;
+        }
+        
+        @@media print {
+            .d-flex.gap-2, .btn, .card:last-child {
+                display: none !important;
+            }
+        }
+    </style>
+}

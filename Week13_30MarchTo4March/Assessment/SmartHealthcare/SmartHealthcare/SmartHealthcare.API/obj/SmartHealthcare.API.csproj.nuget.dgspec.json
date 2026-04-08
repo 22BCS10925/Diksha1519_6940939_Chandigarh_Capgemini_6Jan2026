@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Day4_2April\\SmartHealthcare\\SmartHealthcare\\SmartHealthcare.API\\SmartHealthcare.API.csproj": {}
+    "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Assessment\\SmartHealthcare\\SmartHealthcare\\SmartHealthcare.API\\SmartHealthcare.API.csproj": {}
   },
   "projects": {
-    "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Day4_2April\\SmartHealthcare\\SmartHealthcare\\SmartHealthcare.API\\SmartHealthcare.API.csproj": {
+    "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Assessment\\SmartHealthcare\\SmartHealthcare\\SmartHealthcare.API\\SmartHealthcare.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Day4_2April\\SmartHealthcare\\SmartHealthcare\\SmartHealthcare.API\\SmartHealthcare.API.csproj",
+        "projectUniqueName": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Assessment\\SmartHealthcare\\SmartHealthcare\\SmartHealthcare.API\\SmartHealthcare.API.csproj",
         "projectName": "SmartHealthcare.API",
-        "projectPath": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Day4_2April\\SmartHealthcare\\SmartHealthcare\\SmartHealthcare.API\\SmartHealthcare.API.csproj",
+        "projectPath": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Assessment\\SmartHealthcare\\SmartHealthcare\\SmartHealthcare.API\\SmartHealthcare.API.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Day4_2April\\SmartHealthcare\\SmartHealthcare\\SmartHealthcare.API\\obj\\",
+        "outputPath": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Assessment\\SmartHealthcare\\SmartHealthcare\\SmartHealthcare.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Day4_2April\\SmartHealthcare\\SmartHealthcare\\SmartHealthcare.Models\\SmartHealthcare.Models.csproj": {
-                "projectPath": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Day4_2April\\SmartHealthcare\\SmartHealthcare\\SmartHealthcare.Models\\SmartHealthcare.Models.csproj"
+              "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Assessment\\SmartHealthcare\\SmartHealthcare\\SmartHealthcare.Models\\SmartHealthcare.Models.csproj": {
+                "projectPath": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Assessment\\SmartHealthcare\\SmartHealthcare\\SmartHealthcare.Models\\SmartHealthcare.Models.csproj"
               }
             }
           }
@@ -536,14 +536,14 @@
         }
       }
     },
-    "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Day4_2April\\SmartHealthcare\\SmartHealthcare\\SmartHealthcare.Models\\SmartHealthcare.Models.csproj": {
+    "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Assessment\\SmartHealthcare\\SmartHealthcare\\SmartHealthcare.Models\\SmartHealthcare.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Day4_2April\\SmartHealthcare\\SmartHealthcare\\SmartHealthcare.Models\\SmartHealthcare.Models.csproj",
+        "projectUniqueName": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Assessment\\SmartHealthcare\\SmartHealthcare\\SmartHealthcare.Models\\SmartHealthcare.Models.csproj",
         "projectName": "SmartHealthcare.Models",
-        "projectPath": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Day4_2April\\SmartHealthcare\\SmartHealthcare\\SmartHealthcare.Models\\SmartHealthcare.Models.csproj",
+        "projectPath": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Assessment\\SmartHealthcare\\SmartHealthcare\\SmartHealthcare.Models\\SmartHealthcare.Models.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Day4_2April\\SmartHealthcare\\SmartHealthcare\\SmartHealthcare.Models\\obj\\",
+        "outputPath": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week13_30MarchTo4March\\Assessment\\SmartHealthcare\\SmartHealthcare\\SmartHealthcare.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

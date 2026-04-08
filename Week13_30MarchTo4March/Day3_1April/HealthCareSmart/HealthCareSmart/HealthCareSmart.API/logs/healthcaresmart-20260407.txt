@@ -1,0 +1,999 @@
+2026-04-07 10:25:36.556 +05:30 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-04-07 10:25:36.842 +05:30 [INF] Executed DbCommand (121ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND [o].[object_id] NOT IN (SELECT [ep].[major_id]
+        FROM [sys].[extended_properties] AS [ep]
+        WHERE [ep].[minor_id] = 0
+            AND [ep].[class] = 1
+            AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2026-04-07 10:25:37.296 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-04-07 10:25:37.355 +05:30 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2026-04-07 10:25:37.559 +05:30 [INF] Executed DbCommand (124ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2026-04-07 10:25:37.797 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2026-04-07 10:25:38.045 +05:30 [INF] Executed DbCommand (56ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-04-07 10:25:38.539 +05:30 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-04-07 10:25:38.729 +05:30 [INF] Executed DbCommand (156ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-04-07 10:25:38.907 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-04-07 10:25:39.171 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2026-04-07 10:25:39.356 +05:30 [INF] Executed DbCommand (113ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF OBJECT_ID(N'dbo.Doctors', N'U') IS NOT NULL AND COL_LENGTH(N'dbo.Doctors', N'ConsultationFee') IS NULL
+BEGIN
+    ALTER TABLE dbo.Doctors ADD ConsultationFee DECIMAL(18,2) NOT NULL DEFAULT 0;
+END
+IF OBJECT_ID(N'dbo.Medicines', N'U') IS NOT NULL AND COL_LENGTH(N'dbo.Medicines', N'Price') IS NULL
+BEGIN
+    ALTER TABLE dbo.Medicines ADD Price DECIMAL(18,2) NOT NULL DEFAULT 0;
+END
+IF OBJECT_ID(N'dbo.Billings', N'U') IS NULL
+BEGIN
+    CREATE TABLE dbo.Billings (
+        Id INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+        AppointmentId INT NOT NULL,
+        ConsultationFee DECIMAL(18,2) NOT NULL DEFAULT 0,
+        MedicineCost DECIMAL(18,2) NOT NULL DEFAULT 0,
+        CreatedAt DATETIME2 NOT NULL DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT FK_Billings_Appointments FOREIGN KEY (AppointmentId) REFERENCES dbo.Appointments(Id)
+    );
+END
+ELSE IF COL_LENGTH(N'dbo.Billings', N'ConsultationFee') IS NULL
+BEGIN
+    ALTER TABLE dbo.Billings ADD ConsultationFee DECIMAL(18,2) NOT NULL DEFAULT 0;
+END
+ELSE IF COL_LENGTH(N'dbo.Billings', N'MedicineCost') IS NULL
+BEGIN
+    ALTER TABLE dbo.Billings ADD MedicineCost DECIMAL(18,2) NOT NULL DEFAULT 0;
+END
+2026-04-07 10:25:40.401 +05:30 [INF] Executed DbCommand (388ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-04-07 10:25:40.484 +05:30 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Patients] AS [p]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-04-07 10:25:40.679 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [DoctorSpecializations] AS [d]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-04-07 10:25:40.744 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-07 10:25:41.216 +05:30 [INF] Now listening on: https://localhost:7001
+2026-04-07 10:25:41.239 +05:30 [INF] Now listening on: http://localhost:5002
+2026-04-07 10:25:41.273 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-07 10:25:41.557 +05:30 [INF] Hosting environment: Development
+2026-04-07 10:25:41.786 +05:30 [INF] Content root path: D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.API
+2026-04-07 10:25:55.845 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2026-04-07 10:25:56.149 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 404 0 null 307.6633ms
+2026-04-07 10:25:56.441 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7001/, Response status code: 404
+2026-04-07 10:26:03.103 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/swagger/index.html - null null
+2026-04-07 10:26:03.411 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/swagger/index.html - 200 null text/html;charset=utf-8 308.3382ms
+2026-04-07 10:26:03.475 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/swagger/index.js - null null
+2026-04-07 10:26:03.735 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/swagger/index.js - 200 null application/javascript;charset=utf-8 259.5037ms
+2026-04-07 10:26:03.870 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2026-04-07 10:26:04.434 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 563.4615ms
+2026-04-07 10:26:14.163 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7001/api/auth/login - application/json; charset=utf-8 75
+2026-04-07 10:26:14.173 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.AuthController.Login (HealthCareSmart.API)'
+2026-04-07 10:26:14.218 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HealthCareSmart.API.Controllers.LoginRequest) on controller HealthCareSmart.API.Controllers.AuthController (HealthCareSmart.API).
+2026-04-07 10:26:14.277 +05:30 [INF] Login attempt for: patient@healthcare.com as Patient
+2026-04-07 10:26:14.592 +05:30 [INF] Executed DbCommand (62ms) [Parameters=[@email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FullName], [u].[PasswordHash], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @email
+2026-04-07 10:26:14.724 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@user_Id='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Address], [p].[DateOfBirth], [p].[PhoneNumber], [p].[UserId]
+FROM [Patients] AS [p]
+WHERE [p].[UserId] = @user_Id
+2026-04-07 10:26:14.845 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType5`4[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-07 10:26:14.882 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.AuthController.Login (HealthCareSmart.API) in 652.2758ms
+2026-04-07 10:26:14.887 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.AuthController.Login (HealthCareSmart.API)'
+2026-04-07 10:26:14.904 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7001/api/auth/login - 200 null application/json; charset=utf-8 740.4501ms
+2026-04-07 10:26:14.974 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/appointments - null null
+2026-04-07 10:26:15.085 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:26:15.120 +05:30 [INF] Route matched with {action = "GetAll", controller = "Appointments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller HealthCareSmart.API.Controllers.AppointmentsController (HealthCareSmart.API).
+2026-04-07 10:26:15.769 +05:30 [INF] Executed DbCommand (103ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AppointmentDate], [a].[Status], [a].[PatientId], [a].[DoctorId], [d].[FullName], [u].[FullName], [a].[Notes], CASE
+    WHEN [b].[Id] IS NOT NULL THEN [b].[IsPaid]
+    ELSE CAST(0 AS bit)
+END, CASE
+    WHEN [p0].[Id] IS NOT NULL THEN [p0].[Instructions]
+    ELSE N''
+END, CASE
+    WHEN [p0].[Id] IS NOT NULL AND EXISTS (
+        SELECT 1
+        FROM [Medicines] AS [m]
+        WHERE [p0].[Id] = [m].[PrescriptionId]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END, [d].[Id], [p].[Id], [u].[Id], [b].[Id], [p0].[Id], [m0].[Name], [m0].[Id]
+FROM [Appointments] AS [a]
+INNER JOIN [Doctors] AS [d] ON [a].[DoctorId] = [d].[Id]
+INNER JOIN [Patients] AS [p] ON [a].[PatientId] = [p].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+LEFT JOIN [Billings] AS [b] ON [a].[Id] = [b].[AppointmentId]
+LEFT JOIN [Prescriptions] AS [p0] ON [a].[Id] = [p0].[AppointmentId]
+LEFT JOIN [Medicines] AS [m0] ON [p0].[Id] = [m0].[PrescriptionId]
+ORDER BY [a].[Id], [d].[Id], [p].[Id], [u].[Id], [b].[Id], [p0].[Id]
+2026-04-07 10:26:15.788 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HealthCareSmart.Core.DTOs.AppointmentDTO, HealthCareSmart.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 10:26:15.836 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API) in 712.5163ms
+2026-04-07 10:26:15.850 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:26:15.855 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/appointments - 200 null application/json; charset=utf-8 880.3041ms
+2026-04-07 10:26:15.914 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/doctors - null null
+2026-04-07 10:26:15.934 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.DoctorsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:26:15.971 +05:30 [INF] Route matched with {action = "GetAll", controller = "Doctors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller HealthCareSmart.API.Controllers.DoctorsController (HealthCareSmart.API).
+2026-04-07 10:26:15.993 +05:30 [INF] Cache miss — fetching doctors from database
+2026-04-07 10:26:16.107 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[FullName], [d].[PhoneNumber], [d].[ConsultationFee], [s].[Name], [s].[DoctorsId], [s].[SpecializationsId], [s].[Id]
+FROM [Doctors] AS [d]
+LEFT JOIN (
+    SELECT [d1].[Name], [d0].[DoctorsId], [d0].[SpecializationsId], [d1].[Id]
+    FROM [DoctorDoctorSpecialization] AS [d0]
+    INNER JOIN [DoctorSpecializations] AS [d1] ON [d0].[SpecializationsId] = [d1].[Id]
+) AS [s] ON [d].[Id] = [s].[DoctorsId]
+ORDER BY [d].[Id], [s].[DoctorsId], [s].[SpecializationsId]
+2026-04-07 10:26:16.119 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HealthCareSmart.Core.DTOs.DoctorDTO, HealthCareSmart.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 10:26:16.160 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.DoctorsController.GetAll (HealthCareSmart.API) in 183.3144ms
+2026-04-07 10:26:16.173 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.DoctorsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:26:16.182 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/doctors - 200 null application/json; charset=utf-8 267.9517ms
+2026-04-07 10:26:26.667 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/billings - null null
+2026-04-07 10:26:26.759 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.BillingsController.GetBillings (HealthCareSmart.API)'
+2026-04-07 10:26:27.173 +05:30 [INF] Route matched with {action = "GetBillings", controller = "Billings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBillings() on controller HealthCareSmart.API.Controllers.BillingsController (HealthCareSmart.API).
+2026-04-07 10:26:27.219 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@userId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Address], [p].[DateOfBirth], [p].[PhoneNumber], [p].[UserId]
+FROM [Patients] AS [p]
+WHERE [p].[UserId] = @userId
+2026-04-07 10:26:27.240 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@userId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FullName], [u].[PasswordHash], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @userId
+2026-04-07 10:26:27.332 +05:30 [INF] Executed DbCommand (46ms) [Parameters=[@currentPatientId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id] AS [id], [b].[AppointmentId] AS [appointmentId], [d].[FullName] AS [doctorName], [u].[FullName] AS [patientName], [b].[ConsultationFee] AS [consultationFee], [b].[MedicineCost] AS [medicineCost], [b].[ConsultationFee] + [b].[MedicineCost] AS [totalAmount], [b].[IsPaid] AS [isPaid], [b].[PaidAt] AS [paidAt]
+FROM [Billings] AS [b]
+INNER JOIN [Appointments] AS [a] ON [b].[AppointmentId] = [a].[Id]
+INNER JOIN [Doctors] AS [d] ON [a].[DoctorId] = [d].[Id]
+INNER JOIN [Patients] AS [p] ON [a].[PatientId] = [p].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+WHERE [a].[PatientId] = @currentPatientId
+2026-04-07 10:26:27.356 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType6`9[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], HealthCareSmart.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 10:26:27.408 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.BillingsController.GetBillings (HealthCareSmart.API) in 223.2644ms
+2026-04-07 10:26:27.472 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.BillingsController.GetBillings (HealthCareSmart.API)'
+2026-04-07 10:26:27.488 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/billings - 200 null application/json; charset=utf-8 820.8615ms
+2026-04-07 10:26:31.577 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/doctors - null null
+2026-04-07 10:26:31.594 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.DoctorsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:26:31.602 +05:30 [INF] Route matched with {action = "GetAll", controller = "Doctors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller HealthCareSmart.API.Controllers.DoctorsController (HealthCareSmart.API).
+2026-04-07 10:26:31.615 +05:30 [INF] Cache hit — returning doctors from cache
+2026-04-07 10:26:31.623 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HealthCareSmart.Core.DTOs.DoctorDTO, HealthCareSmart.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 10:26:31.628 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.DoctorsController.GetAll (HealthCareSmart.API) in 17.4069ms
+2026-04-07 10:26:31.639 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.DoctorsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:26:31.642 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/doctors - 200 null application/json; charset=utf-8 65.171ms
+2026-04-07 10:26:44.623 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/appointments - null null
+2026-04-07 10:26:44.708 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:26:44.778 +05:30 [INF] Route matched with {action = "GetAll", controller = "Appointments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller HealthCareSmart.API.Controllers.AppointmentsController (HealthCareSmart.API).
+2026-04-07 10:26:44.916 +05:30 [INF] Executed DbCommand (91ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AppointmentDate], [a].[Status], [a].[PatientId], [a].[DoctorId], [d].[FullName], [u].[FullName], [a].[Notes], CASE
+    WHEN [b].[Id] IS NOT NULL THEN [b].[IsPaid]
+    ELSE CAST(0 AS bit)
+END, CASE
+    WHEN [p0].[Id] IS NOT NULL THEN [p0].[Instructions]
+    ELSE N''
+END, CASE
+    WHEN [p0].[Id] IS NOT NULL AND EXISTS (
+        SELECT 1
+        FROM [Medicines] AS [m]
+        WHERE [p0].[Id] = [m].[PrescriptionId]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END, [d].[Id], [p].[Id], [u].[Id], [b].[Id], [p0].[Id], [m0].[Name], [m0].[Id]
+FROM [Appointments] AS [a]
+INNER JOIN [Doctors] AS [d] ON [a].[DoctorId] = [d].[Id]
+INNER JOIN [Patients] AS [p] ON [a].[PatientId] = [p].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+LEFT JOIN [Billings] AS [b] ON [a].[Id] = [b].[AppointmentId]
+LEFT JOIN [Prescriptions] AS [p0] ON [a].[Id] = [p0].[AppointmentId]
+LEFT JOIN [Medicines] AS [m0] ON [p0].[Id] = [m0].[PrescriptionId]
+ORDER BY [a].[Id], [d].[Id], [p].[Id], [u].[Id], [b].[Id], [p0].[Id]
+2026-04-07 10:26:44.921 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HealthCareSmart.Core.DTOs.AppointmentDTO, HealthCareSmart.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 10:26:44.929 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API) in 121.7144ms
+2026-04-07 10:26:44.935 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:26:44.945 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/appointments - 200 null application/json; charset=utf-8 321.7965ms
+2026-04-07 10:26:44.977 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/doctors - null null
+2026-04-07 10:26:45.035 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.DoctorsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:26:45.048 +05:30 [INF] Route matched with {action = "GetAll", controller = "Doctors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller HealthCareSmart.API.Controllers.DoctorsController (HealthCareSmart.API).
+2026-04-07 10:26:45.069 +05:30 [INF] Cache hit — returning doctors from cache
+2026-04-07 10:26:45.073 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HealthCareSmart.Core.DTOs.DoctorDTO, HealthCareSmart.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 10:26:45.079 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.DoctorsController.GetAll (HealthCareSmart.API) in 10.6745ms
+2026-04-07 10:26:45.096 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.DoctorsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:26:45.107 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/doctors - 200 null application/json; charset=utf-8 130.6334ms
+2026-04-07 10:26:47.243 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/appointments - null null
+2026-04-07 10:26:47.279 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:26:47.354 +05:30 [INF] Route matched with {action = "GetAll", controller = "Appointments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller HealthCareSmart.API.Controllers.AppointmentsController (HealthCareSmart.API).
+2026-04-07 10:26:47.533 +05:30 [INF] Executed DbCommand (89ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AppointmentDate], [a].[Status], [a].[PatientId], [a].[DoctorId], [d].[FullName], [u].[FullName], [a].[Notes], CASE
+    WHEN [b].[Id] IS NOT NULL THEN [b].[IsPaid]
+    ELSE CAST(0 AS bit)
+END, CASE
+    WHEN [p0].[Id] IS NOT NULL THEN [p0].[Instructions]
+    ELSE N''
+END, CASE
+    WHEN [p0].[Id] IS NOT NULL AND EXISTS (
+        SELECT 1
+        FROM [Medicines] AS [m]
+        WHERE [p0].[Id] = [m].[PrescriptionId]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END, [d].[Id], [p].[Id], [u].[Id], [b].[Id], [p0].[Id], [m0].[Name], [m0].[Id]
+FROM [Appointments] AS [a]
+INNER JOIN [Doctors] AS [d] ON [a].[DoctorId] = [d].[Id]
+INNER JOIN [Patients] AS [p] ON [a].[PatientId] = [p].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+LEFT JOIN [Billings] AS [b] ON [a].[Id] = [b].[AppointmentId]
+LEFT JOIN [Prescriptions] AS [p0] ON [a].[Id] = [p0].[AppointmentId]
+LEFT JOIN [Medicines] AS [m0] ON [p0].[Id] = [m0].[PrescriptionId]
+ORDER BY [a].[Id], [d].[Id], [p].[Id], [u].[Id], [b].[Id], [p0].[Id]
+2026-04-07 10:26:47.544 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HealthCareSmart.Core.DTOs.AppointmentDTO, HealthCareSmart.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 10:26:47.585 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API) in 144.496ms
+2026-04-07 10:26:47.623 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:26:47.634 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/appointments - 200 null application/json; charset=utf-8 391.1909ms
+2026-04-07 10:26:51.676 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/appointments/1/prescription - null null
+2026-04-07 10:26:51.729 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.GetPrescription (HealthCareSmart.API)'
+2026-04-07 10:26:51.772 +05:30 [INF] Route matched with {action = "GetPrescription", controller = "Appointments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPrescription(Int32) on controller HealthCareSmart.API.Controllers.AppointmentsController (HealthCareSmart.API).
+2026-04-07 10:26:51.974 +05:30 [INF] Executed DbCommand (24ms) [Parameters=[@id='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[AppointmentDate], [s].[DoctorId], [s].[Notes], [s].[PatientId], [s].[Status], [s].[Id0], [s].[AppointmentId], [s].[Instructions], [s].[IssuedDate], [s].[Id1], [m].[Id], [m].[Dosage], [m].[Name], [m].[PrescriptionId], [m].[Price], [s].[ConsultationFee], [s].[FullName], [s].[PhoneNumber]
+FROM (
+    SELECT TOP(1) [a].[Id], [a].[AppointmentDate], [a].[DoctorId], [a].[Notes], [a].[PatientId], [a].[Status], [p].[Id] AS [Id0], [p].[AppointmentId], [p].[Instructions], [p].[IssuedDate], [d].[Id] AS [Id1], [d].[ConsultationFee], [d].[FullName], [d].[PhoneNumber]
+    FROM [Appointments] AS [a]
+    LEFT JOIN [Prescriptions] AS [p] ON [a].[Id] = [p].[AppointmentId]
+    INNER JOIN [Doctors] AS [d] ON [a].[DoctorId] = [d].[Id]
+    WHERE [a].[Id] = @id
+) AS [s]
+LEFT JOIN [Medicines] AS [m] ON [s].[Id0] = [m].[PrescriptionId]
+ORDER BY [s].[Id], [s].[Id0], [s].[Id1]
+2026-04-07 10:26:52.071 +05:30 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-07 10:26:52.078 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.AppointmentsController.GetPrescription (HealthCareSmart.API) in 300.934ms
+2026-04-07 10:26:52.087 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.GetPrescription (HealthCareSmart.API)'
+2026-04-07 10:26:52.093 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/appointments/1/prescription - 404 null application/json; charset=utf-8 416.6171ms
+2026-04-07 10:42:22.332 +05:30 [INF] Executed DbCommand (66ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-04-07 10:42:26.007 +05:30 [INF] Executed DbCommand (3,395ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND [o].[object_id] NOT IN (SELECT [ep].[major_id]
+        FROM [sys].[extended_properties] AS [ep]
+        WHERE [ep].[minor_id] = 0
+            AND [ep].[class] = 1
+            AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2026-04-07 10:42:26.704 +05:30 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-04-07 10:42:27.256 +05:30 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2026-04-07 10:42:27.650 +05:30 [INF] Executed DbCommand (353ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2026-04-07 10:42:28.068 +05:30 [INF] Executed DbCommand (228ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2026-04-07 10:42:28.092 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-04-07 10:42:28.133 +05:30 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-04-07 10:42:28.258 +05:30 [INF] Executed DbCommand (105ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-04-07 10:42:28.277 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-04-07 10:42:28.288 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2026-04-07 10:42:28.319 +05:30 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF OBJECT_ID(N'dbo.Doctors', N'U') IS NOT NULL AND COL_LENGTH(N'dbo.Doctors', N'ConsultationFee') IS NULL
+BEGIN
+    ALTER TABLE dbo.Doctors ADD ConsultationFee DECIMAL(18,2) NOT NULL DEFAULT 0;
+END
+IF OBJECT_ID(N'dbo.Medicines', N'U') IS NOT NULL AND COL_LENGTH(N'dbo.Medicines', N'Price') IS NULL
+BEGIN
+    ALTER TABLE dbo.Medicines ADD Price DECIMAL(18,2) NOT NULL DEFAULT 0;
+END
+IF OBJECT_ID(N'dbo.Billings', N'U') IS NULL
+BEGIN
+    CREATE TABLE dbo.Billings (
+        Id INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+        AppointmentId INT NOT NULL,
+        ConsultationFee DECIMAL(18,2) NOT NULL DEFAULT 0,
+        MedicineCost DECIMAL(18,2) NOT NULL DEFAULT 0,
+        CreatedAt DATETIME2 NOT NULL DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT FK_Billings_Appointments FOREIGN KEY (AppointmentId) REFERENCES dbo.Appointments(Id)
+    );
+END
+ELSE IF COL_LENGTH(N'dbo.Billings', N'ConsultationFee') IS NULL
+BEGIN
+    ALTER TABLE dbo.Billings ADD ConsultationFee DECIMAL(18,2) NOT NULL DEFAULT 0;
+END
+ELSE IF COL_LENGTH(N'dbo.Billings', N'MedicineCost') IS NULL
+BEGIN
+    ALTER TABLE dbo.Billings ADD MedicineCost DECIMAL(18,2) NOT NULL DEFAULT 0;
+END
+2026-04-07 10:42:29.083 +05:30 [INF] Executed DbCommand (50ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-04-07 10:42:29.113 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Patients] AS [p]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-04-07 10:42:29.206 +05:30 [INF] Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [DoctorSpecializations] AS [d]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-04-07 10:42:29.265 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-07 10:42:29.546 +05:30 [INF] Now listening on: https://localhost:7001
+2026-04-07 10:42:29.558 +05:30 [INF] Now listening on: http://localhost:5002
+2026-04-07 10:42:29.573 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-07 10:42:29.577 +05:30 [INF] Hosting environment: Development
+2026-04-07 10:42:29.581 +05:30 [INF] Content root path: D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.API
+2026-04-07 10:43:05.400 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2026-04-07 10:43:05.589 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 404 0 null 192.4404ms
+2026-04-07 10:43:05.607 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7001/, Response status code: 404
+2026-04-07 10:43:21.868 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7001/api/auth/login - application/json; charset=utf-8 75
+2026-04-07 10:43:21.901 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.AuthController.Login (HealthCareSmart.API)'
+2026-04-07 10:43:21.990 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HealthCareSmart.API.Controllers.LoginRequest) on controller HealthCareSmart.API.Controllers.AuthController (HealthCareSmart.API).
+2026-04-07 10:43:22.221 +05:30 [INF] Login attempt for: patient@healthcare.com as Patient
+2026-04-07 10:43:23.015 +05:30 [INF] Executed DbCommand (249ms) [Parameters=[@email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FullName], [u].[PasswordHash], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @email
+2026-04-07 10:43:23.300 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[@user_Id='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Address], [p].[DateOfBirth], [p].[PhoneNumber], [p].[UserId]
+FROM [Patients] AS [p]
+WHERE [p].[UserId] = @user_Id
+2026-04-07 10:43:23.525 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType5`4[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-07 10:43:23.582 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.AuthController.Login (HealthCareSmart.API) in 1571.9079ms
+2026-04-07 10:43:23.587 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.AuthController.Login (HealthCareSmart.API)'
+2026-04-07 10:43:23.615 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7001/api/auth/login - 200 null application/json; charset=utf-8 1745.9752ms
+2026-04-07 10:43:23.722 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/appointments - null null
+2026-04-07 10:43:23.923 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:43:23.965 +05:30 [INF] Route matched with {action = "GetAll", controller = "Appointments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller HealthCareSmart.API.Controllers.AppointmentsController (HealthCareSmart.API).
+2026-04-07 10:43:25.283 +05:30 [INF] Executed DbCommand (159ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AppointmentDate], [a].[Status], [a].[PatientId], [a].[DoctorId], [d].[FullName], [u].[FullName], [a].[Notes], CASE
+    WHEN [b].[Id] IS NOT NULL THEN [b].[IsPaid]
+    ELSE CAST(0 AS bit)
+END, CASE
+    WHEN [p0].[Id] IS NOT NULL THEN [p0].[Instructions]
+    ELSE N''
+END, CASE
+    WHEN [p0].[Id] IS NOT NULL AND EXISTS (
+        SELECT 1
+        FROM [Medicines] AS [m]
+        WHERE [p0].[Id] = [m].[PrescriptionId]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END, [d].[Id], [p].[Id], [u].[Id], [b].[Id], [p0].[Id], [m0].[Name], [m0].[Id]
+FROM [Appointments] AS [a]
+INNER JOIN [Doctors] AS [d] ON [a].[DoctorId] = [d].[Id]
+INNER JOIN [Patients] AS [p] ON [a].[PatientId] = [p].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+LEFT JOIN [Billings] AS [b] ON [a].[Id] = [b].[AppointmentId]
+LEFT JOIN [Prescriptions] AS [p0] ON [a].[Id] = [p0].[AppointmentId]
+LEFT JOIN [Medicines] AS [m0] ON [p0].[Id] = [m0].[PrescriptionId]
+ORDER BY [a].[Id], [d].[Id], [p].[Id], [u].[Id], [b].[Id], [p0].[Id]
+2026-04-07 10:43:25.515 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HealthCareSmart.Core.DTOs.AppointmentDTO, HealthCareSmart.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 10:43:25.557 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API) in 1570.6665ms
+2026-04-07 10:43:25.566 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:43:25.570 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/appointments - 200 null application/json; charset=utf-8 1847.4093ms
+2026-04-07 10:43:25.598 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/doctors - null null
+2026-04-07 10:43:25.622 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.DoctorsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:43:25.651 +05:30 [INF] Route matched with {action = "GetAll", controller = "Doctors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller HealthCareSmart.API.Controllers.DoctorsController (HealthCareSmart.API).
+2026-04-07 10:43:25.773 +05:30 [INF] Cache miss — fetching doctors from database
+2026-04-07 10:43:26.062 +05:30 [INF] Executed DbCommand (176ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[FullName], [d].[PhoneNumber], [d].[ConsultationFee], [s].[Name], [s].[DoctorsId], [s].[SpecializationsId], [s].[Id]
+FROM [Doctors] AS [d]
+LEFT JOIN (
+    SELECT [d1].[Name], [d0].[DoctorsId], [d0].[SpecializationsId], [d1].[Id]
+    FROM [DoctorDoctorSpecialization] AS [d0]
+    INNER JOIN [DoctorSpecializations] AS [d1] ON [d0].[SpecializationsId] = [d1].[Id]
+) AS [s] ON [d].[Id] = [s].[DoctorsId]
+ORDER BY [d].[Id], [s].[DoctorsId], [s].[SpecializationsId]
+2026-04-07 10:43:26.104 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HealthCareSmart.Core.DTOs.DoctorDTO, HealthCareSmart.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 10:43:26.138 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.DoctorsController.GetAll (HealthCareSmart.API) in 381.1669ms
+2026-04-07 10:43:26.142 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.DoctorsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:43:26.157 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/doctors - 200 null application/json; charset=utf-8 558.8998ms
+2026-04-07 10:43:51.122 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7001/api/auth/login - application/json; charset=utf-8 75
+2026-04-07 10:43:51.165 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.AuthController.Login (HealthCareSmart.API)'
+2026-04-07 10:43:51.168 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HealthCareSmart.API.Controllers.LoginRequest) on controller HealthCareSmart.API.Controllers.AuthController (HealthCareSmart.API).
+2026-04-07 10:43:51.184 +05:30 [INF] Login attempt for: patient@healthcare.com as Patient
+2026-04-07 10:43:51.226 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[@email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FullName], [u].[PasswordHash], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @email
+2026-04-07 10:43:51.248 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[@user_Id='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Address], [p].[DateOfBirth], [p].[PhoneNumber], [p].[UserId]
+FROM [Patients] AS [p]
+WHERE [p].[UserId] = @user_Id
+2026-04-07 10:43:51.255 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType5`4[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-07 10:43:51.263 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.AuthController.Login (HealthCareSmart.API) in 88.7721ms
+2026-04-07 10:43:51.277 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.AuthController.Login (HealthCareSmart.API)'
+2026-04-07 10:43:51.284 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7001/api/auth/login - 200 null application/json; charset=utf-8 161.5928ms
+2026-04-07 10:43:51.306 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/appointments - null null
+2026-04-07 10:43:51.324 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:43:51.330 +05:30 [INF] Route matched with {action = "GetAll", controller = "Appointments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller HealthCareSmart.API.Controllers.AppointmentsController (HealthCareSmart.API).
+2026-04-07 10:43:51.455 +05:30 [INF] Executed DbCommand (108ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AppointmentDate], [a].[Status], [a].[PatientId], [a].[DoctorId], [d].[FullName], [u].[FullName], [a].[Notes], CASE
+    WHEN [b].[Id] IS NOT NULL THEN [b].[IsPaid]
+    ELSE CAST(0 AS bit)
+END, CASE
+    WHEN [p0].[Id] IS NOT NULL THEN [p0].[Instructions]
+    ELSE N''
+END, CASE
+    WHEN [p0].[Id] IS NOT NULL AND EXISTS (
+        SELECT 1
+        FROM [Medicines] AS [m]
+        WHERE [p0].[Id] = [m].[PrescriptionId]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END, [d].[Id], [p].[Id], [u].[Id], [b].[Id], [p0].[Id], [m0].[Name], [m0].[Id]
+FROM [Appointments] AS [a]
+INNER JOIN [Doctors] AS [d] ON [a].[DoctorId] = [d].[Id]
+INNER JOIN [Patients] AS [p] ON [a].[PatientId] = [p].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+LEFT JOIN [Billings] AS [b] ON [a].[Id] = [b].[AppointmentId]
+LEFT JOIN [Prescriptions] AS [p0] ON [a].[Id] = [p0].[AppointmentId]
+LEFT JOIN [Medicines] AS [m0] ON [p0].[Id] = [m0].[PrescriptionId]
+ORDER BY [a].[Id], [d].[Id], [p].[Id], [u].[Id], [b].[Id], [p0].[Id]
+2026-04-07 10:43:51.504 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HealthCareSmart.Core.DTOs.AppointmentDTO, HealthCareSmart.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 10:43:51.516 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API) in 180.5269ms
+2026-04-07 10:43:51.533 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:43:51.536 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/appointments - 200 null application/json; charset=utf-8 229.1674ms
+2026-04-07 10:43:51.557 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/doctors - null null
+2026-04-07 10:43:51.566 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.DoctorsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:43:51.569 +05:30 [INF] Route matched with {action = "GetAll", controller = "Doctors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller HealthCareSmart.API.Controllers.DoctorsController (HealthCareSmart.API).
+2026-04-07 10:43:51.576 +05:30 [INF] Cache hit — returning doctors from cache
+2026-04-07 10:43:51.581 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HealthCareSmart.Core.DTOs.DoctorDTO, HealthCareSmart.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 10:43:51.585 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.DoctorsController.GetAll (HealthCareSmart.API) in 9.8038ms
+2026-04-07 10:43:51.590 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.DoctorsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:43:51.593 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/doctors - 200 null application/json; charset=utf-8 35.8404ms
+2026-04-07 10:43:54.747 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/billings - null null
+2026-04-07 10:43:54.768 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.BillingsController.GetBillings (HealthCareSmart.API)'
+2026-04-07 10:43:54.809 +05:30 [INF] Route matched with {action = "GetBillings", controller = "Billings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBillings() on controller HealthCareSmart.API.Controllers.BillingsController (HealthCareSmart.API).
+2026-04-07 10:43:54.883 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[@userId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Address], [p].[DateOfBirth], [p].[PhoneNumber], [p].[UserId]
+FROM [Patients] AS [p]
+WHERE [p].[UserId] = @userId
+2026-04-07 10:43:54.923 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@userId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FullName], [u].[PasswordHash], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @userId
+2026-04-07 10:43:55.039 +05:30 [INF] Executed DbCommand (64ms) [Parameters=[@currentPatientId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id] AS [id], [b].[AppointmentId] AS [appointmentId], [d].[FullName] AS [doctorName], [u].[FullName] AS [patientName], [b].[ConsultationFee] AS [consultationFee], [b].[MedicineCost] AS [medicineCost], [b].[ConsultationFee] + [b].[MedicineCost] AS [totalAmount], [b].[IsPaid] AS [isPaid], [b].[PaidAt] AS [paidAt]
+FROM [Billings] AS [b]
+INNER JOIN [Appointments] AS [a] ON [b].[AppointmentId] = [a].[Id]
+INNER JOIN [Doctors] AS [d] ON [a].[DoctorId] = [d].[Id]
+INNER JOIN [Patients] AS [p] ON [a].[PatientId] = [p].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+WHERE [a].[PatientId] = @currentPatientId
+2026-04-07 10:43:55.209 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType6`9[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], HealthCareSmart.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 10:43:55.237 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.BillingsController.GetBillings (HealthCareSmart.API) in 416.1238ms
+2026-04-07 10:43:55.265 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.BillingsController.GetBillings (HealthCareSmart.API)'
+2026-04-07 10:43:55.337 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/billings - 200 null application/json; charset=utf-8 590.28ms
+2026-04-07 10:44:00.960 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/billings - null null
+2026-04-07 10:44:01.017 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.BillingsController.GetBillings (HealthCareSmart.API)'
+2026-04-07 10:44:01.035 +05:30 [INF] Route matched with {action = "GetBillings", controller = "Billings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBillings() on controller HealthCareSmart.API.Controllers.BillingsController (HealthCareSmart.API).
+2026-04-07 10:44:01.104 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[@userId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Address], [p].[DateOfBirth], [p].[PhoneNumber], [p].[UserId]
+FROM [Patients] AS [p]
+WHERE [p].[UserId] = @userId
+2026-04-07 10:44:01.140 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@userId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FullName], [u].[PasswordHash], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @userId
+2026-04-07 10:44:01.225 +05:30 [INF] Executed DbCommand (66ms) [Parameters=[@currentPatientId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id] AS [id], [b].[AppointmentId] AS [appointmentId], [d].[FullName] AS [doctorName], [u].[FullName] AS [patientName], [b].[ConsultationFee] AS [consultationFee], [b].[MedicineCost] AS [medicineCost], [b].[ConsultationFee] + [b].[MedicineCost] AS [totalAmount], [b].[IsPaid] AS [isPaid], [b].[PaidAt] AS [paidAt]
+FROM [Billings] AS [b]
+INNER JOIN [Appointments] AS [a] ON [b].[AppointmentId] = [a].[Id]
+INNER JOIN [Doctors] AS [d] ON [a].[DoctorId] = [d].[Id]
+INNER JOIN [Patients] AS [p] ON [a].[PatientId] = [p].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+WHERE [a].[PatientId] = @currentPatientId
+2026-04-07 10:44:01.262 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType6`9[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], HealthCareSmart.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 10:44:01.286 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.BillingsController.GetBillings (HealthCareSmart.API) in 219.6627ms
+2026-04-07 10:44:01.607 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.BillingsController.GetBillings (HealthCareSmart.API)'
+2026-04-07 10:44:01.654 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/billings - 200 null application/json; charset=utf-8 693.8337ms
+2026-04-07 10:44:04.091 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/appointments - null null
+2026-04-07 10:44:04.104 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:44:04.108 +05:30 [INF] Route matched with {action = "GetAll", controller = "Appointments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller HealthCareSmart.API.Controllers.AppointmentsController (HealthCareSmart.API).
+2026-04-07 10:44:04.192 +05:30 [INF] Executed DbCommand (72ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AppointmentDate], [a].[Status], [a].[PatientId], [a].[DoctorId], [d].[FullName], [u].[FullName], [a].[Notes], CASE
+    WHEN [b].[Id] IS NOT NULL THEN [b].[IsPaid]
+    ELSE CAST(0 AS bit)
+END, CASE
+    WHEN [p0].[Id] IS NOT NULL THEN [p0].[Instructions]
+    ELSE N''
+END, CASE
+    WHEN [p0].[Id] IS NOT NULL AND EXISTS (
+        SELECT 1
+        FROM [Medicines] AS [m]
+        WHERE [p0].[Id] = [m].[PrescriptionId]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END, [d].[Id], [p].[Id], [u].[Id], [b].[Id], [p0].[Id], [m0].[Name], [m0].[Id]
+FROM [Appointments] AS [a]
+INNER JOIN [Doctors] AS [d] ON [a].[DoctorId] = [d].[Id]
+INNER JOIN [Patients] AS [p] ON [a].[PatientId] = [p].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+LEFT JOIN [Billings] AS [b] ON [a].[Id] = [b].[AppointmentId]
+LEFT JOIN [Prescriptions] AS [p0] ON [a].[Id] = [p0].[AppointmentId]
+LEFT JOIN [Medicines] AS [m0] ON [p0].[Id] = [m0].[PrescriptionId]
+ORDER BY [a].[Id], [d].[Id], [p].[Id], [u].[Id], [b].[Id], [p0].[Id]
+2026-04-07 10:44:04.203 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HealthCareSmart.Core.DTOs.AppointmentDTO, HealthCareSmart.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 10:44:04.206 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API) in 88.7745ms
+2026-04-07 10:44:04.209 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:44:04.213 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/appointments - 200 null application/json; charset=utf-8 122.3989ms
+2026-04-07 10:44:11.182 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/doctors/search?specialization=Pediatrics - null null
+2026-04-07 10:44:11.206 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.DoctorsController.SearchBySpecialization (HealthCareSmart.API)'
+2026-04-07 10:44:11.274 +05:30 [INF] Route matched with {action = "SearchBySpecialization", controller = "Doctors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchBySpecialization(System.String) on controller HealthCareSmart.API.Controllers.DoctorsController (HealthCareSmart.API).
+2026-04-07 10:44:11.791 +05:30 [INF] Executed DbCommand (290ms) [Parameters=[@searchKeys='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[FullName], [d].[PhoneNumber], [d].[ConsultationFee], [s0].[Name], [s0].[DoctorsId], [s0].[SpecializationsId], [s0].[Id]
+FROM [Doctors] AS [d]
+LEFT JOIN (
+    SELECT [d3].[Name], [d2].[DoctorsId], [d2].[SpecializationsId], [d3].[Id]
+    FROM [DoctorDoctorSpecialization] AS [d2]
+    INNER JOIN [DoctorSpecializations] AS [d3] ON [d2].[SpecializationsId] = [d3].[Id]
+) AS [s0] ON [d].[Id] = [s0].[DoctorsId]
+WHERE EXISTS (
+    SELECT 1
+    FROM [DoctorDoctorSpecialization] AS [d0]
+    INNER JOIN [DoctorSpecializations] AS [d1] ON [d0].[SpecializationsId] = [d1].[Id]
+    WHERE [d].[Id] = [d0].[DoctorsId] AND [d1].[Name] IN (
+        SELECT [s].[value]
+        FROM OPENJSON(@searchKeys) WITH ([value] nvarchar(max) '$') AS [s]
+    ))
+ORDER BY [d].[Id], [s0].[DoctorsId], [s0].[SpecializationsId]
+2026-04-07 10:44:11.820 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HealthCareSmart.Core.DTOs.DoctorDTO, HealthCareSmart.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 10:44:11.829 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.DoctorsController.SearchBySpecialization (HealthCareSmart.API) in 538.8364ms
+2026-04-07 10:44:11.840 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.DoctorsController.SearchBySpecialization (HealthCareSmart.API)'
+2026-04-07 10:44:11.852 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/doctors/search?specialization=Pediatrics - 200 null application/json; charset=utf-8 669.8275ms
+2026-04-07 10:44:15.072 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/doctors/5 - null null
+2026-04-07 10:44:15.090 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.DoctorsController.GetById (HealthCareSmart.API)'
+2026-04-07 10:44:15.122 +05:30 [INF] Route matched with {action = "GetById", controller = "Doctors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller HealthCareSmart.API.Controllers.DoctorsController (HealthCareSmart.API).
+2026-04-07 10:44:15.236 +05:30 [INF] Executed DbCommand (37ms) [Parameters=[@id='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [d2].[Id], [d2].[FullName], [d2].[PhoneNumber], [d2].[ConsultationFee], [s].[Name], [s].[DoctorsId], [s].[SpecializationsId], [s].[Id]
+FROM (
+    SELECT TOP(1) [d].[Id], [d].[FullName], [d].[PhoneNumber], [d].[ConsultationFee]
+    FROM [Doctors] AS [d]
+    WHERE [d].[Id] = @id
+) AS [d2]
+LEFT JOIN (
+    SELECT [d1].[Name], [d0].[DoctorsId], [d0].[SpecializationsId], [d1].[Id]
+    FROM [DoctorDoctorSpecialization] AS [d0]
+    INNER JOIN [DoctorSpecializations] AS [d1] ON [d0].[SpecializationsId] = [d1].[Id]
+) AS [s] ON [d2].[Id] = [s].[DoctorsId]
+ORDER BY [d2].[Id], [s].[DoctorsId], [s].[SpecializationsId]
+2026-04-07 10:44:15.259 +05:30 [INF] Executing OkObjectResult, writing value of type 'HealthCareSmart.Core.DTOs.DoctorDTO'.
+2026-04-07 10:44:15.268 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.DoctorsController.GetById (HealthCareSmart.API) in 137.9654ms
+2026-04-07 10:44:15.371 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.DoctorsController.GetById (HealthCareSmart.API)'
+2026-04-07 10:44:15.375 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/doctors/5 - 200 null application/json; charset=utf-8 303.3756ms
+2026-04-07 10:44:29.488 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7001/api/appointments - application/json; charset=utf-8 84
+2026-04-07 10:44:29.501 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.Create (HealthCareSmart.API)'
+2026-04-07 10:44:29.536 +05:30 [INF] Route matched with {action = "Create", controller = "Appointments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(HealthCareSmart.Core.DTOs.CreateAppointmentDTO) on controller HealthCareSmart.API.Controllers.AppointmentsController (HealthCareSmart.API).
+2026-04-07 10:44:29.650 +05:30 [INF] Executed DbCommand (52ms) [Parameters=[@dto_PatientId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Patients] AS [p]
+        WHERE [p].[Id] = @dto_PatientId) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-04-07 10:44:29.706 +05:30 [INF] Executed DbCommand (25ms) [Parameters=[@dto_DoctorId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Doctors] AS [d]
+        WHERE [d].[Id] = @dto_DoctorId) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-04-07 10:44:30.264 +05:30 [INF] Executed DbCommand (68ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Appointments] ([AppointmentDate], [DoctorId], [Notes], [PatientId], [Status])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-04-07 10:44:30.430 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[Id], [d].[ConsultationFee], [d].[FullName], [d].[PhoneNumber]
+FROM [Doctors] AS [d]
+WHERE [d].[Id] = @p
+2026-04-07 10:44:30.693 +05:30 [INF] Executed DbCommand (25ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Boolean), @p4='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Billings] ([AppointmentId], [ConsultationFee], [CreatedAt], [IsPaid], [MedicineCost], [PaidAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2026-04-07 10:44:30.716 +05:30 [INF] Appointment + Billing created. AppointmentId: 4
+2026-04-07 10:44:30.719 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-07 10:44:30.734 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.AppointmentsController.Create (HealthCareSmart.API) in 1187.4207ms
+2026-04-07 10:44:30.750 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.Create (HealthCareSmart.API)'
+2026-04-07 10:44:30.755 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7001/api/appointments - 200 null application/json; charset=utf-8 1266.8377ms
+2026-04-07 10:44:30.775 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/appointments - null null
+2026-04-07 10:44:30.782 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:44:30.785 +05:30 [INF] Route matched with {action = "GetAll", controller = "Appointments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller HealthCareSmart.API.Controllers.AppointmentsController (HealthCareSmart.API).
+2026-04-07 10:44:30.866 +05:30 [INF] Executed DbCommand (75ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AppointmentDate], [a].[Status], [a].[PatientId], [a].[DoctorId], [d].[FullName], [u].[FullName], [a].[Notes], CASE
+    WHEN [b].[Id] IS NOT NULL THEN [b].[IsPaid]
+    ELSE CAST(0 AS bit)
+END, CASE
+    WHEN [p0].[Id] IS NOT NULL THEN [p0].[Instructions]
+    ELSE N''
+END, CASE
+    WHEN [p0].[Id] IS NOT NULL AND EXISTS (
+        SELECT 1
+        FROM [Medicines] AS [m]
+        WHERE [p0].[Id] = [m].[PrescriptionId]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END, [d].[Id], [p].[Id], [u].[Id], [b].[Id], [p0].[Id], [m0].[Name], [m0].[Id]
+FROM [Appointments] AS [a]
+INNER JOIN [Doctors] AS [d] ON [a].[DoctorId] = [d].[Id]
+INNER JOIN [Patients] AS [p] ON [a].[PatientId] = [p].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+LEFT JOIN [Billings] AS [b] ON [a].[Id] = [b].[AppointmentId]
+LEFT JOIN [Prescriptions] AS [p0] ON [a].[Id] = [p0].[AppointmentId]
+LEFT JOIN [Medicines] AS [m0] ON [p0].[Id] = [m0].[PrescriptionId]
+ORDER BY [a].[Id], [d].[Id], [p].[Id], [u].[Id], [b].[Id], [p0].[Id]
+2026-04-07 10:44:30.886 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HealthCareSmart.Core.DTOs.AppointmentDTO, HealthCareSmart.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 10:44:30.891 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API) in 102.237ms
+2026-04-07 10:44:30.900 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:44:30.910 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/appointments - 200 null application/json; charset=utf-8 134.9465ms
+2026-04-07 10:44:38.436 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/billings - null null
+2026-04-07 10:44:38.497 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.BillingsController.GetBillings (HealthCareSmart.API)'
+2026-04-07 10:44:38.502 +05:30 [INF] Route matched with {action = "GetBillings", controller = "Billings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBillings() on controller HealthCareSmart.API.Controllers.BillingsController (HealthCareSmart.API).
+2026-04-07 10:44:38.529 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@userId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Address], [p].[DateOfBirth], [p].[PhoneNumber], [p].[UserId]
+FROM [Patients] AS [p]
+WHERE [p].[UserId] = @userId
+2026-04-07 10:44:38.547 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@userId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FullName], [u].[PasswordHash], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @userId
+2026-04-07 10:44:38.582 +05:30 [INF] Executed DbCommand (27ms) [Parameters=[@currentPatientId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id] AS [id], [b].[AppointmentId] AS [appointmentId], [d].[FullName] AS [doctorName], [u].[FullName] AS [patientName], [b].[ConsultationFee] AS [consultationFee], [b].[MedicineCost] AS [medicineCost], [b].[ConsultationFee] + [b].[MedicineCost] AS [totalAmount], [b].[IsPaid] AS [isPaid], [b].[PaidAt] AS [paidAt]
+FROM [Billings] AS [b]
+INNER JOIN [Appointments] AS [a] ON [b].[AppointmentId] = [a].[Id]
+INNER JOIN [Doctors] AS [d] ON [a].[DoctorId] = [d].[Id]
+INNER JOIN [Patients] AS [p] ON [a].[PatientId] = [p].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+WHERE [a].[PatientId] = @currentPatientId
+2026-04-07 10:44:38.598 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType6`9[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], HealthCareSmart.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 10:44:38.824 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.BillingsController.GetBillings (HealthCareSmart.API) in 314.4186ms
+2026-04-07 10:44:38.849 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.BillingsController.GetBillings (HealthCareSmart.API)'
+2026-04-07 10:44:38.854 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/billings - 200 null application/json; charset=utf-8 418.3312ms
+2026-04-07 10:44:44.385 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7001/api/appointments/4/pay - null null
+2026-04-07 10:44:44.404 +05:30 [INF] CORS policy execution successful.
+2026-04-07 10:44:44.419 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7001/api/appointments/4/pay - 204 null null 33.7586ms
+2026-04-07 10:44:44.424 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7001/api/appointments/4/pay - application/json 0
+2026-04-07 10:44:44.438 +05:30 [INF] CORS policy execution successful.
+2026-04-07 10:44:44.441 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.MarkAsPaid (HealthCareSmart.API)'
+2026-04-07 10:44:44.473 +05:30 [INF] Route matched with {action = "MarkAsPaid", controller = "Appointments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MarkAsPaid(Int32) on controller HealthCareSmart.API.Controllers.AppointmentsController (HealthCareSmart.API).
+2026-04-07 10:44:44.554 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[@id='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AppointmentDate], [a].[DoctorId], [a].[Notes], [a].[PatientId], [a].[Status], [b].[Id], [b].[AppointmentId], [b].[ConsultationFee], [b].[CreatedAt], [b].[IsPaid], [b].[MedicineCost], [b].[PaidAt]
+FROM [Appointments] AS [a]
+LEFT JOIN [Billings] AS [b] ON [a].[Id] = [b].[AppointmentId]
+WHERE [a].[Id] = @id
+2026-04-07 10:44:44.603 +05:30 [INF] Executed DbCommand (20ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Boolean), @p1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Billings] SET [IsPaid] = @p0, [PaidAt] = @p1
+OUTPUT 1
+WHERE [Id] = @p2;
+2026-04-07 10:44:44.624 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-07 10:44:44.633 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.AppointmentsController.MarkAsPaid (HealthCareSmart.API) in 150.1052ms
+2026-04-07 10:44:44.637 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.MarkAsPaid (HealthCareSmart.API)'
+2026-04-07 10:44:44.642 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7001/api/appointments/4/pay - 200 null application/json; charset=utf-8 217.9149ms
+2026-04-07 10:44:46.050 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/billings - null null
+2026-04-07 10:44:46.109 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.BillingsController.GetBillings (HealthCareSmart.API)'
+2026-04-07 10:44:46.119 +05:30 [INF] Route matched with {action = "GetBillings", controller = "Billings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBillings() on controller HealthCareSmart.API.Controllers.BillingsController (HealthCareSmart.API).
+2026-04-07 10:44:46.343 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[@userId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Address], [p].[DateOfBirth], [p].[PhoneNumber], [p].[UserId]
+FROM [Patients] AS [p]
+WHERE [p].[UserId] = @userId
+2026-04-07 10:44:46.486 +05:30 [INF] Executed DbCommand (20ms) [Parameters=[@userId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FullName], [u].[PasswordHash], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @userId
+2026-04-07 10:44:46.599 +05:30 [INF] Executed DbCommand (48ms) [Parameters=[@currentPatientId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id] AS [id], [b].[AppointmentId] AS [appointmentId], [d].[FullName] AS [doctorName], [u].[FullName] AS [patientName], [b].[ConsultationFee] AS [consultationFee], [b].[MedicineCost] AS [medicineCost], [b].[ConsultationFee] + [b].[MedicineCost] AS [totalAmount], [b].[IsPaid] AS [isPaid], [b].[PaidAt] AS [paidAt]
+FROM [Billings] AS [b]
+INNER JOIN [Appointments] AS [a] ON [b].[AppointmentId] = [a].[Id]
+INNER JOIN [Doctors] AS [d] ON [a].[DoctorId] = [d].[Id]
+INNER JOIN [Patients] AS [p] ON [a].[PatientId] = [p].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+WHERE [a].[PatientId] = @currentPatientId
+2026-04-07 10:44:46.685 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType6`9[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], HealthCareSmart.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 10:44:46.766 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.BillingsController.GetBillings (HealthCareSmart.API) in 448.0567ms
+2026-04-07 10:44:46.792 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.BillingsController.GetBillings (HealthCareSmart.API)'
+2026-04-07 10:44:46.796 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/billings - 200 null application/json; charset=utf-8 746.3044ms
+2026-04-07 10:44:47.664 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/doctors - null null
+2026-04-07 10:44:47.669 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.DoctorsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:44:47.684 +05:30 [INF] Route matched with {action = "GetAll", controller = "Doctors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller HealthCareSmart.API.Controllers.DoctorsController (HealthCareSmart.API).
+2026-04-07 10:44:47.696 +05:30 [INF] Cache hit — returning doctors from cache
+2026-04-07 10:44:47.701 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HealthCareSmart.Core.DTOs.DoctorDTO, HealthCareSmart.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 10:44:47.708 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.DoctorsController.GetAll (HealthCareSmart.API) in 15.0095ms
+2026-04-07 10:44:47.733 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.DoctorsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:44:47.766 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/doctors - 200 null application/json; charset=utf-8 102.7516ms
+2026-04-07 10:44:49.372 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/appointments - null null
+2026-04-07 10:44:49.386 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:44:49.390 +05:30 [INF] Route matched with {action = "GetAll", controller = "Appointments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller HealthCareSmart.API.Controllers.AppointmentsController (HealthCareSmart.API).
+2026-04-07 10:44:49.565 +05:30 [INF] Executed DbCommand (162ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AppointmentDate], [a].[Status], [a].[PatientId], [a].[DoctorId], [d].[FullName], [u].[FullName], [a].[Notes], CASE
+    WHEN [b].[Id] IS NOT NULL THEN [b].[IsPaid]
+    ELSE CAST(0 AS bit)
+END, CASE
+    WHEN [p0].[Id] IS NOT NULL THEN [p0].[Instructions]
+    ELSE N''
+END, CASE
+    WHEN [p0].[Id] IS NOT NULL AND EXISTS (
+        SELECT 1
+        FROM [Medicines] AS [m]
+        WHERE [p0].[Id] = [m].[PrescriptionId]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END, [d].[Id], [p].[Id], [u].[Id], [b].[Id], [p0].[Id], [m0].[Name], [m0].[Id]
+FROM [Appointments] AS [a]
+INNER JOIN [Doctors] AS [d] ON [a].[DoctorId] = [d].[Id]
+INNER JOIN [Patients] AS [p] ON [a].[PatientId] = [p].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+LEFT JOIN [Billings] AS [b] ON [a].[Id] = [b].[AppointmentId]
+LEFT JOIN [Prescriptions] AS [p0] ON [a].[Id] = [p0].[AppointmentId]
+LEFT JOIN [Medicines] AS [m0] ON [p0].[Id] = [m0].[PrescriptionId]
+ORDER BY [a].[Id], [d].[Id], [p].[Id], [u].[Id], [b].[Id], [p0].[Id]
+2026-04-07 10:44:49.655 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HealthCareSmart.Core.DTOs.AppointmentDTO, HealthCareSmart.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 10:44:49.662 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API) in 261.9224ms
+2026-04-07 10:44:49.672 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API)'
+2026-04-07 10:44:49.674 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/appointments - 200 null application/json; charset=utf-8 302.2677ms
+2026-04-07 11:24:33.705 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7001/api/auth/login - application/json; charset=utf-8 75
+2026-04-07 11:24:33.773 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.AuthController.Login (HealthCareSmart.API)'
+2026-04-07 11:24:33.782 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HealthCareSmart.API.Controllers.LoginRequest) on controller HealthCareSmart.API.Controllers.AuthController (HealthCareSmart.API).
+2026-04-07 11:24:33.843 +05:30 [INF] Login attempt for: patient@healthcare.com as Patient
+2026-04-07 11:24:34.183 +05:30 [INF] Executed DbCommand (73ms) [Parameters=[@email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FullName], [u].[PasswordHash], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @email
+2026-04-07 11:24:34.230 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@user_Id='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Address], [p].[DateOfBirth], [p].[PhoneNumber], [p].[UserId]
+FROM [Patients] AS [p]
+WHERE [p].[UserId] = @user_Id
+2026-04-07 11:24:34.259 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType5`4[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-07 11:24:34.265 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.AuthController.Login (HealthCareSmart.API) in 480.8799ms
+2026-04-07 11:24:34.266 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.AuthController.Login (HealthCareSmart.API)'
+2026-04-07 11:24:34.279 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7001/api/auth/login - 200 null application/json; charset=utf-8 581.5137ms
+2026-04-07 11:24:34.390 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/appointments - null null
+2026-04-07 11:24:34.405 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API)'
+2026-04-07 11:24:34.409 +05:30 [INF] Route matched with {action = "GetAll", controller = "Appointments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller HealthCareSmart.API.Controllers.AppointmentsController (HealthCareSmart.API).
+2026-04-07 11:24:35.821 +05:30 [INF] Executed DbCommand (1,393ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AppointmentDate], [a].[Status], [a].[PatientId], [a].[DoctorId], [d].[FullName], [u].[FullName], [a].[Notes], CASE
+    WHEN [b].[Id] IS NOT NULL THEN [b].[IsPaid]
+    ELSE CAST(0 AS bit)
+END, CASE
+    WHEN [p0].[Id] IS NOT NULL THEN [p0].[Instructions]
+    ELSE N''
+END, CASE
+    WHEN [p0].[Id] IS NOT NULL AND EXISTS (
+        SELECT 1
+        FROM [Medicines] AS [m]
+        WHERE [p0].[Id] = [m].[PrescriptionId]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END, [d].[Id], [p].[Id], [u].[Id], [b].[Id], [p0].[Id], [m0].[Name], [m0].[Id]
+FROM [Appointments] AS [a]
+INNER JOIN [Doctors] AS [d] ON [a].[DoctorId] = [d].[Id]
+INNER JOIN [Patients] AS [p] ON [a].[PatientId] = [p].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+LEFT JOIN [Billings] AS [b] ON [a].[Id] = [b].[AppointmentId]
+LEFT JOIN [Prescriptions] AS [p0] ON [a].[Id] = [p0].[AppointmentId]
+LEFT JOIN [Medicines] AS [m0] ON [p0].[Id] = [m0].[PrescriptionId]
+ORDER BY [a].[Id], [d].[Id], [p].[Id], [u].[Id], [b].[Id], [p0].[Id]
+2026-04-07 11:24:35.833 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HealthCareSmart.Core.DTOs.AppointmentDTO, HealthCareSmart.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 11:24:35.840 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API) in 1426.7691ms
+2026-04-07 11:24:35.841 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API)'
+2026-04-07 11:24:35.842 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/appointments - 200 null application/json; charset=utf-8 1451.8913ms
+2026-04-07 11:24:35.860 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/doctors - null null
+2026-04-07 11:24:35.873 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.DoctorsController.GetAll (HealthCareSmart.API)'
+2026-04-07 11:24:35.875 +05:30 [INF] Route matched with {action = "GetAll", controller = "Doctors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller HealthCareSmart.API.Controllers.DoctorsController (HealthCareSmart.API).
+2026-04-07 11:24:35.882 +05:30 [INF] Cache miss — fetching doctors from database
+2026-04-07 11:24:35.909 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[FullName], [d].[PhoneNumber], [d].[ConsultationFee], [s].[Name], [s].[DoctorsId], [s].[SpecializationsId], [s].[Id]
+FROM [Doctors] AS [d]
+LEFT JOIN (
+    SELECT [d1].[Name], [d0].[DoctorsId], [d0].[SpecializationsId], [d1].[Id]
+    FROM [DoctorDoctorSpecialization] AS [d0]
+    INNER JOIN [DoctorSpecializations] AS [d1] ON [d0].[SpecializationsId] = [d1].[Id]
+) AS [s] ON [d].[Id] = [s].[DoctorsId]
+ORDER BY [d].[Id], [s].[DoctorsId], [s].[SpecializationsId]
+2026-04-07 11:24:35.914 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HealthCareSmart.Core.DTOs.DoctorDTO, HealthCareSmart.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 11:24:35.920 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.DoctorsController.GetAll (HealthCareSmart.API) in 40.1992ms
+2026-04-07 11:24:35.922 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.DoctorsController.GetAll (HealthCareSmart.API)'
+2026-04-07 11:24:35.923 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/doctors - 200 null application/json; charset=utf-8 63.5204ms
+2026-04-07 11:24:46.680 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/doctors/search?specialization=Neurology - null null
+2026-04-07 11:24:46.683 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.DoctorsController.SearchBySpecialization (HealthCareSmart.API)'
+2026-04-07 11:24:46.688 +05:30 [INF] Route matched with {action = "SearchBySpecialization", controller = "Doctors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchBySpecialization(System.String) on controller HealthCareSmart.API.Controllers.DoctorsController (HealthCareSmart.API).
+2026-04-07 11:24:46.797 +05:30 [INF] Executed DbCommand (89ms) [Parameters=[@searchKeys='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[FullName], [d].[PhoneNumber], [d].[ConsultationFee], [s0].[Name], [s0].[DoctorsId], [s0].[SpecializationsId], [s0].[Id]
+FROM [Doctors] AS [d]
+LEFT JOIN (
+    SELECT [d3].[Name], [d2].[DoctorsId], [d2].[SpecializationsId], [d3].[Id]
+    FROM [DoctorDoctorSpecialization] AS [d2]
+    INNER JOIN [DoctorSpecializations] AS [d3] ON [d2].[SpecializationsId] = [d3].[Id]
+) AS [s0] ON [d].[Id] = [s0].[DoctorsId]
+WHERE EXISTS (
+    SELECT 1
+    FROM [DoctorDoctorSpecialization] AS [d0]
+    INNER JOIN [DoctorSpecializations] AS [d1] ON [d0].[SpecializationsId] = [d1].[Id]
+    WHERE [d].[Id] = [d0].[DoctorsId] AND [d1].[Name] IN (
+        SELECT [s].[value]
+        FROM OPENJSON(@searchKeys) WITH ([value] nvarchar(max) '$') AS [s]
+    ))
+ORDER BY [d].[Id], [s0].[DoctorsId], [s0].[SpecializationsId]
+2026-04-07 11:24:46.806 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HealthCareSmart.Core.DTOs.DoctorDTO, HealthCareSmart.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 11:24:46.812 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.DoctorsController.SearchBySpecialization (HealthCareSmart.API) in 120.6468ms
+2026-04-07 11:24:46.816 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.DoctorsController.SearchBySpecialization (HealthCareSmart.API)'
+2026-04-07 11:24:46.817 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/doctors/search?specialization=Neurology - 200 null application/json; charset=utf-8 137.1254ms
+2026-04-07 11:24:49.416 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/doctors/17 - null null
+2026-04-07 11:24:49.425 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.DoctorsController.GetById (HealthCareSmart.API)'
+2026-04-07 11:24:49.427 +05:30 [INF] Route matched with {action = "GetById", controller = "Doctors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller HealthCareSmart.API.Controllers.DoctorsController (HealthCareSmart.API).
+2026-04-07 11:24:49.527 +05:30 [INF] Executed DbCommand (94ms) [Parameters=[@id='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [d2].[Id], [d2].[FullName], [d2].[PhoneNumber], [d2].[ConsultationFee], [s].[Name], [s].[DoctorsId], [s].[SpecializationsId], [s].[Id]
+FROM (
+    SELECT TOP(1) [d].[Id], [d].[FullName], [d].[PhoneNumber], [d].[ConsultationFee]
+    FROM [Doctors] AS [d]
+    WHERE [d].[Id] = @id
+) AS [d2]
+LEFT JOIN (
+    SELECT [d1].[Name], [d0].[DoctorsId], [d0].[SpecializationsId], [d1].[Id]
+    FROM [DoctorDoctorSpecialization] AS [d0]
+    INNER JOIN [DoctorSpecializations] AS [d1] ON [d0].[SpecializationsId] = [d1].[Id]
+) AS [s] ON [d2].[Id] = [s].[DoctorsId]
+ORDER BY [d2].[Id], [s].[DoctorsId], [s].[SpecializationsId]
+2026-04-07 11:24:49.597 +05:30 [INF] Executing OkObjectResult, writing value of type 'HealthCareSmart.Core.DTOs.DoctorDTO'.
+2026-04-07 11:24:49.658 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.DoctorsController.GetById (HealthCareSmart.API) in 228.2188ms
+2026-04-07 11:24:49.664 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.DoctorsController.GetById (HealthCareSmart.API)'
+2026-04-07 11:24:49.666 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/doctors/17 - 200 null application/json; charset=utf-8 250.3564ms
+2026-04-07 11:25:04.758 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7001/api/appointments - application/json; charset=utf-8 86
+2026-04-07 11:25:04.771 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.Create (HealthCareSmart.API)'
+2026-04-07 11:25:04.775 +05:30 [INF] Route matched with {action = "Create", controller = "Appointments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(HealthCareSmart.Core.DTOs.CreateAppointmentDTO) on controller HealthCareSmart.API.Controllers.AppointmentsController (HealthCareSmart.API).
+2026-04-07 11:25:04.810 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@dto_PatientId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Patients] AS [p]
+        WHERE [p].[Id] = @dto_PatientId) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-04-07 11:25:04.843 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[@dto_DoctorId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Doctors] AS [d]
+        WHERE [d].[Id] = @dto_DoctorId) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-04-07 11:25:04.888 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Appointments] ([AppointmentDate], [DoctorId], [Notes], [PatientId], [Status])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-04-07 11:25:04.913 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[Id], [d].[ConsultationFee], [d].[FullName], [d].[PhoneNumber]
+FROM [Doctors] AS [d]
+WHERE [d].[Id] = @p
+2026-04-07 11:25:04.940 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Boolean), @p4='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Billings] ([AppointmentId], [ConsultationFee], [CreatedAt], [IsPaid], [MedicineCost], [PaidAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2026-04-07 11:25:04.945 +05:30 [INF] Appointment + Billing created. AppointmentId: 5
+2026-04-07 11:25:04.946 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-07 11:25:04.954 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.AppointmentsController.Create (HealthCareSmart.API) in 165.5238ms
+2026-04-07 11:25:04.960 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.Create (HealthCareSmart.API)'
+2026-04-07 11:25:04.961 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7001/api/appointments - 200 null application/json; charset=utf-8 202.7052ms
+2026-04-07 11:25:04.992 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/appointments - null null
+2026-04-07 11:25:04.996 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API)'
+2026-04-07 11:25:04.997 +05:30 [INF] Route matched with {action = "GetAll", controller = "Appointments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller HealthCareSmart.API.Controllers.AppointmentsController (HealthCareSmart.API).
+2026-04-07 11:25:05.040 +05:30 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AppointmentDate], [a].[Status], [a].[PatientId], [a].[DoctorId], [d].[FullName], [u].[FullName], [a].[Notes], CASE
+    WHEN [b].[Id] IS NOT NULL THEN [b].[IsPaid]
+    ELSE CAST(0 AS bit)
+END, CASE
+    WHEN [p0].[Id] IS NOT NULL THEN [p0].[Instructions]
+    ELSE N''
+END, CASE
+    WHEN [p0].[Id] IS NOT NULL AND EXISTS (
+        SELECT 1
+        FROM [Medicines] AS [m]
+        WHERE [p0].[Id] = [m].[PrescriptionId]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END, [d].[Id], [p].[Id], [u].[Id], [b].[Id], [p0].[Id], [m0].[Name], [m0].[Id]
+FROM [Appointments] AS [a]
+INNER JOIN [Doctors] AS [d] ON [a].[DoctorId] = [d].[Id]
+INNER JOIN [Patients] AS [p] ON [a].[PatientId] = [p].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+LEFT JOIN [Billings] AS [b] ON [a].[Id] = [b].[AppointmentId]
+LEFT JOIN [Prescriptions] AS [p0] ON [a].[Id] = [p0].[AppointmentId]
+LEFT JOIN [Medicines] AS [m0] ON [p0].[Id] = [m0].[PrescriptionId]
+ORDER BY [a].[Id], [d].[Id], [p].[Id], [u].[Id], [b].[Id], [p0].[Id]
+2026-04-07 11:25:05.045 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HealthCareSmart.Core.DTOs.AppointmentDTO, HealthCareSmart.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 11:25:05.048 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API) in 43.5403ms
+2026-04-07 11:25:05.053 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.AppointmentsController.GetAll (HealthCareSmart.API)'
+2026-04-07 11:25:05.055 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/appointments - 200 null application/json; charset=utf-8 62.6159ms
+2026-04-07 11:25:09.024 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/api/billings - null null
+2026-04-07 11:25:09.038 +05:30 [INF] Executing endpoint 'HealthCareSmart.API.Controllers.BillingsController.GetBillings (HealthCareSmart.API)'
+2026-04-07 11:25:09.039 +05:30 [INF] Route matched with {action = "GetBillings", controller = "Billings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBillings() on controller HealthCareSmart.API.Controllers.BillingsController (HealthCareSmart.API).
+2026-04-07 11:25:09.056 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@userId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Address], [p].[DateOfBirth], [p].[PhoneNumber], [p].[UserId]
+FROM [Patients] AS [p]
+WHERE [p].[UserId] = @userId
+2026-04-07 11:25:09.072 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@userId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FullName], [u].[PasswordHash], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @userId
+2026-04-07 11:25:09.114 +05:30 [INF] Executed DbCommand (32ms) [Parameters=[@currentPatientId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id] AS [id], [b].[AppointmentId] AS [appointmentId], [d].[FullName] AS [doctorName], [u].[FullName] AS [patientName], [b].[ConsultationFee] AS [consultationFee], [b].[MedicineCost] AS [medicineCost], [b].[ConsultationFee] + [b].[MedicineCost] AS [totalAmount], [b].[IsPaid] AS [isPaid], [b].[PaidAt] AS [paidAt]
+FROM [Billings] AS [b]
+INNER JOIN [Appointments] AS [a] ON [b].[AppointmentId] = [a].[Id]
+INNER JOIN [Doctors] AS [d] ON [a].[DoctorId] = [d].[Id]
+INNER JOIN [Patients] AS [p] ON [a].[PatientId] = [p].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+WHERE [a].[PatientId] = @currentPatientId
+2026-04-07 11:25:09.135 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType6`9[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], HealthCareSmart.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 11:25:09.148 +05:30 [INF] Executed action HealthCareSmart.API.Controllers.BillingsController.GetBillings (HealthCareSmart.API) in 106.6042ms
+2026-04-07 11:25:09.170 +05:30 [INF] Executed endpoint 'HealthCareSmart.API.Controllers.BillingsController.GetBillings (HealthCareSmart.API)'
+2026-04-07 11:25:09.172 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/billings - 200 null application/json; charset=utf-8 147.7262ms

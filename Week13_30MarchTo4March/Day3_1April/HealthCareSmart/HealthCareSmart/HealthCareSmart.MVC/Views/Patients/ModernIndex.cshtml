@@ -1,0 +1,823 @@
+@{
+    ViewData["Title"] = "Patients";
+    Layout = "_ModernLayout";
+}
+
+<div class="patients-header">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h1 class="h3 mb-1">Patients Management</h1>
+            <p class="text-muted mb-0">Comprehensive patient records and medical history</p>
+        </div>
+        <div class="d-flex gap-2">
+            <button class="btn btn-outline-secondary">
+                <i class="fas fa-download me-2"></i>Export
+            </button>
+            <button class="btn btn-primary" onclick="openPatientModal()">
+                <i class="fas fa-user-plus me-2"></i>Register Patient
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Search and Filters -->
+<div class="card border-0 shadow-sm mb-4">
+    <div class="card-body">
+        <div class="row g-3">
+            <div class="col-md-4">
+                <div class="position-relative">
+                    <i class="fas fa-search position-absolute start-0 top-50 translate-middle-y ms-3 text-muted"></i>
+                    <input type="text" class="form-control ps-5" id="patientSearch" placeholder="Search patients by name, ID, or phone...">
+                </div>
+            </div>
+            <div class="col-md-2">
+                <select class="form-select" id="bloodGroupFilter">
+                    <option value="">All Blood Groups</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <select class="form-select" id="genderFilter">
+                    <option value="">All Genders</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <select class="form-select" id="ageFilter">
+                    <option value="">All Ages</option>
+                    <option value="0-18">0-18</option>
+                    <option value="19-35">19-35</option>
+                    <option value="36-50">36-50</option>
+                    <option value="51+">51+</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <div class="btn-group w-100">
+                    <button class="btn btn-outline-primary" onclick="setViewMode('cards')" id="cardsViewBtn">
+                        <i class="fas fa-th-large"></i>
+                    </button>
+                    <button class="btn btn-outline-secondary" onclick="setViewMode('table')" id="tableViewBtn">
+                        <i class="fas fa-list"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Statistics Cards -->
+<div class="row g-4 mb-4">
+    <div class="col-md-3">
+        <div class="stat-card">
+            <div class="stat-icon primary">
+                <i class="fas fa-users"></i>
+            </div>
+            <div class="stat-value">1,234</div>
+            <div class="stat-label">Total Patients</div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="stat-card">
+            <div class="stat-icon success">
+                <i class="fas fa-user-plus"></i>
+            </div>
+            <div class="stat-value">45</div>
+            <div class="stat-label">New This Month</div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="stat-card">
+            <div class="stat-icon warning">
+                <i class="fas fa-clock"></i>
+            </div>
+            <div class="stat-value">12</div>
+            <div class="stat-label">Pending Follow-ups</div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="stat-card">
+            <div class="stat-icon info">
+                <i class="fas fa-heartbeat"></i>
+            </div>
+            <div class="stat-value">89</div>
+            <div class="stat-label">Active Treatments</div>
+        </div>
+    </div>
+</div>
+
+<!-- Cards View -->
+<div id="cardsView" class="row g-4">
+    <!-- Patient cards will be populated by JavaScript -->
+</div>
+
+<!-- Table View (Hidden by default) -->
+<div id="tableView" class="card border-0 shadow-sm" style="display: none;">
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead class="table-light">
+                    <tr>
+                        <th>Patient</th>
+                        <th>Contact</th>
+                        <th>Age/Gender</th>
+                        <th>Blood Group</th>
+                        <th>Last Visit</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="patientsTableBody">
+                    <!-- Table rows will be populated by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Patient Details Modal -->
+<div class="modal fade" id="patientDetailsModal" tabindex="-1">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <h5 class="modal-title">
+                    <i class="fas fa-user-injured text-primary me-2"></i>
+                    Patient Details
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div id="patientDetailsContent">
+                    <!-- Patient details will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Include the modal components -->
+@await Html.PartialAsync("_AppointmentModal")
+
+@section Scripts {
+    <script>
+        // Sample patient data
+        const patients = [
+            {
+                id: 1,
+                firstName: 'John',
+                lastName: 'Doe',
+                email: 'john.doe@email.com',
+                phone: '+1 234-567-8900',
+                dateOfBirth: '1985-06-15',
+                gender: 'male',
+                bloodGroup: 'O+',
+                address: '123 Main St, New York, NY 10001',
+                emergencyContact: '+1 234-567-8901',
+                medicalHistory: 'Hypertension, Diabetes Type 2',
+                allergies: 'Penicillin, Peanuts',
+                lastVisit: '2024-04-01',
+                status: 'active',
+                totalVisits: 15,
+                upcomingAppointment: '2024-04-15'
+            },
+            {
+                id: 2,
+                firstName: 'Alice',
+                lastName: 'Smith',
+                email: 'alice.smith@email.com',
+                phone: '+1 234-567-8902',
+                dateOfBirth: '1990-03-22',
+                gender: 'female',
+                bloodGroup: 'A+',
+                address: '456 Oak Ave, Los Angeles, CA 90001',
+                emergencyContact: '+1 234-567-8903',
+                medicalHistory: 'Asthma, Seasonal Allergies',
+                allergies: 'Dust, Pollen',
+                lastVisit: '2024-03-28',
+                status: 'active',
+                totalVisits: 8,
+                upcomingAppointment: null
+            },
+            {
+                id: 3,
+                firstName: 'Robert',
+                lastName: 'Johnson',
+                email: 'robert.johnson@email.com',
+                phone: '+1 234-567-8904',
+                dateOfBirth: '1978-11-08',
+                gender: 'male',
+                bloodGroup: 'B+',
+                address: '789 Pine Rd, Chicago, IL 60007',
+                emergencyContact: '+1 234-567-8905',
+                medicalHistory: 'Arthritis, High Cholesterol',
+                allergies: 'None',
+                lastVisit: '2024-04-05',
+                status: 'active',
+                totalVisits: 23,
+                upcomingAppointment: '2024-04-12'
+            },
+            {
+                id: 4,
+                firstName: 'Mary',
+                lastName: 'Williams',
+                email: 'mary.williams@email.com',
+                phone: '+1 234-567-8906',
+                dateOfBirth: '1995-08-17',
+                gender: 'female',
+                bloodGroup: 'AB-',
+                address: '321 Elm St, Houston, TX 77001',
+                emergencyContact: '+1 234-567-8907',
+                medicalHistory: 'Migraines, Anxiety',
+                allergies: 'Shellfish',
+                lastVisit: '2024-03-15',
+                status: 'inactive',
+                totalVisits: 5,
+                upcomingAppointment: null
+            },
+            {
+                id: 5,
+                firstName: 'James',
+                lastName: 'Brown',
+                email: 'james.brown@email.com',
+                phone: '+1 234-567-8908',
+                dateOfBirth: '1982-01-30',
+                gender: 'male',
+                bloodGroup: 'O-',
+                address: '654 Maple Dr, Phoenix, AZ 85001',
+                emergencyContact: '+1 234-567-8909',
+                medicalHistory: 'None',
+                allergies: 'Latex',
+                lastVisit: '2024-04-06',
+                status: 'active',
+                totalVisits: 3,
+                upcomingAppointment: '2024-04-20'
+            },
+            {
+                id: 6,
+                firstName: 'Patricia',
+                lastName: 'Davis',
+                email: 'patricia.davis@email.com',
+                phone: '+1 234-567-8910',
+                dateOfBirth: '1992-05-12',
+                gender: 'female',
+                bloodGroup: 'A-',
+                address: '987 Cedar Ln, Philadelphia, PA 19101',
+                emergencyContact: '+1 234-567-8911',
+                medicalHistory: 'Thyroid Disorder',
+                allergies: 'None',
+                lastVisit: '2024-03-20',
+                status: 'active',
+                totalVisits: 12,
+                upcomingAppointment: '2024-04-18'
+            }
+        ];
+
+        let currentView = 'cards';
+        let filteredPatients = [...patients];
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            renderPatients();
+            document.getElementById('cardsViewBtn').classList.add('btn-primary');
+            document.getElementById('cardsViewBtn').classList.remove('btn-outline-secondary');
+        });
+
+        // Render patients based on current view
+        function renderPatients() {
+            if (currentView === 'cards') {
+                renderPatientCards();
+            } else {
+                renderPatientTable();
+            }
+        }
+
+        // Render patient cards
+        function renderPatientCards() {
+            const container = document.getElementById('cardsView');
+            container.innerHTML = filteredPatients.map(patient => `
+                <div class="col-lg-4 col-md-6">
+                    <div class="patient-card">
+                        <div class="card-header">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div class="patient-info">
+                                    <div class="patient-avatar">${getInitials(patient.firstName, patient.lastName)}</div>
+                                    <div>
+                                        <h6 class="mb-1">${patient.firstName} ${patient.lastName}</h6>
+                                        <small class="text-muted">ID: #${1000 + patient.id}</small>
+                                    </div>
+                                </div>
+                                <span class="status-badge ${patient.status}">${patient.status}</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="patient-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-phone text-muted"></i>
+                                    <span>${patient.phone}</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-envelope text-muted"></i>
+                                    <span>${patient.email}</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-birthday-cake text-muted"></i>
+                                    <span>${calculateAge(patient.dateOfBirth)} years old</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-tint text-muted"></i>
+                                    <span>Blood Group: ${patient.bloodGroup}</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-calendar-check text-muted"></i>
+                                    <span>Last Visit: ${formatDate(patient.lastVisit)}</span>
+                                </div>
+                            </div>
+                            
+                            <div class="medical-preview">
+                                <div class="preview-header">
+                                    <i class="fas fa-notes-medical text-primary"></i>
+                                    <span>Medical History Preview</span>
+                                </div>
+                                <p class="preview-text">${patient.medicalHistory}</p>
+                                ${patient.allergies ? `
+                                    <div class="allergies">
+                                        <i class="fas fa-exclamation-triangle text-warning"></i>
+                                        <span>Allergies: ${patient.allergies}</span>
+                                    </div>
+                                ` : ''}
+                            </div>
+                            
+                            <div class="card-actions">
+                                <button class="btn btn-primary btn-sm" onclick="viewPatientDetails(${patient.id})">
+                                    <i class="fas fa-eye me-1"></i>View Details
+                                </button>
+                                <button class="btn btn-outline-primary btn-sm" onclick="scheduleAppointment(${patient.id})">
+                                    <i class="fas fa-calendar-plus me-1"></i>Schedule
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Render patient table
+        function renderPatientTable() {
+            const tbody = document.getElementById('patientsTableBody');
+            tbody.innerHTML = filteredPatients.map(patient => `
+                <tr>
+                    <td>
+                        <div class="d-flex align-items-center">
+                            <div class="avatar-sm bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-2">
+                                ${getInitials(patient.firstName, patient.lastName)}
+                            </div>
+                            <div>
+                                <div class="fw-semibold">${patient.firstName} ${patient.lastName}</div>
+                                <small class="text-muted">ID: #${1000 + patient.id}</small>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <div>${patient.phone}</div>
+                            <small class="text-muted">${patient.email}</small>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <div>${calculateAge(patient.dateOfBirth)} years</div>
+                            <small class="text-muted">${patient.gender}</small>
+                        </div>
+                    </td>
+                    <td><span class="badge bg-info">${patient.bloodGroup}</span></td>
+                    <td>${formatDate(patient.lastVisit)}</td>
+                    <td><span class="status-badge ${patient.status}">${patient.status}</span></td>
+                    <td>
+                        <div class="btn-group btn-group-sm">
+                            <button class="btn btn-outline-primary" onclick="viewPatientDetails(${patient.id})" title="View">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                            <button class="btn btn-outline-secondary" onclick="editPatient(${patient.id})" title="Edit">
+                                <i class="fas fa-edit"></i>
+                            </button>
+                            <button class="btn btn-outline-success" onclick="scheduleAppointment(${patient.id})" title="Schedule">
+                                <i class="fas fa-calendar-plus"></i>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        // Helper functions
+        function getInitials(firstName, lastName) {
+            return (firstName[0] + lastName[0]).toUpperCase();
+        }
+
+        function calculateAge(dateOfBirth) {
+            const today = new Date();
+            const birthDate = new Date(dateOfBirth);
+            let age = today.getFullYear() - birthDate.getFullYear();
+            const monthDiff = today.getMonth() - birthDate.getMonth();
+            if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+                age--;
+            }
+            return age;
+        }
+
+        function formatDate(dateStr) {
+            const date = new Date(dateStr);
+            return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+        }
+
+        // View mode switching
+        function setViewMode(mode) {
+            currentView = mode;
+            
+            // Update button styles
+            const cardsBtn = document.getElementById('cardsViewBtn');
+            const tableBtn = document.getElementById('tableViewBtn');
+            
+            if (mode === 'cards') {
+                cardsBtn.classList.add('btn-primary');
+                cardsBtn.classList.remove('btn-outline-secondary');
+                tableBtn.classList.add('btn-outline-secondary');
+                tableBtn.classList.remove('btn-primary');
+                
+                document.getElementById('cardsView').style.display = 'flex';
+                document.getElementById('tableView').style.display = 'none';
+            } else {
+                tableBtn.classList.add('btn-primary');
+                tableBtn.classList.remove('btn-outline-secondary');
+                cardsBtn.classList.add('btn-outline-secondary');
+                cardsBtn.classList.remove('btn-primary');
+                
+                document.getElementById('cardsView').style.display = 'none';
+                document.getElementById('tableView').style.display = 'block';
+            }
+            
+            renderPatients();
+        }
+
+        // Filter patients
+        function filterPatients() {
+            const searchTerm = document.getElementById('patientSearch').value.toLowerCase();
+            const bloodGroupFilter = document.getElementById('bloodGroupFilter').value;
+            const genderFilter = document.getElementById('genderFilter').value;
+            const ageFilter = document.getElementById('ageFilter').value;
+
+            filteredPatients = patients.filter(patient => {
+                const matchesSearch = 
+                    patient.firstName.toLowerCase().includes(searchTerm) || 
+                    patient.lastName.toLowerCase().includes(searchTerm) ||
+                    patient.email.toLowerCase().includes(searchTerm) ||
+                    patient.phone.includes(searchTerm);
+                
+                const matchesBloodGroup = !bloodGroupFilter || patient.bloodGroup === bloodGroupFilter;
+                const matchesGender = !genderFilter || patient.gender === genderFilter;
+                
+                let matchesAge = true;
+                if (ageFilter) {
+                    const age = calculateAge(patient.dateOfBirth);
+                    if (ageFilter === '0-18') matchesAge = age <= 18;
+                    else if (ageFilter === '19-35') matchesAge = age >= 19 && age <= 35;
+                    else if (ageFilter === '36-50') matchesAge = age >= 36 && age <= 50;
+                    else if (ageFilter === '51+') matchesAge = age >= 51;
+                }
+
+                return matchesSearch && matchesBloodGroup && matchesGender && matchesAge;
+            });
+
+            renderPatients();
+        }
+
+        // View patient details
+        function viewPatientDetails(patientId) {
+            const patient = patients.find(p => p.id === patientId);
+            const modal = new bootstrap.Modal(document.getElementById('patientDetailsModal'));
+            const content = document.getElementById('patientDetailsContent');
+            
+            content.innerHTML = `
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="text-center mb-4">
+                            <div class="patient-avatar-large">${getInitials(patient.firstName, patient.lastName)}</div>
+                            <h5>${patient.firstName} ${patient.lastName}</h5>
+                            <p class="text-muted">ID: #${1000 + patient.id}</p>
+                            <span class="status-badge ${patient.status}">${patient.status}</span>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">Quick Stats</h6>
+                                <div class="stat-item">
+                                    <span>Total Visits:</span>
+                                    <strong>${patient.totalVisits}</strong>
+                                </div>
+                                <div class="stat-item">
+                                    <span>Last Visit:</span>
+                                    <strong>${formatDate(patient.lastVisit)}</strong>
+                                </div>
+                                ${patient.upcomingAppointment ? `
+                                    <div class="stat-item">
+                                        <span>Next Appointment:</span>
+                                        <strong>${formatDate(patient.upcomingAppointment)}</strong>
+                                    </div>
+                                ` : ''}
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-8">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h6 class="card-title">Personal Information</h6>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="info-item">
+                                            <label>Date of Birth:</label>
+                                            <span>${formatDate(patient.dateOfBirth)} (${calculateAge(patient.dateOfBirth)} years)</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <label>Gender:</label>
+                                            <span>${patient.gender.charAt(0).toUpperCase() + patient.gender.slice(1)}</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <label>Blood Group:</label>
+                                            <span class="badge bg-info">${patient.bloodGroup}</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="info-item">
+                                            <label>Phone:</label>
+                                            <span>${patient.phone}</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <label>Email:</label>
+                                            <span>${patient.email}</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <label>Address:</label>
+                                            <span>${patient.address}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h6 class="card-title">Medical Information</h6>
+                                <div class="info-item">
+                                    <label>Medical History:</label>
+                                    <span>${patient.medicalHistory || 'None recorded'}</span>
+                                </div>
+                                <div class="info-item">
+                                    <label>Allergies:</label>
+                                    <span>${patient.allergies || 'No known allergies'}</span>
+                                </div>
+                                <div class="info-item">
+                                    <label>Emergency Contact:</label>
+                                    <span>${patient.emergencyContact}</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">Recent Activity</h6>
+                                <div class="timeline">
+                                    <div class="timeline-item">
+                                        <div class="timeline-marker bg-success"></div>
+                                        <div class="timeline-content">
+                                            <div class="timeline-date">${formatDate(patient.lastVisit)}</div>
+                                            <div class="timeline-title">General Consultation</div>
+                                            <div class="timeline-description">Regular checkup with Dr. Sarah Johnson</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            modal.show();
+        }
+
+        // Schedule appointment
+        function scheduleAppointment(patientId) {
+            const patient = patients.find(p => p.id === patientId);
+            showToast(`Scheduling appointment for ${patient.firstName} ${patient.lastName}`, 'info');
+            openAppointmentModal();
+        }
+
+        // Edit patient
+        function editPatient(patientId) {
+            const patient = patients.find(p => p.id === patientId);
+            showToast(`Editing ${patient.firstName} ${patient.lastName}'s profile`, 'info');
+        }
+
+        // Event listeners
+        document.getElementById('patientSearch').addEventListener('input', filterPatients);
+        document.getElementById('bloodGroupFilter').addEventListener('change', filterPatients);
+        document.getElementById('genderFilter').addEventListener('change', filterPatients);
+        document.getElementById('ageFilter').addEventListener('change', filterPatients);
+    </script>
+    
+    <style>
+        .patient-card {
+            background: white;
+            border-radius: 1rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+        
+        .patient-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        
+        .card-header {
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            padding: 1.5rem;
+            border-bottom: none;
+        }
+        
+        .patient-info {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .patient-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #0066cc, #0056b3);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 1.25rem;
+        }
+        
+        .patient-avatar-large {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #0066cc, #0056b3);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 2rem;
+            margin: 0 auto 1rem;
+        }
+        
+        .status-badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            font-size: 0.75rem;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        
+        .status-badge.active {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .status-badge.inactive {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .patient-details {
+            margin-bottom: 1.5rem;
+        }
+        
+        .detail-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 0.5rem;
+            font-size: 0.875rem;
+        }
+        
+        .detail-item i {
+            width: 16px;
+        }
+        
+        .medical-preview {
+            background: #f8f9fa;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .preview-header {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #0066cc;
+        }
+        
+        .preview-text {
+            font-size: 0.875rem;
+            color: #6c757d;
+            margin-bottom: 0.5rem;
+        }
+        
+        .allergies {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+            color: #856404;
+        }
+        
+        .card-actions {
+            display: flex;
+            gap: 0.5rem;
+        }
+        
+        .info-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #f1f3f4;
+        }
+        
+        .info-item:last-child {
+            border-bottom: none;
+        }
+        
+        .info-item label {
+            font-weight: 500;
+            color: #6c757d;
+        }
+        
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+        
+        .timeline-item {
+            position: relative;
+            padding-bottom: 1.5rem;
+        }
+        
+        .timeline-marker {
+            position: absolute;
+            left: -2rem;
+            top: 0;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+        
+        .timeline-content {
+            background: #f8f9fa;
+            border-radius: 0.5rem;
+            padding: 1rem;
+        }
+        
+        .timeline-date {
+            font-size: 0.75rem;
+            color: #6c757d;
+            margin-bottom: 0.25rem;
+        }
+        
+        .timeline-title {
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+        
+        .timeline-description {
+            font-size: 0.875rem;
+            color: #6c757d;
+        }
+    </style>
+}

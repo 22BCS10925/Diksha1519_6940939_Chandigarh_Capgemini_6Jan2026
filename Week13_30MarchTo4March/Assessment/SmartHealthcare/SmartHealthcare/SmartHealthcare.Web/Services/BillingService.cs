@@ -13,7 +13,13 @@ namespace SmartHealthcare.Web.Services
             _httpClient = httpClient;
         }
 
-        // Get all bills
+        // Helper to set token
+        public void SetToken(string token)
+        {
+            _httpClient.DefaultRequestHeaders.Authorization =
+                new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+        }
+
         public async Task<IEnumerable<Bill>> GetAllBillsAsync()
         {
             var response = await _httpClient.GetAsync("http://localhost:5125/api/Bill");
@@ -21,10 +27,22 @@ namespace SmartHealthcare.Web.Services
             return await response.Content.ReadFromJsonAsync<IEnumerable<Bill>>();
         }
 
-        // Create a new bill
+        public async Task<Bill?> GetBillByIdAsync(int id)
+        {
+            var response = await _httpClient.GetAsync($"http://localhost:5125/api/Bill/{id}");
+            if (!response.IsSuccessStatusCode) return null;
+            return await response.Content.ReadFromJsonAsync<Bill>();
+        }
+
         public async Task CreateBillAsync(Bill bill)
         {
             var response = await _httpClient.PostAsJsonAsync("http://localhost:5125/api/Bill", bill);
+            response.EnsureSuccessStatusCode();
+        }
+
+        public async Task UpdateBillAsync(Bill bill)
+        {
+            var response = await _httpClient.PutAsJsonAsync($"http://localhost:5125/api/Bill/{bill.BillId}", bill);
             response.EnsureSuccessStatusCode();
         }
     }

@@ -1,0 +1,558 @@
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.exe
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.dll
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\appsettings.json
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.staticwebassets.runtime.json
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.staticwebassets.endpoints.json
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.Core.dll
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.Core.pdb
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.csproj.AssemblyReference.cache
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.AssemblyInfoInputs.cache
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.AssemblyInfo.cs
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.csproj.CoreCompileInputs.cache
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.RazorAssemblyInfo.cache
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.RazorAssemblyInfo.cs
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\scopedcss\bundle\HealthCareSmart.MVC.styles.css
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\scopedcss\projectbundle\HealthCareSmart.MVC.bundle.scp.css
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\nf2mm1kgsi-{0}-b9sayid5wm-b9sayid5wm.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\3b7dcnpir1-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\zu520fyox8-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\qazavbfyp0-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\9r5q8omo69-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\x0v2p0qj9n-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\l24g3usn0q-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\alodkcc9jd-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\42rzqnuw55-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\fo2tuv8w1d-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\5zo62ovpnz-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\856es8t9ys-{0}-ub07r2b239-ub07r2b239.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\0an54sqy8d-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\j1gj3owmog-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\6vl4x4qj3k-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\bo71pqihjr-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\kxxseh0u6y-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\9funi23d2v-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ukxr44d17p-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\wsvxi9iric-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\2t2mdurmdn-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\uraopj2jmx-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\r4zmaeym6b-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ikw7ertnnc-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\mm68ixgcq5-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\f3ugpid2cy-{0}-06098lyss8-06098lyss8.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\9mtxltfbkd-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\6cm5qo4gto-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ggespowvsq-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\155ppcz8sm-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\b8wc6ai3yr-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\tee8g6pgrh-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\d336jbk0yn-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\6i293kf5zu-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\86b29ks1oy-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ka8mzjwxwt-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\xstzh5gb26-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\zwoumz1942-{0}-493y06b0oq-493y06b0oq.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\uymynfjv8y-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ham8ft4u4d-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\lxgrjfovhw-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\biqgtgf7x5-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\wf4trlgaaz-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\tol6vvlau7-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\zcw1olt8fv-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\1gziepwd71-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\em7k5dxa1w-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\64alxa9urs-{0}-47otxtyo56-47otxtyo56.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\mc0tppav66-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\gdrzo315l3-{0}-356vix0kms-356vix0kms.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\g0p6l2morm-{0}-83jwlth58m-83jwlth58m.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\u0x5zmp05i-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\13zxj0lnii-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\7dwbel37sz-{0}-ag7o75518u-ag7o75518u.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\52uz4vszzf-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\zonnwl00e7-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\y0qenv5cbe-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\duknvbxhlf-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\4z5ppq6kd1-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ed1comfj8d-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\s66s7x19nq-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\wv1etjm3sn-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\dhwu62px4z-{0}-nyen9d4tf3-nyen9d4tf3.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\2q2jx1i86k-{0}-nyen9d4tf3-nyen9d4tf3.gz
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCa.86DDB410.Up2Date
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.dll
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\refint\HealthCareSmart.MVC.dll
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.pdb
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.deps.json
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.runtimeconfig.json
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.pdb
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.genruntimeconfig.cache
+C:\Users\DELL\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\ref\HealthCareSmart.MVC.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\appsettings.Development.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\appsettings.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.staticwebassets.endpoints.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.staticwebassets.runtime.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.exe
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.deps.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.runtimeconfig.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.pdb
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.Core.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.Core.pdb
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.csproj.AssemblyReference.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\rpswa.dswa.cache.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.GeneratedMSBuildEditorConfig.editorconfig
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.AssemblyInfoInputs.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.AssemblyInfo.cs
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.csproj.CoreCompileInputs.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.MvcApplicationPartsAssemblyInfo.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.RazorAssemblyInfo.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.RazorAssemblyInfo.cs
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.sourcelink.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\rjimswa.dswa.cache.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\scopedcss\bundle\HealthCareSmart.MVC.styles.css
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\scopedcss\projectbundle\HealthCareSmart.MVC.bundle.scp.css
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\nf2mm1kgsi-{0}-b9sayid5wm-b9sayid5wm.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\3b7dcnpir1-{0}-61n19gt1b8-61n19gt1b8.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\zu520fyox8-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\qazavbfyp0-{0}-bqjiyaj88i-bqjiyaj88i.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\9r5q8omo69-{0}-c2jlpeoesf-c2jlpeoesf.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\x0v2p0qj9n-{0}-erw9l3u2r3-erw9l3u2r3.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\l24g3usn0q-{0}-aexeepp0ev-aexeepp0ev.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\alodkcc9jd-{0}-d7shbmvgxk-d7shbmvgxk.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\42rzqnuw55-{0}-ausgxo2sd3-ausgxo2sd3.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\fo2tuv8w1d-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\5zo62ovpnz-{0}-cosvhxvwiu-cosvhxvwiu.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\856es8t9ys-{0}-ub07r2b239-ub07r2b239.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\0an54sqy8d-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\j1gj3owmog-{0}-b7pk76d08c-b7pk76d08c.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\6vl4x4qj3k-{0}-fsbi9cje9m-fsbi9cje9m.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\bo71pqihjr-{0}-rzd6atqjts-rzd6atqjts.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\kxxseh0u6y-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\9funi23d2v-{0}-dxx9fxp4il-dxx9fxp4il.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ukxr44d17p-{0}-jd9uben2k1-jd9uben2k1.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\wsvxi9iric-{0}-khv3u5hwcm-khv3u5hwcm.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\2t2mdurmdn-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\uraopj2jmx-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\r4zmaeym6b-{0}-c2oey78nd0-c2oey78nd0.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ikw7ertnnc-{0}-tdbxkamptv-tdbxkamptv.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\mm68ixgcq5-{0}-j5mq2jizvt-j5mq2jizvt.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\f3ugpid2cy-{0}-06098lyss8-06098lyss8.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\9mtxltfbkd-{0}-nvvlpmu67g-nvvlpmu67g.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\6cm5qo4gto-{0}-s35ty4nyc5-s35ty4nyc5.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ggespowvsq-{0}-pj5nd1wqec-pj5nd1wqec.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\155ppcz8sm-{0}-46ein0sx1k-46ein0sx1k.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\b8wc6ai3yr-{0}-v0zj4ognzu-v0zj4ognzu.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\tee8g6pgrh-{0}-37tfw0ft22-37tfw0ft22.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\d336jbk0yn-{0}-hrwsygsryq-hrwsygsryq.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\6i293kf5zu-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\86b29ks1oy-{0}-ft3s53vfgj-ft3s53vfgj.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ka8mzjwxwt-{0}-6cfz1n2cew-6cfz1n2cew.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\xstzh5gb26-{0}-6pdc2jztkx-6pdc2jztkx.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\zwoumz1942-{0}-493y06b0oq-493y06b0oq.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\uymynfjv8y-{0}-iovd86k7lj-iovd86k7lj.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ham8ft4u4d-{0}-vr1egmr9el-vr1egmr9el.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\lxgrjfovhw-{0}-kbrnm935zg-kbrnm935zg.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\biqgtgf7x5-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\wf4trlgaaz-{0}-y7v9cxd14o-y7v9cxd14o.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\tol6vvlau7-{0}-notf2xhcfb-notf2xhcfb.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\zcw1olt8fv-{0}-h1s4sie4z3-h1s4sie4z3.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\1gziepwd71-{0}-63fj8s7r0e-63fj8s7r0e.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\em7k5dxa1w-{0}-0j3bgjxly4-0j3bgjxly4.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\64alxa9urs-{0}-47otxtyo56-47otxtyo56.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\mc0tppav66-{0}-4v8eqarkd7-4v8eqarkd7.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\gdrzo315l3-{0}-356vix0kms-356vix0kms.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\g0p6l2morm-{0}-83jwlth58m-83jwlth58m.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\u0x5zmp05i-{0}-mrlpezrjn3-mrlpezrjn3.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\13zxj0lnii-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\7dwbel37sz-{0}-ag7o75518u-ag7o75518u.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\52uz4vszzf-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\zonnwl00e7-{0}-0i3buxo5is-0i3buxo5is.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\y0qenv5cbe-{0}-o1o13a6vjx-o1o13a6vjx.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\duknvbxhlf-{0}-ttgo8qnofa-ttgo8qnofa.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\4z5ppq6kd1-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ed1comfj8d-{0}-muycvpuwrr-muycvpuwrr.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\s66s7x19nq-{0}-87fc7y1x7t-87fc7y1x7t.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\wv1etjm3sn-{0}-mlv21k5csn-mlv21k5csn.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\dhwu62px4z-{0}-nyen9d4tf3-nyen9d4tf3.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\2q2jx1i86k-{0}-nyen9d4tf3-nyen9d4tf3.gz
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\staticwebassets.build.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\staticwebassets.build.json.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\staticwebassets.development.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\swae.build.ex.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCa.86DDB410.Up2Date
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\refint\HealthCareSmart.MVC.dll
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.pdb
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.genruntimeconfig.cache
+E:\Capegemini_CU_Sec3_NetCoreAzure_Atul_Attri\week 13_30 march To 5 April_ 2026\2 April 2026\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\ref\HealthCareSmart.MVC.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\appsettings.Development.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\appsettings.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.staticwebassets.runtime.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.staticwebassets.endpoints.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.Core.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.Core.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.csproj.AssemblyReference.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.RazorAssemblyInfo.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.RazorAssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.sourcelink.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\rjimswa.dswa.cache.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\scopedcss\bundle\HealthCareSmart.MVC.styles.css
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\scopedcss\projectbundle\HealthCareSmart.MVC.bundle.scp.css
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\nf2mm1kgsi-{0}-b9sayid5wm-b9sayid5wm.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\3b7dcnpir1-{0}-61n19gt1b8-61n19gt1b8.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\zu520fyox8-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\qazavbfyp0-{0}-bqjiyaj88i-bqjiyaj88i.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\9r5q8omo69-{0}-c2jlpeoesf-c2jlpeoesf.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\x0v2p0qj9n-{0}-erw9l3u2r3-erw9l3u2r3.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\l24g3usn0q-{0}-aexeepp0ev-aexeepp0ev.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\alodkcc9jd-{0}-d7shbmvgxk-d7shbmvgxk.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\42rzqnuw55-{0}-ausgxo2sd3-ausgxo2sd3.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\fo2tuv8w1d-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\5zo62ovpnz-{0}-cosvhxvwiu-cosvhxvwiu.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\856es8t9ys-{0}-ub07r2b239-ub07r2b239.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\0an54sqy8d-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\j1gj3owmog-{0}-b7pk76d08c-b7pk76d08c.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\6vl4x4qj3k-{0}-fsbi9cje9m-fsbi9cje9m.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\bo71pqihjr-{0}-rzd6atqjts-rzd6atqjts.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\kxxseh0u6y-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\9funi23d2v-{0}-dxx9fxp4il-dxx9fxp4il.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ukxr44d17p-{0}-jd9uben2k1-jd9uben2k1.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\wsvxi9iric-{0}-khv3u5hwcm-khv3u5hwcm.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\2t2mdurmdn-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\uraopj2jmx-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\r4zmaeym6b-{0}-c2oey78nd0-c2oey78nd0.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ikw7ertnnc-{0}-tdbxkamptv-tdbxkamptv.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\mm68ixgcq5-{0}-j5mq2jizvt-j5mq2jizvt.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\f3ugpid2cy-{0}-06098lyss8-06098lyss8.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\9mtxltfbkd-{0}-nvvlpmu67g-nvvlpmu67g.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\6cm5qo4gto-{0}-s35ty4nyc5-s35ty4nyc5.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ggespowvsq-{0}-pj5nd1wqec-pj5nd1wqec.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\155ppcz8sm-{0}-46ein0sx1k-46ein0sx1k.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\b8wc6ai3yr-{0}-v0zj4ognzu-v0zj4ognzu.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\tee8g6pgrh-{0}-37tfw0ft22-37tfw0ft22.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\d336jbk0yn-{0}-hrwsygsryq-hrwsygsryq.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\6i293kf5zu-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\86b29ks1oy-{0}-ft3s53vfgj-ft3s53vfgj.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ka8mzjwxwt-{0}-6cfz1n2cew-6cfz1n2cew.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\xstzh5gb26-{0}-6pdc2jztkx-6pdc2jztkx.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\zwoumz1942-{0}-493y06b0oq-493y06b0oq.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\uymynfjv8y-{0}-iovd86k7lj-iovd86k7lj.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ham8ft4u4d-{0}-vr1egmr9el-vr1egmr9el.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\lxgrjfovhw-{0}-kbrnm935zg-kbrnm935zg.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\biqgtgf7x5-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\wf4trlgaaz-{0}-y7v9cxd14o-y7v9cxd14o.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\tol6vvlau7-{0}-notf2xhcfb-notf2xhcfb.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\zcw1olt8fv-{0}-h1s4sie4z3-h1s4sie4z3.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\1gziepwd71-{0}-63fj8s7r0e-63fj8s7r0e.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\em7k5dxa1w-{0}-0j3bgjxly4-0j3bgjxly4.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\64alxa9urs-{0}-47otxtyo56-47otxtyo56.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\mc0tppav66-{0}-4v8eqarkd7-4v8eqarkd7.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\gdrzo315l3-{0}-356vix0kms-356vix0kms.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\g0p6l2morm-{0}-83jwlth58m-83jwlth58m.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\u0x5zmp05i-{0}-mrlpezrjn3-mrlpezrjn3.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\13zxj0lnii-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\7dwbel37sz-{0}-ag7o75518u-ag7o75518u.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\52uz4vszzf-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\zonnwl00e7-{0}-0i3buxo5is-0i3buxo5is.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\y0qenv5cbe-{0}-o1o13a6vjx-o1o13a6vjx.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\duknvbxhlf-{0}-ttgo8qnofa-ttgo8qnofa.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\4z5ppq6kd1-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ed1comfj8d-{0}-muycvpuwrr-muycvpuwrr.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\s66s7x19nq-{0}-87fc7y1x7t-87fc7y1x7t.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\wv1etjm3sn-{0}-mlv21k5csn-mlv21k5csn.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\dhwu62px4z-{0}-nyen9d4tf3-nyen9d4tf3.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\2q2jx1i86k-{0}-nyen9d4tf3-nyen9d4tf3.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\staticwebassets.build.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\staticwebassets.build.json.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\staticwebassets.development.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\swae.build.ex.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCa.86DDB410.Up2Date
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\refint\HealthCareSmart.MVC.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Assessment\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\ref\HealthCareSmart.MVC.dll
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\appsettings.json
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.staticwebassets.runtime.json
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.staticwebassets.endpoints.json
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.exe
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.deps.json
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.runtimeconfig.json
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.dll
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.pdb
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.Core.dll
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.Core.pdb
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.csproj.AssemblyReference.cache
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.AssemblyInfoInputs.cache
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.AssemblyInfo.cs
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.csproj.CoreCompileInputs.cache
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.RazorAssemblyInfo.cache
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.RazorAssemblyInfo.cs
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\scopedcss\bundle\HealthCareSmart.MVC.styles.css
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\scopedcss\projectbundle\HealthCareSmart.MVC.bundle.scp.css
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\nf2mm1kgsi-{0}-b9sayid5wm-b9sayid5wm.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\3b7dcnpir1-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\zu520fyox8-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\qazavbfyp0-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\9r5q8omo69-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\x0v2p0qj9n-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\l24g3usn0q-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\alodkcc9jd-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\42rzqnuw55-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\fo2tuv8w1d-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\5zo62ovpnz-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\856es8t9ys-{0}-ub07r2b239-ub07r2b239.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\0an54sqy8d-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\j1gj3owmog-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\6vl4x4qj3k-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\bo71pqihjr-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\kxxseh0u6y-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\9funi23d2v-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ukxr44d17p-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\wsvxi9iric-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\2t2mdurmdn-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\uraopj2jmx-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\r4zmaeym6b-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ikw7ertnnc-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\mm68ixgcq5-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\f3ugpid2cy-{0}-06098lyss8-06098lyss8.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\9mtxltfbkd-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\6cm5qo4gto-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ggespowvsq-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\155ppcz8sm-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\b8wc6ai3yr-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\tee8g6pgrh-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\d336jbk0yn-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\6i293kf5zu-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\86b29ks1oy-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ka8mzjwxwt-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\xstzh5gb26-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\zwoumz1942-{0}-493y06b0oq-493y06b0oq.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\uymynfjv8y-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ham8ft4u4d-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\lxgrjfovhw-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\biqgtgf7x5-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\wf4trlgaaz-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\tol6vvlau7-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\zcw1olt8fv-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\1gziepwd71-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\em7k5dxa1w-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\64alxa9urs-{0}-47otxtyo56-47otxtyo56.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\mc0tppav66-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\gdrzo315l3-{0}-356vix0kms-356vix0kms.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\g0p6l2morm-{0}-83jwlth58m-83jwlth58m.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\u0x5zmp05i-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\13zxj0lnii-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\7dwbel37sz-{0}-ag7o75518u-ag7o75518u.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\52uz4vszzf-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\zonnwl00e7-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\y0qenv5cbe-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\duknvbxhlf-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\4z5ppq6kd1-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ed1comfj8d-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\s66s7x19nq-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\wv1etjm3sn-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\dhwu62px4z-{0}-nyen9d4tf3-nyen9d4tf3.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\2q2jx1i86k-{0}-nyen9d4tf3-nyen9d4tf3.gz
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCa.86DDB410.Up2Date
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.dll
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\refint\HealthCareSmart.MVC.dll
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.pdb
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.genruntimeconfig.cache
+C:\Users\khush\Downloads\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\ref\HealthCareSmart.MVC.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\appsettings.Development.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\appsettings.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.staticwebassets.runtime.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.staticwebassets.endpoints.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.exe
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.deps.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.runtimeconfig.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.MVC.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.Core.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\bin\Debug\net10.0\HealthCareSmart.Core.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.csproj.AssemblyReference.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.AssemblyInfoInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.AssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.csproj.CoreCompileInputs.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.RazorAssemblyInfo.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.RazorAssemblyInfo.cs
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.sourcelink.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\rjimswa.dswa.cache.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\scopedcss\bundle\HealthCareSmart.MVC.styles.css
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\scopedcss\projectbundle\HealthCareSmart.MVC.bundle.scp.css
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\nf2mm1kgsi-{0}-b9sayid5wm-b9sayid5wm.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\3b7dcnpir1-{0}-61n19gt1b8-61n19gt1b8.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\zu520fyox8-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\qazavbfyp0-{0}-bqjiyaj88i-bqjiyaj88i.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\9r5q8omo69-{0}-c2jlpeoesf-c2jlpeoesf.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\x0v2p0qj9n-{0}-erw9l3u2r3-erw9l3u2r3.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\l24g3usn0q-{0}-aexeepp0ev-aexeepp0ev.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\alodkcc9jd-{0}-d7shbmvgxk-d7shbmvgxk.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\42rzqnuw55-{0}-ausgxo2sd3-ausgxo2sd3.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\fo2tuv8w1d-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\5zo62ovpnz-{0}-cosvhxvwiu-cosvhxvwiu.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\856es8t9ys-{0}-ub07r2b239-ub07r2b239.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\0an54sqy8d-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\j1gj3owmog-{0}-b7pk76d08c-b7pk76d08c.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\6vl4x4qj3k-{0}-fsbi9cje9m-fsbi9cje9m.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\bo71pqihjr-{0}-rzd6atqjts-rzd6atqjts.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\kxxseh0u6y-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\9funi23d2v-{0}-dxx9fxp4il-dxx9fxp4il.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ukxr44d17p-{0}-jd9uben2k1-jd9uben2k1.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\wsvxi9iric-{0}-khv3u5hwcm-khv3u5hwcm.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\2t2mdurmdn-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\uraopj2jmx-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\r4zmaeym6b-{0}-c2oey78nd0-c2oey78nd0.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ikw7ertnnc-{0}-tdbxkamptv-tdbxkamptv.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\mm68ixgcq5-{0}-j5mq2jizvt-j5mq2jizvt.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\f3ugpid2cy-{0}-06098lyss8-06098lyss8.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\9mtxltfbkd-{0}-nvvlpmu67g-nvvlpmu67g.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\6cm5qo4gto-{0}-s35ty4nyc5-s35ty4nyc5.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ggespowvsq-{0}-pj5nd1wqec-pj5nd1wqec.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\155ppcz8sm-{0}-46ein0sx1k-46ein0sx1k.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\b8wc6ai3yr-{0}-v0zj4ognzu-v0zj4ognzu.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\tee8g6pgrh-{0}-37tfw0ft22-37tfw0ft22.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\d336jbk0yn-{0}-hrwsygsryq-hrwsygsryq.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\6i293kf5zu-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\86b29ks1oy-{0}-ft3s53vfgj-ft3s53vfgj.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ka8mzjwxwt-{0}-6cfz1n2cew-6cfz1n2cew.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\xstzh5gb26-{0}-6pdc2jztkx-6pdc2jztkx.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\zwoumz1942-{0}-493y06b0oq-493y06b0oq.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\uymynfjv8y-{0}-iovd86k7lj-iovd86k7lj.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ham8ft4u4d-{0}-vr1egmr9el-vr1egmr9el.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\lxgrjfovhw-{0}-kbrnm935zg-kbrnm935zg.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\biqgtgf7x5-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\wf4trlgaaz-{0}-y7v9cxd14o-y7v9cxd14o.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\tol6vvlau7-{0}-notf2xhcfb-notf2xhcfb.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\zcw1olt8fv-{0}-h1s4sie4z3-h1s4sie4z3.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\1gziepwd71-{0}-63fj8s7r0e-63fj8s7r0e.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\em7k5dxa1w-{0}-0j3bgjxly4-0j3bgjxly4.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\64alxa9urs-{0}-47otxtyo56-47otxtyo56.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\mc0tppav66-{0}-4v8eqarkd7-4v8eqarkd7.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\gdrzo315l3-{0}-356vix0kms-356vix0kms.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\g0p6l2morm-{0}-83jwlth58m-83jwlth58m.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\u0x5zmp05i-{0}-mrlpezrjn3-mrlpezrjn3.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\13zxj0lnii-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\7dwbel37sz-{0}-ag7o75518u-ag7o75518u.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\52uz4vszzf-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\zonnwl00e7-{0}-0i3buxo5is-0i3buxo5is.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\y0qenv5cbe-{0}-o1o13a6vjx-o1o13a6vjx.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\duknvbxhlf-{0}-ttgo8qnofa-ttgo8qnofa.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\4z5ppq6kd1-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\ed1comfj8d-{0}-muycvpuwrr-muycvpuwrr.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\s66s7x19nq-{0}-87fc7y1x7t-87fc7y1x7t.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\wv1etjm3sn-{0}-mlv21k5csn-mlv21k5csn.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\dhwu62px4z-{0}-nyen9d4tf3-nyen9d4tf3.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\compressed\2q2jx1i86k-{0}-nyen9d4tf3-nyen9d4tf3.gz
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\staticwebassets.build.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\staticwebassets.build.json.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\staticwebassets.development.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\swae.build.ex.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCa.86DDB410.Up2Date
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\refint\HealthCareSmart.MVC.dll
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.pdb
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\HealthCareSmart.MVC.genruntimeconfig.cache
+D:\Users\HP\source\repos\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\Week13_30MarchTo4March\Day3_1April\HealthCareSmart\HealthCareSmart\HealthCareSmart.MVC\obj\Debug\net10.0\ref\HealthCareSmart.MVC.dll

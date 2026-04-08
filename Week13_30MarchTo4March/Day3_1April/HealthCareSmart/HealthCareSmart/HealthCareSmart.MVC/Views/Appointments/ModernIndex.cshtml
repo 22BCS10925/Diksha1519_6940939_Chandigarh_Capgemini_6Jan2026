@@ -1,0 +1,554 @@
+@{
+    ViewData["Title"] = "Appointments";
+    Layout = "_ModernLayout";
+}
+
+<div class="appointments-header">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h1 class="h3 mb-1">Appointments Management</h1>
+            <p class="text-muted mb-0">Manage and track all patient appointments</p>
+        </div>
+        <div class="d-flex gap-2">
+            <button class="btn btn-outline-secondary" onclick="toggleCalendarView()">
+                <i class="fas fa-calendar-alt me-2"></i>Calendar View
+            </button>
+            <button class="btn btn-primary" onclick="openAppointmentModal()">
+                <i class="fas fa-plus me-2"></i>New Appointment
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Filters and Search -->
+<div class="card border-0 shadow-sm mb-4">
+    <div class="card-body">
+        <div class="row g-3">
+            <div class="col-md-4">
+                <div class="position-relative">
+                    <i class="fas fa-search position-absolute start-0 top-50 translate-middle-y ms-3 text-muted"></i>
+                    <input type="text" class="form-control ps-5" id="searchInput" placeholder="Search by patient, doctor...">
+                </div>
+            </div>
+            <div class="col-md-2">
+                <select class="form-select" id="statusFilter">
+                    <option value="">All Status</option>
+                    <option value="scheduled">Scheduled</option>
+                    <option value="confirmed">Confirmed</option>
+                    <option value="in-progress">In Progress</option>
+                    <option value="completed">Completed</option>
+                    <option value="cancelled">Cancelled</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <select class="form-select" id="doctorFilter">
+                    <option value="">All Doctors</option>
+                    <option value="1">Dr. Sarah Johnson</option>
+                    <option value="2">Dr. Michael Chen</option>
+                    <option value="3">Dr. Emily Davis</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <input type="date" class="form-control" id="dateFilter" placeholder="Filter by date">
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-outline-secondary w-100" onclick="resetFilters()">
+                    <i class="fas fa-redo me-2"></i>Reset
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Calendar View (Hidden by default) -->
+<div id="calendarView" class="card border-0 shadow-sm mb-4" style="display: none;">
+    <div class="card-body">
+        <div id="appointmentCalendar"></div>
+    </div>
+</div>
+
+<!-- Table View -->
+<div class="card border-0 shadow-sm">
+    <div class="card-body">
+        <!-- Table with enhanced features -->
+        <div class="table-responsive">
+            <table class="table table-hover" id="appointmentsTable">
+                <thead class="table-light">
+                    <tr>
+                        <th onclick="sortTable('id')" style="cursor: pointer;">
+                            ID <i class="fas fa-sort ms-1"></i>
+                        </th>
+                        <th onclick="sortTable('patient')" style="cursor: pointer;">
+                            Patient <i class="fas fa-sort ms-1"></i>
+                        </th>
+                        <th onclick="sortTable('doctor')" style="cursor: pointer;">
+                            Doctor <i class="fas fa-sort ms-1"></i>
+                        </th>
+                        <th onclick="sortTable('date')" style="cursor: pointer;">
+                            Date <i class="fas fa-sort ms-1"></i>
+                        </th>
+                        <th onclick="sortTable('time')" style="cursor: pointer;">
+                            Time <i class="fas fa-sort ms-1"></i>
+                        </th>
+                        <th onclick="sortTable('status')" style="cursor: pointer;">
+                            Status <i class="fas fa-sort ms-1"></i>
+                        </th>
+                        <th>Type</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="appointmentsTableBody">
+                    <!-- Table rows will be populated by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Pagination -->
+        <div class="d-flex justify-content-between align-items-center mt-4">
+            <div class="text-muted">
+                Showing <span id="showingStart">1</span> to <span id="showingEnd">10</span> of <span id="totalRecords">0</span> entries
+            </div>
+            <nav>
+                <ul class="pagination mb-0" id="pagination">
+                    <!-- Pagination will be populated by JavaScript -->
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<!-- Include the modal components -->
+@await Html.PartialAsync("_AppointmentModal")
+
+@section Scripts {
+    <script>
+        // Sample data
+        const appointments = [
+            { id: 1, patient: 'John Doe', patientId: '1234', doctor: 'Dr. Sarah Johnson', doctorId: 1, date: '2024-04-08', time: '10:30 AM', status: 'confirmed', type: 'consultation', notes: 'Regular checkup' },
+            { id: 2, patient: 'Alice Smith', patientId: '1235', doctor: 'Dr. Michael Chen', doctorId: 2, date: '2024-04-08', time: '11:00 AM', status: 'pending', type: 'followup', notes: 'Follow-up appointment' },
+            { id: 3, patient: 'Robert Johnson', patientId: '1236', doctor: 'Dr. Emily Davis', doctorId: 3, date: '2024-04-08', time: '2:30 PM', status: 'in-progress', type: 'consultation', notes: 'New patient consultation' },
+            { id: 4, patient: 'Mary Williams', patientId: '1237', doctor: 'Dr. Sarah Johnson', doctorId: 1, date: '2024-04-09', time: '9:00 AM', status: 'scheduled', type: 'consultation', notes: 'Initial consultation' },
+            { id: 5, patient: 'James Brown', patientId: '1238', doctor: 'Dr. Michael Chen', doctorId: 2, date: '2024-04-09', time: '10:00 AM', status: 'confirmed', type: 'emergency', notes: 'Emergency visit' },
+            { id: 6, patient: 'Patricia Davis', patientId: '1239', doctor: 'Dr. Emily Davis', doctorId: 3, date: '2024-04-09', time: '3:00 PM', status: 'completed', type: 'consultation', notes: 'Completed treatment' },
+            { id: 7, patient: 'Michael Miller', patientId: '1240', doctor: 'Dr. Sarah Johnson', doctorId: 1, date: '2024-04-10', time: '11:30 AM', status: 'cancelled', type: 'consultation', notes: 'Cancelled by patient' },
+            { id: 8, patient: 'Linda Wilson', patientId: '1241', doctor: 'Dr. Michael Chen', doctorId: 2, date: '2024-04-10', time: '2:00 PM', status: 'confirmed', type: 'surgery', notes: 'Scheduled surgery' },
+        ];
+
+        let currentPage = 1;
+        const itemsPerPage = 10;
+        let filteredAppointments = [...appointments];
+        let sortColumn = 'date';
+        let sortDirection = 'asc';
+
+        // Initialize the table
+        function initializeTable() {
+            renderTable();
+            updatePagination();
+        }
+
+        // Render table rows
+        function renderTable() {
+            const tbody = document.getElementById('appointmentsTableBody');
+            const start = (currentPage - 1) * itemsPerPage;
+            const end = start + itemsPerPage;
+            const pageData = filteredAppointments.slice(start, end);
+
+            tbody.innerHTML = pageData.map(appointment => `
+                <tr>
+                    <td>#${appointment.id}</td>
+                    <td>
+                        <div class="d-flex align-items-center">
+                            <div class="avatar-sm bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-2">
+                                ${appointment.patient.split(' ').map(n => n[0]).join('')}
+                            </div>
+                            <div>
+                                <div class="fw-semibold">${appointment.patient}</div>
+                                <small class="text-muted">ID: #${appointment.patientId}</small>
+                            </div>
+                        </div>
+                    </td>
+                    <td>${appointment.doctor}</td>
+                    <td>${formatDate(appointment.date)}</td>
+                    <td>${appointment.time}</td>
+                    <td>${getStatusBadge(appointment.status)}</td>
+                    <td>${getTypeBadge(appointment.type)}</td>
+                    <td>
+                        <div class="btn-group btn-group-sm">
+                            <button class="btn btn-outline-primary" onclick="viewAppointment(${appointment.id})" title="View">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                            <button class="btn btn-outline-secondary" onclick="editAppointment(${appointment.id})" title="Edit">
+                                <i class="fas fa-edit"></i>
+                            </button>
+                            <button class="btn btn-outline-success" onclick="completeAppointment(${appointment.id})" title="Complete" ${appointment.status === 'completed' ? 'disabled' : ''}>
+                                <i class="fas fa-check"></i>
+                            </button>
+                            <button class="btn btn-outline-danger" onclick="cancelAppointment(${appointment.id})" title="Cancel" ${appointment.status === 'cancelled' ? 'disabled' : ''}>
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            `).join('');
+
+            updateShowingInfo();
+        }
+
+        // Format date
+        function formatDate(dateStr) {
+            const date = new Date(dateStr);
+            return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+        }
+
+        // Get status badge
+        function getStatusBadge(status) {
+            const badges = {
+                'scheduled': '<span class="badge bg-secondary">Scheduled</span>',
+                'confirmed': '<span class="badge bg-success">Confirmed</span>',
+                'pending': '<span class="badge bg-warning">Pending</span>',
+                'in-progress': '<span class="badge bg-info">In Progress</span>',
+                'completed': '<span class="badge bg-primary">Completed</span>',
+                'cancelled': '<span class="badge bg-danger">Cancelled</span>'
+            };
+            return badges[status] || status;
+        }
+
+        // Get type badge
+        function getTypeBadge(type) {
+            const badges = {
+                'consultation': '<span class="badge bg-light text-dark">Consultation</span>',
+                'followup': '<span class="badge bg-info text-white">Follow-up</span>',
+                'emergency': '<span class="badge bg-danger">Emergency</span>',
+                'surgery': '<span class="badge bg-warning">Surgery</span>'
+            };
+            return badges[type] || type;
+        }
+
+        // Sort table
+        function sortTable(column) {
+            if (sortColumn === column) {
+                sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
+            } else {
+                sortColumn = column;
+                sortDirection = 'asc';
+            }
+
+            filteredAppointments.sort((a, b) => {
+                let aVal = a[column];
+                let bVal = b[column];
+
+                if (column === 'id' || column === 'date') {
+                    aVal = new Date(aVal);
+                    bVal = new Date(bVal);
+                }
+
+                if (aVal < bVal) return sortDirection === 'asc' ? -1 : 1;
+                if (aVal > bVal) return sortDirection === 'asc' ? 1 : -1;
+                return 0;
+            });
+
+            currentPage = 1;
+            renderTable();
+            updatePagination();
+        }
+
+        // Filter appointments
+        function filterAppointments() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const statusFilter = document.getElementById('statusFilter').value;
+            const doctorFilter = document.getElementById('doctorFilter').value;
+            const dateFilter = document.getElementById('dateFilter').value;
+
+            filteredAppointments = appointments.filter(appointment => {
+                const matchesSearch = appointment.patient.toLowerCase().includes(searchTerm) || 
+                                    appointment.doctor.toLowerCase().includes(searchTerm);
+                const matchesStatus = !statusFilter || appointment.status === statusFilter;
+                const matchesDoctor = !doctorFilter || appointment.doctorId.toString() === doctorFilter;
+                const matchesDate = !dateFilter || appointment.date === dateFilter;
+
+                return matchesSearch && matchesStatus && matchesDoctor && matchesDate;
+            });
+
+            currentPage = 1;
+            renderTable();
+            updatePagination();
+        }
+
+        // Reset filters
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('statusFilter').value = '';
+            document.getElementById('doctorFilter').value = '';
+            document.getElementById('dateFilter').value = '';
+            
+            filteredAppointments = [...appointments];
+            currentPage = 1;
+            renderTable();
+            updatePagination();
+        }
+
+        // Update pagination
+        function updatePagination() {
+            const totalPages = Math.ceil(filteredAppointments.length / itemsPerPage);
+            const pagination = document.getElementById('pagination');
+            
+            let paginationHTML = '';
+            
+            // Previous button
+            paginationHTML += `
+                <li class="page-item ${currentPage === 1 ? 'disabled' : ''}">
+                    <a class="page-link" href="#" onclick="changePage(${currentPage - 1})">Previous</a>
+                </li>
+            `;
+            
+            // Page numbers
+            for (let i = 1; i <= totalPages; i++) {
+                if (i === 1 || i === totalPages || (i >= currentPage - 1 && i <= currentPage + 1)) {
+                    paginationHTML += `
+                        <li class="page-item ${i === currentPage ? 'active' : ''}">
+                            <a class="page-link" href="#" onclick="changePage(${i})">${i}</a>
+                        </li>
+                    `;
+                } else if (i === currentPage - 2 || i === currentPage + 2) {
+                    paginationHTML += `
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#">...</a>
+                        </li>
+                    `;
+                }
+            }
+            
+            // Next button
+            paginationHTML += `
+                <li class="page-item ${currentPage === totalPages ? 'disabled' : ''}">
+                    <a class="page-link" href="#" onclick="changePage(${currentPage + 1})">Next</a>
+                </li>
+            `;
+            
+            pagination.innerHTML = paginationHTML;
+        }
+
+        // Change page
+        function changePage(page) {
+            const totalPages = Math.ceil(filteredAppointments.length / itemsPerPage);
+            if (page >= 1 && page <= totalPages) {
+                currentPage = page;
+                renderTable();
+                updatePagination();
+            }
+            return false;
+        }
+
+        // Update showing info
+        function updateShowingInfo() {
+            const start = (currentPage - 1) * itemsPerPage + 1;
+            const end = Math.min(currentPage * itemsPerPage, filteredAppointments.length);
+            
+            document.getElementById('showingStart').textContent = filteredAppointments.length > 0 ? start : 0;
+            document.getElementById('showingEnd').textContent = end;
+            document.getElementById('totalRecords').textContent = filteredAppointments.length;
+        }
+
+        // Appointment actions
+        function viewAppointment(id) {
+            const appointment = appointments.find(a => a.id === id);
+            showToast(`Viewing appointment for ${appointment.patient}`, 'info');
+        }
+
+        function editAppointment(id) {
+            openAppointmentModal(id);
+        }
+
+        function completeAppointment(id) {
+            const appointment = appointments.find(a => a.id === id);
+            appointment.status = 'completed';
+            filterAppointments();
+            showToast(`Appointment for ${appointment.patient} marked as completed`, 'success');
+        }
+
+        function cancelAppointment(id) {
+            const appointment = appointments.find(a => a.id === id);
+            if (confirm(`Are you sure you want to cancel the appointment for ${appointment.patient}?`)) {
+                appointment.status = 'cancelled';
+                filterAppointments();
+                showToast(`Appointment for ${appointment.patient} has been cancelled`, 'error');
+            }
+        }
+
+        // Toggle calendar view
+        function toggleCalendarView() {
+            const calendarView = document.getElementById('calendarView');
+            const tableView = document.querySelector('.card:not(#calendarView)');
+            
+            if (calendarView.style.display === 'none') {
+                calendarView.style.display = 'block';
+                tableView.style.display = 'none';
+                initializeCalendar();
+            } else {
+                calendarView.style.display = 'none';
+                tableView.style.display = 'block';
+            }
+        }
+
+        // Initialize calendar
+        function initializeCalendar() {
+            const calendarEl = document.getElementById('appointmentCalendar');
+            // Simple calendar implementation
+            const today = new Date();
+            const currentMonth = today.getMonth();
+            const currentYear = today.getFullYear();
+            
+            let calendarHTML = `
+                <div class="calendar-header d-flex justify-content-between align-items-center mb-3">
+                    <h5 class="mb-0">${today.toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}</h5>
+                    <div class="btn-group btn-group-sm">
+                        <button class="btn btn-outline-secondary">Previous</button>
+                        <button class="btn btn-outline-secondary">Today</button>
+                        <button class="btn btn-outline-secondary">Next</button>
+                    </div>
+                </div>
+                <div class="calendar-grid">
+                    <div class="row">
+                        <div class="col text-center fw-bold">Sun</div>
+                        <div class="col text-center fw-bold">Mon</div>
+                        <div class="col text-center fw-bold">Tue</div>
+                        <div class="col text-center fw-bold">Wed</div>
+                        <div class="col text-center fw-bold">Thu</div>
+                        <div class="col text-center fw-bold">Fri</div>
+                        <div class="col text-center fw-bold">Sat</div>
+                    </div>
+            `;
+            
+            // Add calendar days
+            const firstDay = new Date(currentYear, currentMonth, 1).getDay();
+            const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
+            
+            let dayCount = 1;
+            for (let week = 0; week < 6; week++) {
+                calendarHTML += '<div class="row">';
+                for (let day = 0; day < 7; day++) {
+                    if (week === 0 && day < firstDay) {
+                        calendarHTML += '<div class="col"></div>';
+                    } else if (dayCount > daysInMonth) {
+                        calendarHTML += '<div class="col"></div>';
+                    } else {
+                        const dayAppointments = appointments.filter(a => {
+                            const appointmentDate = new Date(a.date);
+                            return appointmentDate.getDate() === dayCount && 
+                                   appointmentDate.getMonth() === currentMonth && 
+                                   appointmentDate.getFullYear() === currentYear;
+                        });
+                        
+                        const isToday = dayCount === today.getDate();
+                        const hasAppointments = dayAppointments.length > 0;
+                        
+                        calendarHTML += `
+                            <div class="col calendar-day ${isToday ? 'today' : ''} ${hasAppointments ? 'has-appointments' : ''}">
+                                <div class="day-number">${dayCount}</div>
+                                ${hasAppointments ? `<div class="appointment-count">${dayAppointments.length}</div>` : ''}
+                            </div>
+                        `;
+                        dayCount++;
+                    }
+                }
+                calendarHTML += '</div>';
+                if (dayCount > daysInMonth) break;
+            }
+            
+            calendarHTML += '</div>';
+            calendarEl.innerHTML = calendarHTML;
+        }
+
+        // Event listeners
+        document.getElementById('searchInput').addEventListener('input', filterAppointments);
+        document.getElementById('statusFilter').addEventListener('change', filterAppointments);
+        document.getElementById('doctorFilter').addEventListener('change', filterAppointments);
+        document.getElementById('dateFilter').addEventListener('change', filterAppointments);
+
+        // Initialize on load
+        document.addEventListener('DOMContentLoaded', initializeTable);
+    </script>
+    
+    <style>
+        .calendar-day {
+            min-height: 80px;
+            border: 1px solid #dee2e6;
+            padding: 0.5rem;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .calendar-day:hover {
+            background-color: #f8f9fa;
+            border-color: #0066cc;
+        }
+        
+        .calendar-day.today {
+            background-color: #e7f3ff;
+            border-color: #0066cc;
+        }
+        
+        .calendar-day.has-appointments {
+            background-color: #f0f8f0;
+            border-color: #00a86b;
+        }
+        
+        .day-number {
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+        
+        .appointment-count {
+            background: #0066cc;
+            color: white;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            position: absolute;
+            top: 0.25rem;
+            right: 0.25rem;
+        }
+        
+        .avatar-sm {
+            width: 32px;
+            height: 32px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        .table th {
+            border-bottom: 2px solid #dee2e6;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+        }
+        
+        .badge {
+            font-size: 0.75rem;
+            padding: 0.375rem 0.75rem;
+            font-weight: 500;
+        }
+        
+        .btn-group .btn {
+            border-radius: 0.375rem;
+        }
+        
+        .pagination .page-link {
+            border-radius: 0.375rem;
+            margin: 0 0.125rem;
+            border: 1px solid #dee2e6;
+            color: #0066cc;
+        }
+        
+        .pagination .page-item.active .page-link {
+            background: #0066cc;
+            border-color: #0066cc;
+        }
+    </style>
+}

@@ -1,41 +1,59 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using SmartHealthcare.Models.Entities;
 using SmartHealthcare.API.Data;
+using SmartHealthcare.Models.Entities;
 
 namespace SmartHealthcare.API.Controllers
 {
-   [ApiController]
-[Route("api/Bill")]
-public class BillController : ControllerBase
-{
-    private readonly AppDbContext _context;
-
-    public BillController(AppDbContext context)
+    [ApiController]
+    [Route("api/Bill")]
+    public class BillController : ControllerBase
     {
-        _context = context;
-    }
+        private readonly AppDbContext _context;
 
-    // GET: api/Bill
-    [HttpGet]
-    public async Task<IActionResult> GetAllBills()
-    {
-        var bills = await _context.Bills
-            .Include(b => b.Appointment)
-            .ToListAsync();
+        public BillController(AppDbContext context)
+        {
+            _context = context;
+        }
 
-        return Ok(bills);
-    }
+        // ✅ GET: api/Bill (all bills)
+        // Accessible by Admin, Doctor, Patient (role-based filtering can be added)
+        [HttpGet]
+        [Authorize(Roles = "Admin,Doctor,Patient")]
+        public async Task<IActionResult> GetAllBills()
+        {
+            var bills = await _context.Bills
+                .Include(b => b.Appointment)
+                    .ThenInclude(a => a.Patient)
+                        .ThenInclude(p => p.User)
+                .Include(b => b.Appointment)
+                    .ThenInclude(a => a.Doctor)
+                        .ThenInclude(d => d.User)
+                .Include(b => b.Appointment.Prescription)
+                    .ThenInclude(pr => pr.PrescriptionMedicines)
+                        .ThenInclude(pm => pm.Medicine)
+                .ToListAsync();
 
-    // other endpoints (GetBillByAppointment, CreateBill, UpdateBill)...
+            return Ok(bills);
+        }
 
-        // GET: api/Billing/{appointmentId}
-        [HttpGet("{appointmentId}")]
-        public async Task<IActionResult> GetBillByAppointment(int appointmentId)
+        // ✅ GET: api/Bill/{id} (single bill by BillId)
+        [HttpGet("{id}")]
+        [Authorize(Roles = "Admin,Doctor,Patient")]
+        public async Task<IActionResult> GetBillById(int id)
         {
             var bill = await _context.Bills
                 .Include(b => b.Appointment)
-                .FirstOrDefaultAsync(b => b.AppointmentId == appointmentId);
+                    .ThenInclude(a => a.Patient)
+                        .ThenInclude(p => p.User)
+                .Include(b => b.Appointment)
+                    .ThenInclude(a => a.Doctor)
+                        .ThenInclude(d => d.User)
+                .Include(b => b.Appointment.Prescription)
+                    .ThenInclude(pr => pr.PrescriptionMedicines)
+                        .ThenInclude(pm => pm.Medicine)
+                .FirstOrDefaultAsync(b => b.BillId == id);
 
             if (bill == null)
                 return NotFound(new { Message = "Bill not found" });
@@ -43,8 +61,9 @@ public class BillController : ControllerBase
             return Ok(bill);
         }
 
-        // POST: api/Billing
+        // ✅ POST: api/Bill (create new bill)
         [HttpPost]
+        [Authorize(Roles = "Admin,Doctor")]
         public async Task<IActionResult> CreateBill([FromBody] Bill bill)
         {
             if (!ModelState.IsValid)
@@ -53,13 +72,12 @@ public class BillController : ControllerBase
             _context.Bills.Add(bill);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetBillByAppointment),
-                new { appointmentId = bill.AppointmentId }, bill);
+            return CreatedAtAction(nameof(GetBillById), new { id = bill.BillId }, bill);
         }
-        
 
-        // PUT: api/Billing/{id}
+        // ✅ PUT: api/Bill/{id} (update bill)
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin,Doctor")]
         public async Task<IActionResult> UpdateBill(int id, [FromBody] Bill bill)
         {
             if (id != bill.BillId)
